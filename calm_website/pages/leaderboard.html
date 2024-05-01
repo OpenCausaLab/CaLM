@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Leaderboard</title>
+
+	<!-- load CSS packages -->
+	<link rel="stylesheet" href="../css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../css/scrollCue.css" type="text/css" media="all">  
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">  
+
+	<!-- load JS data -->
+	<script type="text/javascript" src="../tables/model_overview.js"></script>
+	<script type="text/javascript" src="../tables/scenario_overview.js"></script>
+
+	<!-- load JS  -->
+	<script src="../javascript/scrollCue.min.js"></script>
+	<script src="../javascript/menu.js"></script>    
+    <script type="text/javascript" src="../javascript/sort-table.js"></script>
+</head>
+
+<body>
+	<!--==================================================-->
+	<!-- Start Main Menu  -->
+	<!--==================================================-->
+    <div class="calm_nav_manu">
+        <div class="logo" style="width: 100px; margin-left: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <a href="../../index.html" title="calm">
+                <img src="../figures/header-logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="calm_manu" style="margin-right: 20px;">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="findings.html">Findings</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="#">Target<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="target-overview.html">Target Overview</a></li>
+                        <li><a href="scenario_overall.html">Task</a></li>
+                        <li><a href="mode.html">Mode</a></li>
+                        <li><a href="language.html">Language</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Models<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="model_overall.html">Model Overview</a></li>
+                        <div id="model-dynamic-menu"></div>
+                    </ul>
+                </li>
+                <li><a href="adaptation.html">Adaptation</a></li>
+                <li><a href="metric.html">Metric</a></li>
+                <li><a href="error.html">Error</a></li>
+            </ul>
+            <div class="header-button">
+                <a href="submit.html">Submit</a>
+            </div>
+        </nav>
+    </div>
+	<!--==================================================-->
+	<!-- End Main Menu  -->
+	<!--==================================================-->   
+
+	<!--==================================================-->
+	<!-- Start Content  -->
+	<!--==================================================-->
+    <div id="body">
+        <div class="section">
+            <h1>Leaderboards</h1>
+			<h2>Models Overall</h2>
+			<p>Here we evaluate the overall performance on all scenarios. Taking a comprehensive look, among the models ranked in the top 10 on CaLM, limited and open-source models make up half. However, all models in the top 5 are limited-source, with text-davinci-002, ranked fifth, leading the sixth-placed InternLM-chat (20B) by almost 6%. This suggests that for causal reasoning scenarios, there remains a noticeable difference between open and limited-source models. In every scenario and for all prompts, GPT-4 secures the first position with a significant lead of nearly 8% over GPT-3.5-Turbo, which is ranked second.</p>
+			<h3>Models Average Performance by Scenario</h3>
+			<div class="image-container"><img src="../figures/histograms/Models' Average Accuracy.png" alt="Overall Model" style="width:800px"></div>
+			<h3>Table of Models Performance</h3>
+			<div id="OverallModeltablesContainer"></div>
+        </div>
+    </div>
+
+
+    <div id="body">
+        <div class="section">
+			<h2>Scenarios Overall</h2>
+			<p>We show the scenario analysis in the following. It turns out that models are more good at scenarios within lower rungs of the causal ladder.</p>
+			<h3>Scenarios Average Performance by Model</h3>
+			<div class="image-container"><img src="../figures/histograms/Scenarios' Average Accuracy.png" alt="Overall Scenario" style="width:800px"></div>
+			<h3>Table of Scenarios Performance</h3>
+			<div id="OverallScenariotablesContainer"></div>
+        </div>
+    </div>
+	<!--==================================================-->
+	<!-- End Content  -->
+	<!--==================================================-->  
+
+	<!--==================================================-->
+	<!-- Start Footer Area -->
+	<!--==================================================-->
+	<div class="footer-area">
+		<div style="margin-left: 20px;">Copyright &copy 2024 Shanghai Artificial intelligence Laboratory. All rights reserved.</div>
+		<div style="margin-right: 20px;">Contact: causalai@pjlab.org.cn</div>
+	</div>
+	<!--==================================================-->
+	<!-- END Footer Area -->
+	<!--==================================================-->
+
+	<script>
+	scrollCue.init({
+		duration : 2500,
+		interval : -0.7,
+		percentage : 0.90,
+		smartSpeed: 5000 
+		})
+	</script>
+
+	<script>
+		function generateTable(containerId, data, type_name) {
+    
+    var table = document.createElement('table');
+    
+    table.className = "js-sort-table";
+    table.id = "results";
+  
+    
+    var thead = document.createElement('thead');
+    const headerRow = document.createElement('tr');
+    const headers = Object.keys(data[0]);
+    headers.forEach(headerText => {
+        const td = document.createElement('td');
+        td.innerHTML = `<strong>${headerText}</strong>`; // Use innerHTML to include the <strong> tag
+        if (headerText === 'Rank' || headerText === 'Average'|| headerText === 'Std'|| headerText === 'Basic' || headerText === 'Doubt' || headerText === 'Ignore' || headerText === '0-shot IcL' || headerText === '1-shot IcL' ||headerText === '3-shot IcL' ||headerText === '0-shot CoT' || headerText === 'Manual CoT'||headerText === 'EF' || headerText === 'Random Guess' || headerText === 'Prompt Average' || headerText === 'Prompt Std' || headerText === 'EN' || headerText === 'CN'|| headerText === 'Robustness'|| headerText === 'Median'|| headerText === 'Third Quartile'|| headerText === 'Top 1 Combination Value'|| headerText === 'Top 1 Average') {
+            td.className = "js-sort-number";
+        } else {
+            td.className = "js-sort-string";
+        }
+        headerRow.appendChild(td);
+    });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+  
+    
+    var tbody = table.createTBody();
+    let Float_list = ['Average', 'Std', 'Basic', 'Doubt', 'Ignore','0-shot IcL','1-shot IcL' , '3-shot IcL' , '0-shot CoT','Manual CoT', 'EF','Random Guess','Prompt Average','Prompt Std','EN','CN', 'Robustness', 'Median', 'Third Quartile', 'Top 1 Combination Value', 'Top 1 Average'];
+    data.forEach(function(item) {
+      var row = tbody.insertRow();
+      for (var j = 0; j < Object.keys(item).length; j++){
+        var cell = row.insertCell();
+        if (j === 1) {
+            var method = item[Object.keys(item)[j]];
+            method_encode = encodeURIComponent(method);
+            var link = document.createElement("a");
+            link.href = `${type_name}.html?method=${method_encode}`; 
+            link.textContent = method;
+            link.className = "inner-link";
+            link.style.fontSize = "12px";
+            cell.appendChild(link);
+        } else {
+          if (Float_list.includes(Object.keys(item)[j]) && !isNaN(item[Object.keys(item)[j]])){
+            const name = Object.keys(item)[j];
+            cell.textContent = item[Object.keys(item)[j]].toFixed(1);
+          }
+          else {
+            cell.textContent = item[Object.keys(item)[j]];
+          }
+        // cell.textContent = item[Object.keys(item)[j]];
+        }
+      }
+    });
+  
+    
+    document.getElementById(containerId).appendChild(table);
+  }
+  
+  generateTable('OverallScenariotablesContainer', multi_scenario_performance, "scenario");
+  generateTable('OverallModeltablesContainer', model_data, "model");
+	</script>
+		
+	
+</body>
+
+</html>

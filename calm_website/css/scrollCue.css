@@ -1,0 +1,384 @@
+/**-----------------------
+
+ scrollCue.js - ver.2.0.0
+ URL : https://prjct-samwest.github.io/scrollCue/
+
+ created by SamWest.
+ Copyright (c) 2020 SamWest.
+ This plugin is released under the MIT License.
+
+ -----------------------**/
+/**  ---------------
+     fadeIn
+*/
+[data-cue="fadeIn"], [data-cues="fadeIn"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /**  ---------------
+       slideInLeft
+  */
+  [data-cue="slideInLeft"], [data-cues="slideInLeft"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /**  ---------------
+       slideInRight
+  */
+  [data-cue="slideInRight"], [data-cues="slideInRight"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /**  ---------------
+       slideInDown
+  */
+  [data-cue="slideInDown"], [data-cues="slideInDown"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes slideInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /**  ---------------
+       slideInUp
+  */
+  [data-cue="slideInUp"], [data-cues="slideInUp"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes slideInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /**  ---------------
+       zoomIn
+  */
+  [data-cue="zoomIn"], [data-cues="zoomIn"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /**  ---------------
+       zoomOut
+  */
+  [data-cue="zoomOut"], [data-cues="zoomOut"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes zoomOut {
+    from {
+      opacity: 0;
+      transform: scale(1.2);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /**  ---------------
+       rotateIn
+  */
+  [data-cue="rotateIn"], [data-cues="rotateIn"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes rotateIn {
+    from {
+      opacity: 0;
+      transform: rotateZ(-15deg);
+    }
+    to {
+      opacity: 1;
+      transform: rotateZ(0deg);
+    }
+  }
+  
+  /**  ---------------
+       bounceIn
+  */
+  [data-cue="bounceIn"], [data-cues="bounceIn"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    20% {
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+    40% {
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+    60% {
+      opacity: 1;
+      transform: scale3d(1.03, 1.03, 1.03);
+    }
+    80% {
+      transform: scale3d(0.97, 0.97, 0.97);
+    }
+    100% {
+      opacity: 1;
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  /**  ---------------
+       bounceInLeft
+  */
+  [data-cue="bounceInLeft"], [data-cues="bounceInLeft"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes bounceInLeft {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0);
+    }
+    0% {
+      opacity: 0;
+      transform: translate3d(-3000px, 0, 0);
+    }
+    60% {
+      opacity: 1;
+      transform: translate3d(25px, 0, 0);
+    }
+    75% {
+      transform: translate3d(-10px, 0, 0);
+    }
+    90% {
+      transform: translate3d(5px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  /**  ---------------
+       bounceInRight
+  */
+  [data-cue="bounceInRight"], [data-cues="bounceInRight"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes bounceInRight {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0);
+    }
+    from {
+      opacity: 0;
+      transform: translate3d(3000px, 0, 0);
+    }
+    60% {
+      opacity: 1;
+      transform: translate3d(-25px, 0, 0);
+    }
+    75% {
+      transform: translate3d(10px, 0, 0);
+    }
+    90% {
+      transform: translate3d(-5px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  /**  ---------------
+       bounceInDown
+  */
+  [data-cue="slideInLeft"], [data-cues="slideInLeft"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes slideInLeft {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    0% {
+      opacity: 0;
+      transform: translate3d(0, -3000px, 0);
+    }
+    60% {
+      opacity: 1;
+      transform: translate3d(0, 25px, 0);
+    }
+    75% {
+      transform: translate3d(0, -10px, 0);
+    }
+    90% {
+      transform: translate3d(0, 5px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  /**  ---------------
+       bounceInUp
+  */
+  [data-cue="bounceInUp"], [data-cues="bounceInUp"] > * {
+    opacity: 0;
+  }
+  
+  @keyframes bounceInUp {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    from {
+      opacity: 0;
+      transform: translate3d(0, 3000px, 0);
+    }
+    60% {
+      opacity: 1;
+      transform: translate3d(0, -20px, 0);
+    }
+    75% {
+      transform: translate3d(0, 10px, 0);
+    }
+    90% {
+      transform: translate3d(0, -5px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  /**  ---------------
+       flipInX
+  */
+  [data-cue="flipInX"], [data-cues="flipInX"] > * {
+    opacity: 0;
+    backface-visibility: visible;
+  }
+  
+  @keyframes flipInX {
+    from {
+      transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    40% {
+      transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+      animation-timing-function: ease-in;
+    }
+    60% {
+      transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+      opacity: 1;
+    }
+    80% {
+      transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+    to {
+      opacity: 1;
+      transform: perspective(400px);
+    }
+  }
+  
+  /**  ---------------
+       flipInY
+  */
+  [data-cue="flipInY"], [data-cues="flipInY"] > * {
+    opacity: 0;
+    backface-visibility: visible;
+  }
+  
+  @keyframes flipInY {
+    from {
+      transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    40% {
+      transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+      animation-timing-function: ease-in;
+    }
+    60% {
+      transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+      opacity: 1;
+    }
+    80% {
+      transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    }
+    to {
+      opacity: 1;
+      transform: perspective(400px);
+    }
+  }
+  

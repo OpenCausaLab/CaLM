@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Model Specific</title>
+
+	<!-- load CSS packages -->
+	<link rel="stylesheet" href="../css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../css/scrollCue.css" type="text/css" media="all">  
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">  
+
+	<!-- load JS data -->
+	<script type="text/javascript" src="../tables/model_overview.js"></script>
+	<script type="text/javascript" src="../tables/models_statictic.js" defer></script>
+	<script type="text/javascript" src="../tables/model_specific_introduction.js"></script>
+
+	<!-- load JS  -->
+	<script src="../javascript/scrollCue.min.js"></script>
+	<script src="../javascript/menu.js"></script>        
+    <script type="text/javascript" src="../javascript/sort-table.js"></script>
+	<script type="text/javascript" src="../javascript/models.js" defer></script>
+                
+</head>
+
+<body>
+	<!--==================================================-->
+	<!-- Start Main Menu  -->
+	<!--==================================================-->
+    <div class="calm_nav_manu">
+        <div class="logo" style="width: 100px; margin-left: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <a href="../../index.html" title="calm">
+                <img src="../figures/header-logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="calm_manu" style="margin-right: 20px;">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="findings.html">Findings</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="#">Target<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="target-overview.html">Target Overview</a></li>
+                        <li><a href="scenario_overall.html">Task</a></li>
+                        <li><a href="mode.html">Mode</a></li>
+                        <li><a href="language.html">Language</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Models<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="model_overall.html">Model Overview</a></li>
+                        <div id="model-dynamic-menu"></div>
+                    </ul>
+                </li>
+                <li><a href="adaptation.html">Adaptation</a></li>
+                <li><a href="metric.html">Metric</a></li>
+                <li><a href="error.html">Error</a></li>
+            </ul>
+            <div class="header-button">
+                <a href="submit.html">Submit</a>
+            </div>
+        </nav>
+    </div>
+	<!--==================================================-->
+	<!-- End Main Menu  -->
+	<!--==================================================-->   
+
+	<!--==================================================-->
+	<!-- Start Content  -->
+	<!--==================================================-->
+    <div id="body">
+		<div class="section">		
+			<h1><span id="model_id"></span></h1>
+			<div id="ModeltablesContainer"></div><br><br>
+			<h2>Model's Prompt Average Performance by Scenario</h2>
+			<div class="image-container">
+				<img id="dynamic-image-histogram" src="" alt="language" style="width:800px">
+			</div>
+			<br>
+			<h2>Heatmap of Model Performance by Scenario</h2>
+			<div class="image-container">
+				<img id="dynamic-image-performance" src="" alt="language" style="width:700px; ">
+				<img id="dynamic-image-rank" src="" alt="language" style="width:700px;">
+			</div>
+			<h2>Table of Model Performance</h2>
+			<div id="SpecificModeltablesContainer"></div>
+			<h2>References</h2>
+			<p id="ReferenceContainer"></p>
+		</div>
+    </div>
+	<!--==================================================-->
+	<!-- End Content  -->
+	<!--==================================================-->   
+
+	<!--==================================================-->
+	<!-- Start Footer Area -->
+	<!--==================================================-->
+	<div class="footer-area">
+		<div style="margin-left: 20px;">Copyright &copy 2024 Shanghai Artificial intelligence Laboratory. All rights reserved.</div>
+		<div style="margin-right: 20px;">Contact: causalai@pjlab.org.cn</div>
+	</div>
+	<!--==================================================-->
+	<!-- END Footer Area -->
+	<!--==================================================-->
+
+	<script>
+	scrollCue.init({
+		duration : 2500,
+		interval : -0.7,
+		percentage : 0.90,
+		smartSpeed: 5000 
+		})
+	</script>
+	
+</body>
+
+</html>

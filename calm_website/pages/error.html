@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Error Overview</title>
+
+	<!-- load CSS packages -->
+	<link rel="stylesheet" href="../css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../css/scrollCue.css" type="text/css" media="all">  
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">  
+
+	<!-- load JS data -->
+	<script type="text/javascript" src="../tables/model_overview.js"></script>
+	<script type="text/javascript" src="../tables/error_overview.js"></script>
+
+	<!-- load JS  -->
+	<script src="../javascript/scrollCue.min.js"></script>
+	<script src="../javascript/menu.js"></script>         
+</head>
+
+<body>
+	<!--==================================================-->
+	<!-- Start Main Menu  -->
+	<!--==================================================-->
+    <div class="calm_nav_manu">
+        <div class="logo" style="width: 100px; margin-left: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <a href="../../index.html" title="calm">
+                <img src="../figures/header-logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="calm_manu" style="margin-right: 20px;">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="findings.html">Findings</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="#">Target<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="target-overview.html">Target Overview</a></li>
+                        <li><a href="scenario_overall.html">Task</a></li>
+                        <li><a href="mode.html">Mode</a></li>
+                        <li><a href="language.html">Language</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Models<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="model_overall.html">Model Overview</a></li>
+                        <div id="model-dynamic-menu"></div>
+                    </ul>
+                </li>
+                <li><a href="adaptation.html">Adaptation</a></li>
+                <li><a href="metric.html">Metric</a></li>
+                <li><a href="error.html">Error</a></li>
+            </ul>
+            <div class="header-button">
+                <a href="submit.html">Submit</a>
+            </div>
+        </nav>
+    </div>
+	<!--==================================================-->
+	<!-- End Main Menu  -->
+	<!--==================================================-->   
+
+
+
+
+	<!--==================================================-->
+	<!-- Start Content  -->
+	<!--==================================================-->
+    <div id="body">
+        <div class="section">
+			<h1>Error Overview</h1>
+			<div class="image-container"><img src="../figures/error_taxonomy.png" alt="Overall Error" style="width: 800px;"></div>
+			<div id="tab-container">
+				<br>
+				<div id="tab-buttons">
+				</div>
+			</div>
+        </div>
+    </div>
+	<!--==================================================-->
+	<!-- End Content  -->
+	<!--==================================================-->   
+
+
+	<!--==================================================-->
+	<!-- Start Footer Area -->
+	<!--==================================================-->
+	<div class="footer-area">
+		<div style="margin-left: 20px;">Copyright &copy 2024 Shanghai Artificial intelligence Laboratory. All rights reserved.</div>
+		<div style="margin-right: 20px;">Contact: causalai@pjlab.org.cn</div>
+	</div>
+	<!--==================================================-->
+	<!-- END Footer Area -->
+	<!--==================================================-->
+
+	<script>
+	scrollCue.init({
+		duration : 2500,
+		interval : -0.7,
+		percentage : 0.90,
+		smartSpeed: 5000 
+		})
+	</script>
+
+    <script>
+        
+        var multi_model_performance = error_overview_dict;
+        
+        var organizedData = {};
+        
+        multi_model_performance.forEach(function(item) {
+          if (!organizedData[item.Class]) {
+            organizedData[item.Class] = [];
+          }
+          organizedData[item.Class].push(item['Name']);
+        });
+        
+        
+        Object.keys(organizedData).forEach(function(Class, index) {
+          
+          var tabButton = document.createElement('div');
+          tabButton.className = 'tab-button' + (index === 0 ? ' active' : '');
+          tabButton.textContent = Class;
+          tabButton.onclick = function() { showContent(Class); };
+          document.getElementById('tab-buttons').appendChild(tabButton);
+        
+          
+          var tabContent = document.createElement('div');
+          tabContent.id = 'content-' + Class;
+          tabContent.className = 'tab-content' + (index === 0 ? ' active' : '');
+          tabContent.style.display = index === 0 ? 'flex' : 'none';
+		  tabContent.style.flexWrap = 'wrap'; 
+			tabContent.style.justifyContent = 'flex-start'; 
+			tabContent.style.alignItems = 'stretch'; 
+          
+          organizedData[Class].forEach(function(model) {
+            var linkBox = document.createElement('a');
+            linkBox.className = 'link-box';
+            linkBox.href = `errors.html?method=${encodeURIComponent(model)}`; 
+            
+			var imgElement = document.createElement('img');
+			imgElement.src = `../figures/error/${model}.png`; 
+			imgElement.style.height = '3.2cm'; 
+			imgElement.style.marginTop = '10px'; 
+			imgElement.style.marginLeft = '80px'; 
+
+
+			linkBox.style.display = 'flex'; 
+			linkBox.style.justifyContent = 'space-between'; 
+			linkBox.style.alignItems = 'left'; 
+			linkBox.style.textDecoration = 'none'; 
+			linkBox.style.flexDirection = 'column'; 
+			
+
+			var infoContainer = document.createElement('div'); 
+			infoContainer.style.width = '100%'; 
+			infoContainer.style.display = 'flex'; 
+			infoContainer.style.alignItems = 'flex-start'; 
+			infoContainer.style.marginLeft = '20px'; 
+
+			var SubInfoContainer = document.createElement('span'); 
+			SubInfoContainer.style.display = 'flex'; 
+			SubInfoContainer.style.flexDirection = 'column'; 
+
+			var AccContainer = document.createElement('span'); 
+			AccContainer.style.display = 'flex'; 
+
+			var numberElement = document.createElement('span'); 
+			
+			var scenario_dict = multi_model_performance.find(function(item) {
+				return item["Name"] === model;
+			});
+			numberElement.textContent = scenario_dict["Avg"]; 
+			numberElement.style.fontSize = '2.0em'; 
+			numberElement.style.fontWeight = 'bold'; 
+			numberElement.style.marginLeft = '10px'; 
+			numberElement.style.marginTop = '50px'; 
+
+			var avgElement = document.createElement('span'); 
+			avgElement.textContent = ' Avg Acc';
+			avgElement.style.fontSize = '0.8em'; 
+			avgElement.style.marginTop = '60px'; 
+			AccContainer.appendChild(numberElement); 
+			AccContainer.appendChild(avgElement); 
+
+			var tasksElement = document.createElement('span'); 
+			tasksElement.textContent = scenario_dict["Class"];
+			tasksElement.style.fontSize = '1em'; 
+			tasksElement.style.color = '#aaa'; 
+			tasksElement.style.marginTop = '10px'; 
+			tasksElement.style.fontWeight = 'bold'; 
+			tasksElement.style.textAlign = 'left'; 
+			tasksElement.style.marginLeft = '20px'; 
+
+
+			SubInfoContainer.appendChild(AccContainer); 
+			SubInfoContainer.appendChild(tasksElement); 
+
+			infoContainer.appendChild(imgElement);
+			
+			linkBox.appendChild(infoContainer); 
+
+			var textContainer = document.createElement('div'); 
+			textContainer.textContent = model;
+			textContainer.style.fontWeight = 'bold';
+			textContainer.style.backgroundColor = '#081c42'; 
+			textContainer.style.color = 'white'; 
+			textContainer.style.height = '1.2cm'; 
+			textContainer.style.width = '100%'; 
+			textContainer.style.display = 'flex'; 
+			textContainer.style.alignItems = 'center'; 
+			textContainer.style.justifyContent = 'center'; 
+			// linkBox.appendChild(mask);
+			
+			linkBox.appendChild(textContainer);
+            
+            tabContent.appendChild(linkBox);
+          });
+        
+          document.getElementById('tab-container').appendChild(tabContent);
+        });
+        
+	function showContent(Index) {
+    
+		var contents = document.getElementsByClassName('tab-content');
+		for (var i = 0; i < contents.length; i++) {
+			contents[i].style.display = 'none';
+		}
+		var buttons = document.getElementsByClassName('tab-button');
+		for (var i = 0; i < buttons.length; i++) {
+			buttons[i].classList.remove('active');
+		}
+
+		document.getElementById('content-' + Index).style.display = 'flex';
+
+		var allTabButtons = document.getElementById('tab-buttons').getElementsByClassName('tab-button');
+		for (var i = 0; i < allTabButtons.length; i++) {
+			if (allTabButtons[i].textContent === Index) {
+				allTabButtons[i].classList.add('active');
+				break; 
+			}
+		}
+	}
+        </script>
+        
+</body>
+
+</html>

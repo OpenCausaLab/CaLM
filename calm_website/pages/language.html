@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Language</title>
+
+	<!-- load CSS packages -->
+	<link rel="stylesheet" href="../css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../css/scrollCue.css" type="text/css" media="all">  
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">  
+
+	<!-- load JS data -->
+	<script type="text/javascript" src="../tables/model_overview.js"></script>
+
+	<!-- load JS  -->
+	<script src="../javascript/scrollCue.min.js"></script>
+	<script src="../javascript/menu.js"></script>
+    
+</head>
+
+<body>
+	<!--==================================================-->
+	<!-- Start Main Menu  -->
+	<!--==================================================-->
+    <div class="calm_nav_manu">
+        <div class="logo" style="width: 100px; margin-left: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <a href="../../index.html" title="calm">
+                <img src="../figures/header-logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="calm_manu" style="margin-right: 20px;">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="findings.html">Findings</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="#">Target<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="target-overview.html">Target Overview</a></li>
+                        <li><a href="scenario_overall.html">Task</a></li>
+                        <li><a href="mode.html">Mode</a></li>
+                        <li><a href="language.html">Language</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Models<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="model_overall.html">Model Overview</a></li>
+                        <div id="model-dynamic-menu"></div>
+                    </ul>
+                </li>
+                <li><a href="adaptation.html">Adaptation</a></li>
+                <li><a href="metric.html">Metric</a></li>
+                <li><a href="error.html">Error</a></li>
+            </ul>
+            <div class="header-button">
+                <a href="submit.html">Submit</a>
+            </div>
+        </nav>
+    </div>
+	<!--==================================================-->
+	<!-- End Main Menu  -->
+	<!--==================================================-->     
+
+	<!--==================================================-->
+	<!-- Start Content  -->
+	<!--==================================================-->
+    <div id="body">
+        <div class="section">
+            <h1>Language</h1>
+			<p>Despite the global proliferation of language models, there is a pressing need to expand evaluation across a broader array of languages. However, due to the associated costs and the risk of evaluation sets becoming unwieldy in size, we have decided to concentrate our efforts on two languages: English and Chinese. The selection of these two languages is primarily based on two considerations: (1) As explained in [1], English and Chinese are the languages most frequently used in the fields of artificial intelligence and natural language processing; (2) As we have statistically analyzed in Section 8 of our report, the training corpora for current models are also predominantly composed of these two languages.
+			</p>
+			<h2 id="language-English" style="scroll-margin-top: 5vw">English</h2>
+			<p>As shown in the following figures, it is evident that models generally perform better in English causal tasks. This finding aligns with our initial hypothesis, given that the training corpus for most current language models predominantly consists of English data. Specifically, the number of models performing better than random guesses in English causal tasks is nine, compared to seven in Chinese causal tasks. In English causal tasks, both GPT-4 and GPT-3.5-Turbo, ranked first and second respectively, achieve an average accuracy exceeding 50%.</p>
+			<h2 id="language-Chinese" style="scroll-margin-top: 5vw">Chinese</h2> <p>Conversely, in Chinese causal tasks, even GPT-4’s performance does not surpass the 50% threshold. Despite these variations in accuracy across languages, the top five models remain consistent, albeit with minor differences in their specific rankings. These models are GPT-4, GPT-3.5-Turbo, text-davinci-003, text-davinci-002 from OpenAI, and Claude2 from Anthropic.</p>
+			<h2>Comparisons</h2>
+			<h3>Comparison of English and Chinese Performance by Scenario</h3>
+			<div class="image-container"><img src="../figures/direct_language_all_page-0001.jpg" alt="language" style="width:800px"></div>
+			
+			<h3>Comparison of English and Chinese Performance by Model</h3>
+			<div class="image-container"><img src="../figures/acc_language_page-0001.jpg" alt="language" style="width:800px"></div>
+			<p>We also explore the relationship between accuracy and multilingual in the above figure. For each language type, we calculate the average accuracy of all models in that category for the corresponding scenario.</p>
+			 <h2>references</h2>
+			 <p>[1] Liang, P., Bommasani, R., Lee, T., Tsipras, D., Soylu, D., Yasunaga, M., Zhang, Y., Narayanan, D., Wu, Y., Kumar, A., et al. Holistic evaluation of language models. arXiv preprint arXiv:2211.09110, 2022.</p>
+        </div>
+    </div>
+	<!--==================================================-->
+	<!-- End Content  -->
+	<!--==================================================-->   
+	
+	<!--==================================================-->
+	<!-- Start Footer Area -->
+	<!--==================================================-->
+	<div class="footer-area">
+		<div style="margin-left: 20px;">Copyright &copy 2024 Shanghai Artificial intelligence Laboratory. All rights reserved.</div>
+		<div style="margin-right: 20px;">Contact: causalai@pjlab.org.cn</div>
+	</div>
+	<!--==================================================-->
+	<!-- END Footer Area -->
+	<!--==================================================-->
+
+	<script>
+	scrollCue.init({
+		duration : 2500,
+		interval : -0.7,
+		percentage : 0.90,
+		smartSpeed: 5000 
+		})
+	</script>
+	
+</body>
+
+</html>

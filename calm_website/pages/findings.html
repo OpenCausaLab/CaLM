@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Findings</title>
+	<!-- load CSS packages -->
+	<link rel="stylesheet" href="../css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../css/scrollCue.css" type="text/css" media="all">  
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">  
+
+	<!-- load JS data -->
+	<script type="text/javascript" src="../tables/model_overview.js"></script>
+
+	<!-- load JS  -->
+	<script src="../javascript/scrollCue.min.js"></script>
+	<script src="../javascript/menu.js"></script>         
+</head>
+
+<body>
+	<!--==================================================-->
+	<!-- Start Main Menu  -->
+	<!--==================================================-->
+    <div class="calm_nav_manu">
+        <div class="logo" style="width: 100px; margin-left: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <a href="../../index.html" title="calm">
+                <img src="../figures/header-logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="calm_manu" style="margin-right: 20px;">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="findings.html">Findings</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="#">Target<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="target-overview.html">Target Overview</a></li>
+                        <li><a href="scenario_overall.html">Task</a></li>
+                        <li><a href="mode.html">Mode</a></li>
+                        <li><a href="language.html">Language</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Models<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="model_overall.html">Model Overview</a></li>
+                        <div id="model-dynamic-menu"></div>
+                    </ul>
+                </li>
+                <li><a href="adaptation.html">Adaptation</a></li>
+                <li><a href="metric.html">Metric</a></li>
+                <li><a href="error.html">Error</a></li>
+            </ul>
+            <div class="header-button">
+                <a href="submit.html">Submit</a>
+            </div>
+        </nav>
+    </div>
+	<!--==================================================-->
+	<!-- End Main Menu  -->
+	<!--==================================================-->   
+
+	<!--==================================================-->
+	<!-- Start Content  -->
+	<!--==================================================-->
+    <div id="body">
+        <div class="section">
+            <h1>Findings</h1>
+			<p>Through the comprehensive analysis of extensive experimental results, we distill the following 50 high-level findings across various dimensions:</p>
+			
+			<div class="findings-page" id="Findings from the Model">
+				<h2>Findings from the Model</h2>
+				<div class="findings-page-content">
+					<li class="findings-li"><b>Causal reasoning inability.</b> At present, language models struggle to perform tasks requiring sophisticated causal reasoning effectively. As the complexity of causal reasoning increases, the accuracy of each model progressively deteriorates, eventually falling almost to zero.</li>
+					<li class="findings-li"><b>Dual effects of Reinforcement Learning from Human Feedback (RLHF).</b> On the one hand, exploiting human feedback enables RLHF to align model outputs more closely with human reasoning, particularly in complicated scenarios that demand an understanding of causality. This alignment can modestly improve the model's causal reasoning capabilities. On the other hand, models fine-tuned with RLHF tend to change their responses when interacted with by humans. They frequently modify their initial answers, even when they are correct, based on user instructions, indicating a susceptibility to human input.</li>
+					<li class="findings-li"><b>Challenges with Supervised Fine-Tuning (SFT) in causal reasoning.</b> There is only a minimal performance gap in causal reasoning between models trained via SFT on datasets unrelated to causality and those only subjected to pre-training. This suggests that applying SFT to non-causality datasets in the hope of generalizing to causal reasoning might not be effective. A more straightforward method to enhance a model's causal reasoning seems to employ datasets directly related to causality for SFT.</li>
+							
+					<li class="findings-li"><b>Progression of causal reasoning capabilities in OpenAI's model series.</b> Our evaluation covers a wide range of OpenAI's model releases, including the GPT-3 series from 2020, the InstructGPT and GPT-3.5 series from 2022, and the GPT-4 released in 2023. Although some GPT-3 and InstructGPT APIs have now been deprecated, their inclusion in our study is crucial for understanding the evolutionary progress in OpenAI's model series. Each new model iteration has exhibited substantial improvements in their ability to perform causal reasoning tasks. Furthermore, there has been a noticeable increase in the integration of accuracy and robustness within OpenAI's models.</li>
+							
+					<li class="findings-li"><b>Challenges of causal reasoning in Mathematical mode.</b> Language models demonstrate a certain level of proficiency in solving causal reasoning tasks in both Natural and Symbolic modes. However, their performance in Mathematical mode reveal significant room for improvement. This mode requires models to not only comprehend causal concepts but also to perform precise computations, presenting a dual challenge.</li>
+							
+					<li class="findings-li"><b>Ascending difficulties in rungs of causal ladder.</b> The model's proficiency in causal reasoning decreases from the lower to the higher levels of the causal ladder, indicating that the more advanced levels present greater difficulties. Models show better performance at the foundational stages (i.e., causal discovery and association) than at the more complex stages (i.e., intervention and counterfactual).</li>
+							
+					<li class="findings-li"><b>Comparing open vs. limited access models.</b> Overall, limited access models exhibit superior causal reasoning capabilities than open models. However, in the majority of causal scenarios at the causal discovery level, the performance gap between open and limited access models is minimal, not exceeding a 2% margin. This modest gap encourages an optimistic perspective on the potential of open models. Additionally, we aim for CaLM to act as a catalyst for the development of models within the open-source community.</li>
+							
+					<li class="findings-li"><b>Impact of scaling on causal reasoning ability.</b> The relationship between model scale and accuracy in causal reasoning does not display a straightforward monotonic increase. This implies that other factors, such as training data and strategy, significantly influence accuracy across models from different creators. However, within models from the same creator, scale remains a consistent and reliable predictor of accuracy.</li>
+							
+					<li class="findings-li"><b>Balancing instruction-following and error correction.</b> When confronted with adversarial prompts, the model tends to alter its previous responses. Notably, it is more likely to change initially correct answers to incorrect ones rather than rectify pre-existing errors. This tendency highlights the urgent need to balance the model's ability to follow instructions with its proficiency in identifying and correcting errors.</li>
+				</div>
+			</div>
+			<div class="findings-page" id="Findings from the Adaptation">
+				<h2>Findings from the Adaptation</h2>
+				<div class="findings-page-content">
+					<li class="findings-li"><b>Optimal prompt varies across causal scenario.</b> No ''optimal prompt'' universally fits all causal scenarios. Based on our observations, for scenarios at the lower levels of the causal ladder (i.e., causal discovery and association), employing 1/3-shot IcL proves effective. For scenarios at the intervention level, 3-shot IcL is recommended, and adding more shots may be beneficial if possible. For the counterfactual level, which requires detailed reasoning to determine the correct response, we suggest using manual CoT.</li>
+    
+					<li class="findings-li"><b>Challenges of using prompts in complex causal scenarios.</b> The effectiveness of prompts in improving model performance is not consistent across all scenarios. Complex causal scenarios pose a particular challenge for language models, often due to the absence of substantial information on these scenarios within the model's training corpus. Moreover, questions in these scenarios cannot be adequately resolved merely through common sense or semantic understanding. In CaLM, we observe that in such complex causal scenarios, prompts do not markedly improve model performance. </li>
+						
+					<li class="findings-li"><b>Improving model performance with 3-shot IcL and manual CoT.</b> Using 3-shot IcL improves the baseline performance of various models by providing a consistent format for answers along with a rich set of examples. For top-tier models (e.g., GPT-4), manual CoT is particularly effective in harnessing their advanced causal reasoning capabilities. Through precise, step-by-step reasoning, manual CoT helps these models better comprehend the implications behind questions, thus substantially improving their overall performance.</li>
+						
+					<li class="findings-li"><b>Sensitivity to prompt's shot variation.</b> Across all causal scenarios, there is no strong correlation among prompts within the same category when the number of examples varies (e.g., 0/1/3-shot IcL, as well as 0-shot/manual CoT). This weak correlation suggests that models are highly sensitive to changes in the number of shots in prompts. It further emphasizes the importance of carefully selecting the number of shots in prompts to tailor model performance effectively. </li>
+						
+					<li class="findings-li"><b>Effectiveness of few shots in complex causal tasks.</b> The more challenging the causal task, the more beneficial additional examples in the prompt are for improving model performance. In CaLM, we assess difficulty across three dimensions: the causal ladder (with intervention and counterfactual being the most challenging), mode (with Mathematical mode being more demanding), and question type (with probability calculations being particularly difficult). Our thorough analysis suggests that increasing the number of shots for these challenging tasks significantly improves performance. However, due to constraints on time and resource, IcL is currently limited to three shots. While we advocate for using more examples, the decision to set an upper limit should be made based on specific circumstances. </li>
+						
+					<li class="findings-li"><b>Limited effectiveness of 0-shot prompts.</b> One of our objectives is to identify a prompt that is simple to construct yet effectively enhance the model's causal reasoning abilities. To this end, we experimented with three variations of 0-shot prompts: 0-shot CoT, 0-shot IcL and EF, none of which include examples. Comparative analyses reveal that these prompts do not substantially outperform the basic prompt, and their effectiveness varies across different causal scenarios.</li>
+						
+					<li class="findings-li"><b>Correlations between prompts.</b> The basic prompt significantly correlates with adversarial doubt, adversarial ignore, EF, 0-shot CoT, and 0-shot IcL. However, it shows no strong correlation with more complex prompts such as 3-shot IcL and manual CoT. For prompts showing strong correlations, it is feasible to approximate a model's performance across similar prompts based on its performance with any one of them. Conversely, the absence of strong correlations with certain prompts offer opportunities for designing more diverse and effective prompts in the future.</li>
+				</div>
+			</div>
+
+			<div class="findings-page" id="Findings from the Causal Ladder">
+				<h2>Findings from the Causal Ladder</h2>
+				<div class="findings-page-content">
+					<li class="findings-li"><b>Consistent model capabilities in causal reasoning across scenarios.</b> The causal reasoning capabilities of models show inherent consistency across the four levels of the causal ladder. Specifically, in 19 scenarios (excluding CEI and CB), there is a positive correlation in model performance. This observation suggests that a model’s causal reasoning ability is cohesive, not limited to specific scenarios. </li>
+    
+					<li class="findings-li"><b>Correlations within the causal ladder.</b> Causal scenarios that fall within the same level of the causal ladder and share the same mode tend to exhibit higher correlations in performance. This trend underscores the validity of our hierarchical organization of causal scenarios.</li>
+				</div>
+			</div>
+			<div class="findings-page" id="Findings from the Causal Scenario">
+				<h2>Findings from the Causal Scenario</h2>
+				<div class="findings-page-content">
+						<li class="findings-li"><b>Pairwise causal discovery (PCD).</b>
+						PCD seeks to establish if a causal relationship exists between two given events and to identify which of the two is the cause and which is the effect. The <i>understandability</i> of the scenario is easy. The leading three performers in this scenario are GPT-4 (79.1%), GPT-3.5-Turbo (75.2%), and text-davinci-003 (74.7%). The <i>top model-prompt pair</i> is GPT-4 with EF, achieving an accuracy of 83.0%. The <i>solvability</i> of the scenario is well-solved as the average accuracies of the top three models all exceed 70%. The most stable models, characterized by the lowest <i>model volatility</i>, are GPT-3.5-Turbo (1.3), Baichuan1 (7B) (2.1), and text-curie-001 (2.2). The models displaying the greatest sensitivity to different prompts, evidenced by their high <i>model volatility</i>, are Vicuna-v1.3 (33B) (15.8), Llama2 (70B) (15.6), and Llama2-chat (70B) (14.3). The most effective prompts are 3-shot IcL and 1-shot IcL, which improve average accuracy by 9.0% and 7.0% respectively. </li>
+						
+						<li class="findings-li"><b>Event causality identification (ECI).</b>
+						ECI requires the model to assess whether there is a causal relationship between two events within a given sentence. The <i>understandability</i> of the scenario is easy. The top three models by average accuracy are GPT-4 at 65.6%, text-davinci-003 at 61.1%, and Claude2 at 58.4%. The <i>top model-prompt pair</i> is GPT-4 with adversarial doubt, reaching an accuracy of 67.0%, indicating the scenario has a challenging <i>solvability</i> since the performance of the <i>top model-prompt pair</i> does not exceed 80%. The three most stable models in the scenario, characterized by the lowest <i>model volatility</i>, are GPT-4 with a <i>model volatility</i> of 1.1, Baichuan2-chat (13B) with 1.6, and Qwen (7B) with 2.1. Conversely, the models exhibiting the highest <i>model volatility</i>, are InternLM-chat (20B) at 23.6, text-babbage-001 at 11.3, and Llama2 (7B) at 11.2. The leading two prompts, achieving the greatest average accuracy improvements over the basic prompt, are 1-shot IcL with a gain of 3.1% and 3-shot IcL with 2.1%.</li>
+						
+						<li class="findings-li"><b>Abstract reasoning (AR).</b>
+						AR investigates the capability of language models to identify and understand causal relationships within symbolic causal graphs. This scenario is classified to have an <b>easy</b> <i>understandability</i>. The top three models by average accuracy: GPT-4 at 88.3%, Claude2 at 75.9%, and text-davinci-003 at 74.5%. GPT-4, employing manual CoT, stands out as the <i>top model-prompt pair</i> with a 92.6% accuracy. The <i>solvability</i> of the scenario is well-solved with each of the top three models' average accuracies exceeding 70%. The three most stable models in the scenario, characterized by the lowest <i>model volatility</i>, are GPT-4 at 2.0, Qwen (7B) at 2.3, and InternLM-chat (20B) at 2.6. Conversely, the most unstable models are Llama2-chat (70B) at 21.6, Llama2 (70B) at 21.1, and Llama2 (7B) at 17.0. The leading two prompts by average accuracy gain over the basic prompt are 0-shot IcL and 1-shot IcL, both at 1.5%.</li>
+						
+						<li class="findings-li"><b>Causal attribution (CA).</b>
+						CA refers to the process of determining which speciﬁc factor is responsible for an outcome. The scenario has an <b>easy</b> <i>understandability</i>. GPT-4 leads with an average accuracy of 91.8%, followed by text-davinci-003 at 77.1%, and Claude2 at 74.0%. GPT-4, when paired with manual CoT, achieves an impressive 94.8%. The <i>solvability</i> of this scenario is well-solved given that the top three models all have average accuracies over 70%. The three most consistent models, characterized by the lowest <i>model volatility</i>, are GPT-4 at 1.4, davinci (175B) at 2.4, and GPT-3.5-Turbo at 3.0, showcasing their robustness across various prompts. Conversely, the models demonstrating the highest <i>model volatility</i>, are Llama2-chat (70B) at 20.5, Llama2 (70B) at 13.6, and Llama2 (7B) at 11.6. The two prompts with the highest average accuracy gain over the basic prompt are 1-shot IcL at 1.0% and 0-shot IcL at 0.8%.</li>
+						<li class="findings-li"><b>Correlation (CORR).</b>
+						CORR requires the model to identify statistical association between variables. The <i>understandability</i> of the scenario is hard. The leading three models by average accuracy are GPT-4 at 59.1%, text-davinci-003 at 54.7%, and text-davinci-002 at 54.3%. Claude2, using EF, stands out with a top score of 68.0%, illustrating the scenario <i>solvability</i> as challenging since the highest <i>top model-prompt pair</i>'s performance does not reach 80%. The models that have the highest the <i>model volatility</i> are InternLM-chat (20B) at 17.4, ada (0.35B) at 14.7, and text-ada-001 at 14.1. Conversely, the most stable models include Baichuan1 (7B) at 0.5, Qwen (7B) at 1.2, and text-davinci-001 at 1.9. The top two prompts for average accuracy gain over the basic prompt as 3-shot IcL at 6.2% and 1-shot IcL at 5.7%.</li>
+						<li class="findings-li"><b>Explaining away effect (EAE).</b>
+						EAE describes a causal relationship where two independent causes that produce a common eﬀect become interdependent when that eﬀect is observed. The <i>understandability</i> of the scenario is hard. GPT-4 at 67.9%, Claude2 at 66.7%, and text-davinci-003 at 57.0% as the top three models by average accuracy. As to the <i>top model-prompt pair</i>, GPT-4, through the use of manual CoT, achieves a remarkable 90.5%, indicating the <i>solvability</i> of the scenario is potentially solvable as the <i>top model-prompt pair</i>'s performance surpasses 80%. The models have the highest <i>model volatility</i> are Llama2 (70B) at 18.8, Llama2 (13B) at 17.0, and Llama2 (7B) at 17.0. Conversely, the most stable models include Qwen (7B) at 2.1, davinci (175B) at 3.1, and Baichuan1 (7B) at 3.3. The top two prompts for average accuracy gain over the basic prompt as 3-shot IcL at 5.5% and 1-shot IcL at 3.9%.</li>
+						<li class="findings-li"><b>Average treatment effect (ATE).</b>
+						ATE aims to quantify the impact of a particular intervention. This causal scenario have a hard <i>understandability</i>. The leading models in terms of average accuracy for this causal scenario are GPT-4 at 54.8%, text-davinci-003 at 50.3%, and GPT-3.5-Turbo at 47.7%. The <i>top model-prompt pair</i> is GPT-4 with manual CoT, reaching an impressive 92.8%, indicating the scenario's <i>solvability</i> is potentially solvable given that the <i>top model-prompt pair</i> exceeds 80%. The three most stable models, indicated by the lowest <i>model volatility</i>, are Baichuan1-chat (13B) at 2.4, Baichuan2-chat (13B) at 3.0, and InternLM-chat (20B) at 6.4. Conversely, the three models exhibiting the greatest instability across various prompts, shown by the highest <i>model volatility</i>, are Llama2 (13B) at 34.8, Llama2 (70B) at 30.2, and Llama2 (7B) at 28.4. The two prompts leading in average accuracy gain relative to the basic prompt are 3-shot IcL at 25.0% and manual CoT at 22.4%.</li>
+						<li class="findings-li"><b>Backdoor adjustment set (BAS).</b>
+						BAS contains variable that blocks all backdoor paths from the treatment variable to the outcome variable. This scenario challenges whether the model can discern the BAS. This causal scenario is viewed to have a hard <i>understandability</i>. The leading models by average accuracy in this causal scenario are GPT-4 at 71.6%, text-davinci-003 at 53.7%, and GPT-3.5-Turbo at 49.8%. The <i>top model-prompt pair</i>, GPT-4 with 3-shot IcL, reaches 75.1%, indicating that the <i>solvability</i> of this scenario is challenging due to the <i>top model-prompt pair</i>'s performance not exceeding 80%. The three most consistent models, based on the lowest <i>model volatility</i>, are text-davinci-001 at 1.4, text-curie-001 at 2.3, and GPT-4 at 2.6. In contrast, the models exhibiting the greatest variability, marked by the highest <i>model volatility</i> across different prompts, are Llama2 (70B) at 16.2, Vicuna-v1.3 (33B) at 11.9, and Llama2 (13B) at 11.8. The two prompts that lead to the highest average accuracy gains over the basic prompt are 3-shot IcL with a 12.1% gain and 1-shot IcL with a 9.8% gain.</li>
+						<li class="findings-li"><b>Frontdoor adjustment set (FAS).</b>
+						FAS involves a set of variables that mediate the causal path from the treatment to the outcome. The model needs to choose the correct FAS. This causal scenario has a hard <i>understandability</i>. The leading three models by average accuracy: GPT-4 at 77.2%, text-davinci-003 at 59.9%, and GPT-3.5-Turbo at 54.0%. GPT-4, employing 3-shot IcL, tops the chart with a 95.2% accuracy. GPT-4, employing 3-shot IcL, is the <i>top model-prompt pair</i> with a 95.2% accuracy. With the top model's average accuracy surpassing 70%, the <i>solvability</i> of this scenario is solvable. The most prompt-sensitive models, indicated by the highest <i>model volatility</i>, are text-davinci-002 at 18.4, Claude2 at 17.1, and text-davinci-003 at 14.9. In contrast, the most stable models include davinci (175B) at 1.8, text-curie-001 at 3.4, and Baichuan2-chat (13B) at 3.5. The top two prompts for average accuracy gain over the basic prompt as 3-shot IcL at 13.3% and 1-shot IcL at 10.6%.</li>
+						<li class="findings-li"><b>Instrumental variable (IV).</b>
+						IV influences the treatment variable but has no direct eﬀect on the outcome variable, except through the treatment. This scenario assesses whether the model can identify the IV. The <i>understandability</i> of the scenario is hard. The leading three models by average accuracy are GPT-4 at 74.8%, text-davinci-003 at 56.5%, and text-davinci-002 at 53.7%. GPT-4, employing 3-shot IcL, achieves a top score of 78.9%, suggesting the <i>solvability</i> of this scenario as challenging since the <i>top model-prompt pair</i>'s performance doesn't reach 80%. The models most susceptible to prompt variations, as shown by the highest <i>model volatility</i>, are Vicuna-v1.3 (33B) at 16.7%, ada (0.35B) at 15.9%, and Llama2 (13B) at 15.1%. Conversely, the most stable models include text-curie-001 at 0.5%, GPT-4 at 3.0%, and InternLM-chat (20B) at 3.3%. The top two prompts for average accuracy gain over the basic prompt as manual CoT at 15.2% and 3-shot IcL at 13.2%.</li>
+						<li class="findings-li"><b>Collider bias (CB).</b>
+						CB occurs when an analysis is conditioned upon a common eﬀect of two or more variables. It evaluates whether the model can exclude the interference of bias and make the correct choice. The <i>understandability</i> of the scenario is hard. The top three models by average accuracy are GPT-4 at 62.7%, text-davinci-003 at 53.2%, and text-davinci-002 at 53.0%. The <i>top model-prompt pair</i> is GPT-4 with manual CoT, which achieves an impressive 97.8%, suggesting the <i>solvability</i> of this scenario as potentially solvable. The models most sensitive to prompt variations, as shown by the highest <i>model volatility</i>, are Llama2 (70B) at 20.9%, Koala (13B) at 16.8%, and GPT-4 at 16.2%. Conversely, the most stable models are text-curie-001 at 2.6%, curie (6.7B) at 4.3%, and Wizardcoder (15B) at 4.9%. The top two prompts for average accuracy gain over the basic prompt as manual CoT at 15.5% and 3-shot IcL at 13.7%.</li>
+						<li class="findings-li"><b>Causal effect identification (CEI).</b>
+						 CEI centers on evaluating the model's ability to judge whether the causal eﬀect of a treatment on an outcome can be estimated from observational data. This causal scenario has a  very hard <i>understandability</i> and CEI shows the lowest correlation with other causal scenarios. The leading models in this causal scenario, based on average accuracy, are GPT-3.5-Turbo at 49.9%, text-curie-001 at 49.6%, and Baichuan1 (7B) at 49.4%. The <i>top model-prompt pair</i>, GPT-4 with 3-shot IcL, reaches 59.0%, indicating the <i>solvability</i> of the scenario as challenging due to the <i>top model-prompt pair</i>'s performance falling short of 80%. The three most stable models, based on the lowest <i>model volatility</i>, are text-curie-001 at 0.9, text-davinci-001 at 1.0, and Qwen (7B) at 1.0. Conversely, the models demonstrating the highest levels of instability across various prompts are Llama2 (70B) at 18.1, Llama2-chat (70B) at 15.9, and GPT-4 at 12.9. The two prompts leading in average accuracy gain over the basic prompt are 1-shot IcL at 6.6% and 3-shot IcL at 5.4%.</li>
+						<li class="findings-li"><b>Controlled direct effect (CDE).</b>
+						CDE quantifies the direct influence of an intervention on an outcome, while keeping the mediator to a predetermined level. This causal scenario has a hard <i>understandability</i>. The leading models in terms of average accuracy for this causal scenario are GPT-3.5-Turbo at 47.6%, GPT-4 at 41.9%, and Claude2 at 34.5%. The <i>top model-prompt pair</i> is GPT-4 with manual CoT, reaches accuracy at 90.8%, suggesting the scenario's <i>solvability</i> as potentially solvable given the <i>top model-prompt pair</i> surpasses 80%. The three models exhibiting the greatest stability with the lowest <i>model volatility</i> are Baichuan1-chat (13B) at 2.7, babbage (1.3B) at 2.8, and ada (0.35B) at 3.6. Conversely, the three models showing the highest levels of instability across various prompts are Llama2 (70B) at 27.8, Llama2 (13B) at 26.7, and Llama2 (7B) at 25.7, showcasing a pronounced sensitivity to different prompts. The two prompts leading in average accuracy gain over the basic prompt are 3-shot IcL at 21.7% and manual CoT at 20.9%.</li>
+						<li class="findings-li"><b>Counterfactual reasoning (CR).</b>
+						CR involves contemplating hypothetical scenarios by modifying certain factors or conditions present in an actual situation. This causal scenario has an <b>easy</b> <i>understandability</i>. The three leading models in this causal scenario by average accuracy are GPT-4 at 76.9%, text-davinci-003 at 67.8%, and Claude2 at 62.5%. The <i>top model-prompt pair</i> is GPT-4 with manual CoT, achieving an 83.2% accuracy. The scenario has a solvable <i>solvability</i> with the top model's average accuracy surpassing 70%. The three most consistent models, characterized by the lowest <i>model volatility</i>, are curie (6.7B) at 1.8, text-curie-001 at 3.2, and Baichuan1-chat (13B) at 3.4. Conversely, the models displaying the greatest variability across various prompts, showcasing their great sensitivity to prompts, are Llama2 (70B) at 15.4, Llama2-chat (70B) at 14.2, and Vicuna-v1.3 (33B) at 11.9. The two prompts leading to the highest average accuracy improvements over the basic prompt are manual CoT at 7.3% and 3-shot IcL at 6.0%.</li>
+						<li class="findings-li"><b>Actual causality (AC).</b>
+						AC deals with attribution and responsibility allocation problems encountered in practical applications. The causal scenario's <i>understandability</i> is hard. GPT-4 leads in average accuracy at 65.6%, followed by text-davinci-003 and GPT-3.5-Turbo, with scores of 57.2% and 56.5%, respectively. GPT-4, when paired with manual CoT prompts, achieves a significant 68.2% in accuracy, yet this top performance is still short of the 80 threshold, indicating the challenging of the causal scenario. In the stability of model responses, Llama2 (70B), curie (6.7B), and Llama2-chat (70B) show the greatest variations in performance across different prompts, while GPT-3.5-Turbo, GPT-4, and text-curie-001 demonstrate remarkable consistency according to their low <i>model volatility</i>. 1-shot IcL and 3-shot IcL leading to the highest average accuracy gains, at 15.8% and 13.9%, respectively.</li>
+						<li class="findings-li"><b>Causal explanation generation (CEG).</b>
+						CEG examines whether the LLMs can generate comprehensive and logically sound explanations that elucidate the cause-effect relationships between speciﬁc events. The causal scenario's <i>understandability</i> is <b>easy</b>. Claude2, GPT-3.5-Turbo, and GPT-4 emerge as the top three models by average accuracy. Claude2, using EF, reaches a peak accuracy of 63.4%, positioning the <i>solvability</i> of this scenario as challenging since the <i>top model-prompt pair</i> does not achieve an accuracy of 80%. The models demonstrating the greatest variance in response to different prompts, as indicated by the <i>model volatility</i>, include Koala (13B) and Llama2-chat (70B). In contrast, the models with the least variance are InternLM-chat (20B), Baichuan1 (7B), and Qwen (7B). Adversarial doubt and manual CoT as the top two prompts for average accuracy gain over the basic prompt.</li>
+						<li class="findings-li"><b>Effect of the treatment on the treated (ETT).</b>
+						ETT assesses whether individuals who receive treatment are the ones who would derive the greatest advantage from it. This causal scenario has a hard <i>understandability</i>. The leading three models in this causal scenario by average accuracy are GPT-4 at 40.9%, GPT-3.5-Turbo at 39.0%, and Claude2 at 35.6%. GPT-4, when combined with manual CoT, reaches an impressive 89.9%, suggesting this scenario's <i>solvability</i> is potentially solvable, given that the <i>top model-prompt pair</i> achieves over 80%. The three most consistent models, marked by the the lowest <i>model volatility</i>, are Baichuan1-chat (13B) with a <i>model volatility</i> of 2.5, InternLM-chat (20B) at 4.3, and Baichuan2-chat (13B) at 7.8. Conversely, the models showing the highest sensitivity to prompt variations, as evidenced by the highest <i>model volatility</i>, are Llama2 (13B) at 24.1, Llama2 (70B) at 23.8, and Llama2 (7B) at 23.7. The two prompts leading to the highest average accuracy improvements over the standard prompt are manual CoT with a gain of 30.4% and 3-shot IcL at 16.7%. </li>
+						<li class="findings-li"><b>Natural direct effect (NDE).</b>
+						 NDE quantifies the direct influence of an intervention on an outcome, while keeping the mediator's natural state. This causal scenario's <i>understandability</i> is regarded as hard. The <i>top model-prompt pair</i> is GPT-4 with manual CoT, reaching an accuracy of 80.1%, indicating that the <i>solvability</i> of this scenario is potentially solvable as the <i>top model-prompt pair</i>'s performance hits 80%. The three most stable models, characterized by the lowest <i>model volatility</i>, are Baichuan1-chat (13B) at 2.3, InternLM-chat (7B) at 3.0, and InternLM-chat (20B) at 3.1. Conversely, the three least stable models, exhibiting the highest <i>model volatility</i> across different prompts, are Llama2 (13B) at 20.3, Llama2-chat (70B) at 18.2, and Llama2 (70B) also at 18.2. The leading two prompts achieving the most significant average accuracy improvements over the basic prompt are manual CoT at 19.1% and 3-shot IcL at 9.9%.</li>
+						<li class="findings-li"><b>Natural indirect effect (NIE).</b>
+						NIE measures the extent of change in the outcome through the mediator when the treatment is modified. This causal scenario is considered to have a hard <i>understandability</i>. The <i>top model-prompt pair</i> is Koala (13B) with 3-shot IcL, achieving a 73.3% accuracy, suggesting the <i>solvability</i> of this scenario is challenging as the performance of the <i>top model-prompt pair</i> surpasses the random guess but remains below 80%. The three most stable models, characterized by the lowest <i>model volatility</i>, are Baichuan1-chat (13B) at 2.4, Baichuan2-chat (13B) at 4.5, and Vicuna-v1.3 (33B) at 4.8. Conversely, the three most unstable models, showcasing the highest <i>model volatility</i> across various prompts, are Llama2 (7B) at 30.8, Llama2 (13B) at 30.4, and Baichuan2-chat (7B) at 24.9, reflecting their pronounced sensitivity to prompt variations, reflecting their pronounced sensitivity to prompt variations. The two prompts leading to the highest average accuracy improvements over the basic prompt are 3-shot IcL at 29.3% and manual CoT at 19.5%.</li>
+						<li class="findings-li"><b>Probability of necessity (PN).</b>
+						PN essentially seeks to address the question: ''<i>In cases where the outcome occurs, could it still happen without the treatment?</i>'' The <i>understandability</i> of PN scenario is considered as  very hard to understand. The three highest-performing models in terms of average accuracy within this causal scenario are GPT-4 at 14.5%, GPT-3.5-Turbo at 8.1%, and Llama2 (70B) at 5.2%. The <i>top model-prompt pair</i>, GPT-4 with manual CoT, achieves a significant 50.2% accuracy, indicating the <i>solvability</i> of this scenario is challenging as the performance of the <i>top model-prompt pair</i> exceeds the random guess yet does not reach 80%. The three most stable models, characterized by the lowest <i>model volatility</i>, are Wizardcoder (15B) at 0.0, text-curie-001 at 0.1, and davinci (175B) at 0.3. Conversely, the three models showing the greatest instability across different prompts, indicated by the highest <i>model volatility</i>, are GPT-4 at 15.2, GPT-3.5-Turbo at 11.6, and text-davinci-003 at 9.8, reflecting their pronounced sensitivity to prompt changes. The two prompts leading to the most substantial average accuracy improvements over the basic prompt are 3-shot IcL at 7.2% and manual CoT at 6.1%.</li>
+						<li class="findings-li"><b>Probability of sufficiency (PS).</b>
+						PS addresses: ''<i>In cases where the outcome does not occur, could it happen if a treatment exists?</i>'' This causal scenario's <i>understandability</i> is  very hard. The leading three models in this causal scenario based on average accuracy are GPT-4 at 12.6%, GPT-3.5-Turbo at 5.8%, and text-davinci-003 at 4.6%. The <i>top model-prompt pair</i> is GPT-4 with manual CoT, achieving a score of 46.8%, indicating that the <i>solvability</i> of this scenario is challenging as the <i>top model-prompt pair</i> exceeds the random guess yet does not reach 80%. There are more than three models with zero <i>model volatility</i> in the scenario. Conversely, the models exhibiting the greatest instability across various prompts, indicated by the highest <i>model volatility</i>, are GPT-4 at 14.6, GPT-3.5-Turbo at 13.5, and text-davinci-003 at 11.2, showcasing their significant sensitivity to prompt variations. The two prompts leading to the highest average accuracy improvements over the basic prompt are manual CoT at 6.9% and adversarial ignore at 0.2%.</li>
+				</div>
+			</div>
+			<div class="findings-page" id="Findings from the Domain">
+				<h2>Findings from the Domain</h2>
+				<div class="findings-page-content">
+					<li class="findings-li"><b>Comparing seen vs. unseen dataset.</b> The impact of using seen (open-source) and unseen (self-constructed) datasets on model performance is influenced by the complexity of the causal tasks. For more complex tasks at the intervention and counterfactual levels, models tend to perform better on open-source datasets than on self-constructed ones. Conversely, for simpler tasks related to causal discovery, models show slightly superior performance on self-constructed datasets than on those that are publicly available. </li>
+				</div>
+			</div>
+			<div class="findings-page" id="Findings from the Mode">
+				<h2>Findings from the Mode</h2>
+				<div class="findings-page-content">
+				<li class="findings-li"><b>Correlations among text modes.</b> The three modes selected for our analysis - Natural, Symbolic, and Mathematical - are all rooted in textual data, with Natural mode serving as the primary basis. Our experimental results show a marked correlation between the Natural mode and the other two modes, highlighting interconnected capabilities across these modes. </li>
+				</div>
+			</div>
+
+			<div class="findings-page" id="Findings from the Language">
+				<h2>Findings from the Language</h2>
+				<div class="findings-page-content">
+				<li class="findings-li"><b>Performance differences between English and Chinese datasets.</b> In almost 90% of the causal scenarios, models demonstrate superior performance on English datasets. The trend is likely attributed to the dominance of English in the training data of language models. As these models are deployed globally, it is crucial to ensure training involves balanced and diverse language corpora to improve performance across various languages.</li>
+				</div>
+			</div>
+
+			<div class="findings-page" id="Findings from the Metric">
+				<h2>Findings from the Metric</h2>
+				<div class="findings-page-content">
+				<li class="findings-li"><b>Variability in model's robustness and accuracy across causal scenarios.</b> The relationship between a model’s robustness and accuracy significantly varies across causal scenarios. In more challenging causal scenarios, such as PN and PS, models may show very low accuracy but disproportionately high robustness. This is primarily because the models' responses remain consistently poor, unaffected by disturbances. In contrast, in simpler scenarios like PCD and AR, there tends to be a positive correlation between accuracy and robustness, suggesting that as models perform better, they also become more stable. However, in scenarios such as ECI, EAE, and AC, the interaction between these metrics does not follow a clear or consistent pattern. </li>
+    
+				<li class="findings-li"><b>Assessing the maturity of causal scenarios.</b> We employ three metrics to evaluate the maturity of a causal scenario: understandability, open-limited gap, and solvability. Most causal scenarios are considered hard or more difficult in terms of understandability. In the open-limited gap metric, limited access models predominantly occupy the top 5 positions across the majority of scenarios, indicating their superior performance. When evaluating solvability, it becomes evident that current model capabilities are not yet sufficient to fully tackle the challenges posed by CaLM. Overall, the ability of models to effectively resolve causal scenarios within CaLM remains nascent. </li>
+				</div>
+			</div>
+
+			<div class="findings-page" id="Findings from the Error">
+				<h2>Findings from the Error</h2>
+				<div class="findings-page-content">
+				<li class="findings-li"><b>Model capabilities and limitations in following instructions.</b> All models inherently possess ability to generate content and typically do not produce empty responses, even when faced with challenging questions. However, their capacity to accurately follow instructions remains limited. Often, these models struggle to provide the most straightforward response as specified by the instructions, indicating a significant room for improvement in following instructions.</li>
+    
+				<li class="findings-li"><b>Reduction of repetitions through SFT.</b> SFT equips models with high-quality input-output pairs, eﬀectively mitigating unnecessary repetitions in responses to questions.</li>
+					
+				<li class="findings-li"><b>Improving instruction following with 1-shot and 3-shot IcL.</b> Utilizing 1-shot and 3-shot IcL provides models with standardized, concise examples, facilitating the learning of eﬀective response patterns. This helps models produce outputs that better conform to the specified answer format.</li>
+					
+				<li class="findings-li"><b>Imitation effects from prompts.</b> Employing 1-shot IcL, 3-shot IcL, and Manual CoT might lead to an ''imitation game'' where models mimic the patterns presented in the examples. Specifically, after generating standardized responses, these models begin crafting their own questions, reflecting the learned patterns.</li>
+					
+				<li class="findings-li"><b>Language inconsistency in 0-shot CoT.</b> Some models struggle to systematically process and respond to complex Chinese questions when using 0-shot CoT. This challenge can lead to oﬀ-topic initial responses in Chinese, followed by a switch to English, although these subsequent English responses often continue to be irrelevant to the posed question.</li>
+					
+				<li class="findings-li"><b>Prevalence of identical responses across questions.</b> The majority of models (26 out of 28) show the tendency to provide the same response to different questions, indicating their fundamental inability to effectively handle the causal task. This issue, if observed in one question type (e.g., binary classification), is likely to manifest similarly across other question types (e.g., choice selection, probability calculation).</li>
+				</div>
+			</div>
+        </div>
+    </div>
+	<!--==================================================-->
+	<!-- End Content  -->
+	<!--==================================================-->  
+	
+	<!--==================================================-->
+	<!-- Start Footer Area -->
+	<!--==================================================-->
+	<div class="footer-area">
+		<div style="margin-left: 20px;">Copyright &copy 2024 Shanghai Artificial intelligence Laboratory. All rights reserved.</div>
+		<div style="margin-right: 20px;">Contact: causalai@pjlab.org.cn</div>
+	</div>
+	<!--==================================================-->
+	<!-- END Footer Area -->
+	<!--==================================================-->
+
+	<script>
+	scrollCue.init({
+		duration : 2500,
+		interval : -0.7,
+		percentage : 0.90,
+		smartSpeed: 5000 
+		})
+	</script>
+	
+</body>
+
+</html>

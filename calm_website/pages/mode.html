@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Mode</title>
+
+	<!-- load CSS packages -->
+	<link rel="stylesheet" href="../css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../css/scrollCue.css" type="text/css" media="all">  
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">  
+
+	<!-- load JS data -->
+	<script type="text/javascript" src="../tables/model_overview.js"></script>
+
+	<!-- load JS  -->
+	<script src="../javascript/scrollCue.min.js"></script>
+	<script src="../javascript/menu.js"></script>               
+</head>
+
+<body>
+	<!--==================================================-->
+	<!-- Start Main Menu  -->
+	<!--==================================================-->
+    <div class="calm_nav_manu">
+        <div class="logo" style="width: 100px; margin-left: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <a href="../../index.html" title="calm">
+                <img src="../figures/header-logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="calm_manu" style="margin-right: 20px;">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="findings.html">Findings</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="#">Target<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="target-overview.html">Target Overview</a></li>
+                        <li><a href="scenario_overall.html">Task</a></li>
+                        <li><a href="mode.html">Mode</a></li>
+                        <li><a href="language.html">Language</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Models<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="model_overall.html">Model Overview</a></li>
+                        <div id="model-dynamic-menu"></div>
+                    </ul>
+                </li>
+                <li><a href="adaptation.html">Adaptation</a></li>
+                <li><a href="metric.html">Metric</a></li>
+                <li><a href="error.html">Error</a></li>
+            </ul>
+            <div class="header-button">
+                <a href="submit.html">Submit</a>
+            </div>
+        </nav>
+    </div>
+	<!--==================================================-->
+	<!-- End Main Menu  -->
+	<!--==================================================-->   
+
+	<!--==================================================-->
+	<!-- Start Content  -->
+	<!--==================================================-->
+    <div id="body">
+        <div class="section">
+            <h1>Mode</h1>
+			<p>Given that CaLM is designed for language models, our selection of modes carefully consider three distinct subcategories within the text mode: <i>Natural</i>, <i>Symbolic</i>, and <i>Mathematical</i>. </p>
+			<h2 id="mode-Natural Language" style="scroll-margin-top: 5vw">Natural</h2>
+			<p><b>Natural</b> includes the conventional causal tasks that are articulated and responded to in the language commonly used by people. This mode focuses on the intuitive, everyday use of language, facilitating the assessment of how effectively language models understand and generate responses that align with typical human communication. </p>
+			<h2 id="mode-Symbolic" style="scroll-margin-top: 5vw">Symbolic</h2> 
+			<p><b>Symbolic</b> refers to the causal tasks presented in a symbolic form that does not contain specific physical meaning (e.g., a causal graph represented within symbolic mode would be ''<i>A causes B, B causes D, C causes D</i>''). The model's responses are given in a mixed format of natural language and symbolic representation. Using symbols to represent variables serves a dual purpose: (1) Firstly, it aligns with traditional cognitive reasoning<sup>[1]</sup>, where abstract symbols and logical structures enable reasoning beyond specific contexts. This approach leverages the generality and clarity of symbolic representations, facilitating logical inference and conceptual manipulation without the ambiguities of natural language. (2) Secondly, this symbolic representation effectively prevents the model from memorizing biases within the training data, offering a more accurate measure of the model's genuine causal inference capabilities. By abstracting variables into symbols, the focus shifts from content memorization to the application of logical reasoning, providing a clearer evaluation of the model’s ability to deduce causality from causal graph. The usage of symbolic mode not only assesses the model's reasoning skills in a controlled environment but also paves the way for the development of models that are both more robust and capable of generalizing beyond their training datasets. </p>
+			<h2 id="mode-Math" style="scroll-margin-top: 5vw">Mathematical</h2>
+			 <p><b>Mathematical</b> consists of causal tasks that involve math concepts, requiring the model to execute mathematical operations and respond with answers in both probabilistic values and natural language. Numerous studies have evaluated the mathematical abilities of language models, revealing that although these models excel in many natural language processing tasks, they still face significant challenges when solving mathematical problems<sup>[2,3,4,5,6,7,8,9,10]</sup>. The reason we employ Mathematical mode is that mathematical reasoning is fundamental to assessing the cognitive capabilities that underpin human intelligence. This mode tests models beyond mere linguistic fluency, probing their logical structure and capacity for conceptual understanding. Employing Mathematical mode not only highlights the current capabilities and limitations of language models in mimicking sophisticated cognitive functions, but also guides the development of more advanced models capable of complex thought processes akin to human reasoning.  </p>
+			 <h2>references</h2>
+			 <p>[1] Garcez, A. S., Lamb, L. C., and Gabbay, D. M. Neural-symbolic cognitive reasoning. Springer Science & Business Media, 2008.<br>[2] Hendrycks, D., Burns, C., Kadavath, S., Arora, A., Basart, S., Tang, E., Song, D., and Steinhardt, J. Measuring mathematical problem solving with the math dataset. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2), 2021.<br>[3] Cobbe, K., Kosaraju, V., Bavarian, M., Chen, M., Jun, H., Kaiser, L., Plappert, M., Tworek, J., Hilton, J., Nakano, R., et al. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021.<br>[4] Lightman, H., Kosaraju, V., Burda, Y., Edwards, H., Baker, B., Lee, T., Leike, J., Schulman, J., Sutskever, I., and Cobbe, K. Let’s verify step by step. In The Twelfth International Conference on Learning Representations, 2023.<br>[5] Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee, Y. T., Li, Y., Lundberg, S., et al. Sparks of artificial general intelligence: Early experiments with gpt-4. arXiv preprint arXiv:2303.12712, 2023.<br>[6] Dao, X.-Q. and Le, N.-B. Investigating the effectiveness of chatgpt in mathematical reasoning and problem solving: Evidence from the vietnamese national high school graduation examination. arXiv preprint arXiv:2306.06331, 2023.<br>[7] Wei, T., Luan, J., Liu, W., Dong, S., and Wang, B. Cmath: can your language model pass chinese elementary school math test? arXiv preprint arXiv:2306.16636, 2023a.<br>[8] Wu, Y., Jia, F., Zhang, S., Wu, Q., Li, H., Zhu, E., Wang, Y., Lee, Y. T., Peng, R., and Wang, C. An empirical study on challenging math problem solving with gpt-4. arXiv preprint arXiv:2306.01337, 2023a.<br>[9] Yuan, Z., Yuan, H., Tan, C., Wang, W., and Huang, S. How well do large language models perform in arithmetic tasks? arXiv preprint arXiv:2304.02015, 2023b.<br>[10] Yu, L., Jiang, W., Shi, H., Jincheng, Y., Liu, Z., Zhang, Y., Kwok, J., Li, Z., Weller, A., and Liu, W. Metamath: Bootstrap your own mathematical questions for large language models. In The Twelfth International Conference on Learning Representations, 2023.</p>
+        </div>
+    </div>
+	<!--==================================================-->
+	<!-- End Content  -->
+	<!--==================================================-->   
+	
+	<!--==================================================-->
+	<!-- Start Footer Area -->
+	<!--==================================================-->
+	<div class="footer-area">
+		<div style="margin-left: 20px;">Copyright &copy 2024 Shanghai Artificial intelligence Laboratory. All rights reserved.</div>
+		<div style="margin-right: 20px;">Contact: causalai@pjlab.org.cn</div>
+	</div>
+	<!--==================================================-->
+	<!-- END Footer Area -->
+	<!--==================================================-->
+
+	<script>
+	scrollCue.init({
+		duration : 2500,
+		interval : -0.7,
+		percentage : 0.90,
+		smartSpeed: 5000 
+		})
+	</script>
+		
+	
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Error Specific</title>
+
+	<!-- load CSS packages -->
+	<link rel="stylesheet" href="../css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../css/scrollCue.css" type="text/css" media="all">  
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">  
+
+	<!-- load JS data -->
+	<script type="text/javascript" src="../tables/model_overview.js"></script>
+	<script type="text/javascript" src="../tables/error_overview.js"></script>
+
+	<!-- load JS  -->
+	<script src="../javascript/scrollCue.min.js"></script>
+	<script src="../javascript/menu.js"></script>                          
+</head>
+
+<body>
+	<!--==================================================-->
+	<!-- Start Main Menu  -->
+	<!--==================================================-->
+    <div class="calm_nav_manu">
+        <div class="logo" style="width: 100px; margin-left: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <a href="../../index.html" title="calm">
+                <img src="../figures/header-logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="calm_manu" style="margin-right: 20px;">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="findings.html">Findings</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="#">Target<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="target-overview.html">Target Overview</a></li>
+                        <li><a href="scenario_overall.html">Task</a></li>
+                        <li><a href="mode.html">Mode</a></li>
+                        <li><a href="language.html">Language</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Models<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="model_overall.html">Model Overview</a></li>
+                        <div id="model-dynamic-menu"></div>
+                    </ul>
+                </li>
+                <li><a href="adaptation.html">Adaptation</a></li>
+                <li><a href="metric.html">Metric</a></li>
+                <li><a href="error.html">Error</a></li>
+            </ul>
+            <div class="header-button">
+                <a href="submit.html">Submit</a>
+            </div>
+        </nav>
+    </div>
+	<!--==================================================-->
+	<!-- End Main Menu  -->
+	<!--==================================================-->   
+
+	<!--==================================================-->
+	<!-- Start Content  -->
+	<!--==================================================-->
+    <div id="body">
+		<div class="section">		
+			<h1><span id="method_id"></span></h1>
+			<div id="DescriptionContainer"></div><br><br>
+			<div id="dynamic-example-container"></div>
+			<div id="reference-container"></div>
+    </div>
+	<!--==================================================-->
+	<!-- End Content  -->
+	<!--==================================================-->   
+	
+	<!--==================================================-->
+	<!-- Start Footer Area -->
+	<!--==================================================-->
+	<div class="footer-area">
+		<div style="margin-left: 20px;">Copyright &copy 2024 Shanghai Artificial intelligence Laboratory. All rights reserved.</div>
+		<div style="margin-right: 20px;">Contact: causalai@pjlab.org.cn</div>
+	</div>
+	<!--==================================================-->
+	<!-- END Footer Area -->
+	<!--==================================================-->
+
+	<script>
+	scrollCue.init({
+		duration : 2500,
+		interval : -0.7,
+		percentage : 0.90,
+		smartSpeed: 5000 
+		})
+	</script>
+
+	<script>
+		var params = new URLSearchParams(window.location.search);
+		var method_id = params.get('method'); // e.g., GPT-4
+		// get item from dict
+		const data_selected = error_overview_dict.find(item => item['Name'] === method_id);
+
+		document.getElementById('method_id').innerHTML = method_id.split("*")[0];
+		
+		const container = document.getElementById('DescriptionContainer');
+		var blueBox = document.createElement('p');
+		blueBox.id = 'blue-box'; 
+		blueBox.innerHTML = data_selected['description'];
+		container.appendChild(blueBox);
+
+		document.addEventListener('DOMContentLoaded', function() {
+			const example_container = document.getElementById('dynamic-example-container');
+			const image_container = document.createElement('div');
+			
+			
+			if (data_selected['imageUrl'] !== "") {
+				
+				const example_title = document.createElement('h2');
+				example_title.innerHTML = "Error Example";
+				image_container.className = "image-container";
+				const image_performance = document.createElement('img');
+				image_performance.src = data_selected['imageUrl'];
+				image_performance.style.width = "1100px";
+				image_container.appendChild(image_performance);
+				image_container.style.display = "block"; 
+				example_container.appendChild(example_title);
+				example_container.appendChild(image_container);
+			} else {
+				
+				image_container.style.display = "none";
+			}
+		});
+	if (data_selected['reference'] !== ""){
+		const reference_container = document.getElementById('reference-container');
+		var referenceBox = document.createElement('p');
+		referenceBox.id = 'reference-box'; 
+		referenceBox.innerHTML = data_selected['reference'];
+		reference_container.appendChild(referenceBox);
+	}
+	</script>
+</body>
+
+</html>

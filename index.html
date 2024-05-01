@@ -1,0 +1,502 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Causal Evaluation of Language Models</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="calm_website/css/all.min.css">
+	<link rel="stylesheet" href="calm_website/css/scrollCue.css" type="text/css" media="all">  
+	<link rel="stylesheet" href="calm_website/css/style.css" type="text/css" media="all">  
+	<script type="text/javascript" src="calm_website/tables/model_overview.js"></script>
+	<script src="calm_website/javascript/scrollCue.min.js"></script>
+	<script src="calm_website/javascript/index.js"></script>
+</head>
+
+<body>
+	<!--==================================================-->
+	<!-- Start Main Menu  -->
+	<!--==================================================-->
+    <div class="calm_nav_manu">
+        <div class="logo" style="width: 100px; margin-left: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <a class="logo_img" href="index.html" title="calm">
+                <img class="logo-dark" src="calm_website/figures/header-logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="calm_manu" style="margin-right: 20px;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="calm_website/pages/findings.html">Findings</a></li>
+                <li><a href="calm_website/pages/leaderboard.html">Leaderboard</a></li>
+                <li><a href="#">Target<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="calm_website/pages/target-overview.html">Target Overview</a></li>
+                        <li><a href="calm_website/pages/scenario_overall.html">Task</a></li>
+                        <li><a href="calm_website/pages/mode.html">Mode</a></li>
+                        <li><a href="calm_website/pages/language.html">Language</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Models<span><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="calm_website/pages/model_overall.html">Model Overview</a></li>
+                        <div id="model-dynamic-menu"></div>
+                    </ul>
+                </li>
+                <li><a href="calm_website/pages/adaptation.html">Adaptation</a></li>
+                <li><a href="calm_website/pages/metric.html">Metric</a></li>
+                <li><a href="calm_website/pages/error.html">Error</a></li>
+            </ul>
+            <div class="header-button">
+                <a href="calm_website/pages/submit.html">Submit</a>
+            </div>
+        </nav>
+    </div>
+
+	<!--==================================================-->
+	<!-- End Main Menu  -->
+	<!--==================================================-->   
+
+	<!--==================================================-->
+	<!-- Start Hero Section  -->
+	<!--==================================================-->
+	<div class="index-page" style="background-size: cover; background-position: center; background-color: #0a1426ab; ">
+		<video autoplay muted loop id="bgVideo" style="position: absolute; right: 0; bottom: 0; min-width: 100%; width: 50%;min-height: 100%; height: auto; z-index: -1; object-fit: cover; background-color: #092d6b; " playsinline="true"
+		webkit-playsinline="true" >
+			<source src="calm_website/figures/back2_1.mp4" type="video/mp4" >
+		</video>
+		<div class="hero-container">
+			<img class="logo-dark" src="calm_website/figures/header-logo.png" alt="logo" style="width: 400px; display:block; margin-left:auto; margin-right: auto;">
+			<h1 style="margin-top: 50px; height: 80px;display: flex;align-items: center; justify-content: center; align-content: center; color: #ffffff; font-weight: 400;font-size: 60px;">Causal Evaluation of Language Models</h1>
+			<div class="hero-button" style="display: flex; align-items: center; justify-content: center; align-content: center;">
+				<div class="hero-main-button"style="display: flex; align-items: center; justify-content: center;">
+					<a href="calm_website/pages/leaderboard.html" style="width: 7cm; display: flex; justify-content: center;">View Leaderboards<i class="fas fa-arrow-right"></i></a>
+				</div>
+            
+				<div class="hero-main-button"style="display: flex; align-items: center; justify-content: center;">
+					<a href="TODO" style="width: 7cm;display: flex; justify-content: center; ">View Report<i class="fas fa-arrow-right"></i></a>
+				</div>
+
+				<div class="hero-main-button"style="display: flex; align-items: center; justify-content: center;">
+					<a href="https://github.com/OpenCausaLab/CaLM" style="width: 7cm;display: flex; justify-content: center; ">View Datasets and Toolkits<i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!-- End Hero Section  -->
+	<!--==================================================-->
+
+	<!--==================================================-->
+	<!-- Start Contribution Section  -->
+	<!--==================================================-->
+	<div class="index-page" style="background-color: rgba(255, 255, 255, 0.5);flex-direction: column;" data-cues="zoomIn">
+		<div class="index-content-container" style="background-color: rgb(255, 255, 255);">
+			<h1 style="color: #1e3c6e;">Contributions</h1>
+			<div class="sub-container" style="flex-direction: column;">
+				<a href="index.html#CalM Framework" style="color: #1e3c6e; text-decoration: none;" class="link">
+					<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+						<img src="calm_website/figures/index/overview-framework.png" alt="Description" style="width: 100%; height: 85%; object-fit: contain;">
+						<div class="text-container"><h3 style="color: #1e3c6e;">CaLM Framework</h3></div>
+					</div>
+				</a>
+				<a href="index.html#Wide Coverage" style="color: #1e3c6e; text-decoration: none;" class="link">
+					<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+						<img src="calm_website/figures/index/overview-coverage.png" alt="Description" style="width: 100%; height: 85%; object-fit: contain;">
+						<div class="text-container"><h3 style="color: #1e3c6e;">Broad Coverage</h3></div>
+					</div>
+				</a>
+				<a href="index.html#Empirical Findings" class="link">
+					<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+						<img src="calm_website/figures/index/overview-findings.png" alt="Description" style="width: 100%; height: 85%; object-fit: contain;">
+						<div class="text-container"><h3 style="color: #1e3c6e;">Empirical Findings</h3></div>
+					</div>
+				</a>
+				<a href="index.html#Find Data" class="link">
+					<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+						<img src="calm_website/figures/index/overview-data.png" alt="Description" style="width: 100%; height: 85%; object-fit: contain;">
+						<div class="text-container"><h3 style="color: #1e3c6e;">Resources</h3></div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!-- End Contribution Section  -->
+	<!--==================================================-->
+
+	<!--==================================================-->
+	<!-- Start CaLM Suite Section  -->
+	<!--==================================================-->
+	<div class="index-page" data-cues="zoomIn" id="CalM Framework" style="flex-direction: column;">
+		<div class="index-content-container" style="background-color: rgba(255, 255, 255, 0);">
+			<div style="display: flex; justify-content: space-between;">
+				<div style="display: flex; flex-direction: column; align-items: flex-start;">
+					<h4 style="color: #829fd1">WHAT WE EVALUATE</h4>
+					<h1 style="color: #ffffff">CaLM Framework</h1>
+				</div>
+
+				<div style="color: #ffffff; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+					<p>We craft a comprehensive and adaptable framework to meticulously evaluate the causal
+						reasoning capabilities of language models. <br><b>Click on the dynamic box to see more.</b></p>
+				</div>
+			</div>
+			<div class="sub-container" style="flex-direction: column;">
+				<div style="width: 100%;height: 500px;color: white;text-align: center;display: flex;align-items: center;justify-content: center;background-color: #1e3c6e;padding: 20px;gap: var(--container-gap);box-sizing: border-box;">
+					<div class="main-container" style="width: 40%; --main-container-height: 350px; background-color: rgba(42,129,182,0.5);">
+						Causal Target
+						<div class="box hover" style="height: 150px; width: 80%;">
+							<a href="calm_website/pages/scenario_overall.html" class="link" style="width: 100px;">Causal Task</a>
+							<div class="sub-boxes">
+								<div class="sub-box">Causal Ladder</div>
+								<div class="sub-box">Causal Scenario</div>
+								<div class="sub-box">Domain</div>
+							</div>
+						</div>
+						<div class="boxes-container" style="width: 80%;	text-align: center;display: flex; justify-content: space-between;">	  
+							<div class="box hover" style="height: 50px;width: 45%;">
+								<a href="calm_website/pages/mode.html" class="link">Mode</a>
+							</div>
+							<div class="box hover" style="height: 50px;width:45%; ">
+								<a href="calm_website/pages/language.html" class="link">Language</a>
+							</div>
+						</div>
+					</div>
+				
+					<div style="width: 5hv;height: 5hv;">
+						<div class="plus"></div>
+					</div>
+
+					<div class="main-container hover" style="--main-container-width: 20%; --main-container-height: 350px; background-color: rgba(53,162,191,0.5);">
+						<a href="calm_website/pages/adaptation.html" class="link">Adaptation</a>
+						<div class="box hover" style="height: 150px; width: 80%;margin-bottom: 30px;">
+							<a href="calm_website/pages/model_overall.html" class="link">Model</a>
+						</div>
+					</div>
+		
+					<div style="width: 5hv;height: 5hv;">
+						<div class="plus"></div>
+					</div>
+		
+					<div class="box hover" style="height: 350px; width: 15%;background-color: rgba(92,190,189,0.5);">
+						<a href="calm_website/pages/metric.html" class="link">Metric</a>
+					</div>
+		
+					<div style="width: 5hv;height: 5hv;">
+						<div class="plus"></div>
+					</div>
+		
+					<div class="box hover" style="height: 350px; width: 15%;background-color: rgba(150,213,186,0.5);">
+						<a href="calm_website/pages/error.html" class="link">Error</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!-- End CaLM Suite Section  -->
+	<!--==================================================-->
+
+	<!--==================================================-->
+	<!-- Start Wide Coverage Section  -->
+	<!--==================================================-->
+	<div class="index-page" style="background-color: rgb(255, 255, 255); color: #1e3c6e; flex-direction: column;" data-cues="zoomIn" id="Wide Coverage">
+		<div class="index-content-container" style="background-color: rgb(255, 255, 255);">
+			<div style="display: flex; justify-content: space-between;">
+				<div style="display: flex; flex-direction: column; align-items: flex-start; width: 50%;">
+					<h4 style="color: #829fd1;">KEY FEATURES</h4>
+					<h1 style="color: #1e3c6e;">Wide Coverage and Thorough Evaluations</h1>
+				</div>
+				<div style="width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+					<p style="color: #1e3c6e; margin-top: 20px;">The most comprehensive
+						and in-depth causal evaluation benchmark to date. </p>
+				</div>
+			</div>
+			<div class="sub-container" style="background-color: rgb(255, 255, 255); height:35%; margin-top: 20px">
+				<a href="calm_website/pages/target-overview.html" class="link" style="height:100%">
+					<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+						<img src="calm_website/figures/index/wide-target.png" alt="Description" style="width: 70%; height: 75%; object-fit: contain;">
+						<div class="text-container" style="margin-top: 5px;">92 Causal Targets</div>
+					</div>
+				</a>
+				<a href="calm_website/pages/scenario_overall.html" class="link" style="height:100%">
+				<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+					<img src="calm_website/figures/index/wide-scenario.png" alt="Description" style="width: 70%; height: 75%; object-fit: contain;">
+					<div class="text-container" style="margin-top: 5px;">21 Causal Scenarios</div>
+				</div>
+				</a>
+				<a href="calm_website/pages/mode.html" class="link" style="height:100%">
+				<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+					<img src="calm_website/figures/index/wide-mode.png" alt="Description" style="width: 70%; height: 75%; object-fit: contain;">
+					<div class="text-container" style="margin-top: 5px;">3 Text Modes</div>
+				</div>
+				</a>
+				<a href="calm_website/pages/language.html" class="link" style="height:100%">
+				<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+					<img src="calm_website/figures/index/wide-language.png" alt="Description" style="width: 70%; height: 75%; object-fit: contain;">
+					<div class="text-container" style="margin-top: 5px;">2 Languages</div>
+				</div>
+				</a>
+			</div>
+			<div class="sub-container" style="background-color: rgb(255, 255, 255); height:35%; ">
+					<a href="calm_website/pages/adaptation.html" class="link" style="height:100%">
+						<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 150%; --main-container-height: 100%">            
+							<img src="calm_website/figures/index/wide-adaptation.png" alt="Description" style="width: 70%; height: 75%; object-fit: contain;">
+							<div class="text-container" style="margin-top: 5px;">9 Adaptations</div>
+						</div>
+						</a>
+						<a href="calm_website/pages/metric.html" class="link" style="height:100%">
+						<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+							<img src="calm_website/figures/index/wide-metric.png" alt="Description" style="width: 70%; height: 75%; object-fit: contain;">
+							<div class="text-container" style="margin-top: 5px;">7 Metrics</div>
+						</div>
+						</a>
+						<a href="calm_website/pages/error.html" class="link" style="height:100%">
+						<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+							<img src="calm_website/figures/index/wide-error.png" alt="Description" style="width: 70%; height: 75%; object-fit: contain;">
+							<div class="text-container" style="margin-top: 5px;">12 Types of Errors</div>
+						</div>
+						</a>
+						<a href="calm_website/pages/model_overall.html" class="link" style="height:100%">
+						<div class="main-container-wide-coverage" style="color: #1e3c6e;--main-container-width: 100%; --main-container-height: 100%">            
+							<img src="calm_website/figures/index/wide-models.png" alt="Description" style="width: 70%; height: 75%; object-fit: contain;">
+							<div class="text-container" style="margin-top: 5px;">28 Models (15 open, 13 limited)</div>
+						</div>
+						</a>	
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!-- End Wide Coverage Section  -->
+	<!--==================================================-->
+
+	<!--==================================================-->
+	<!-- Start Findings Section  -->
+	<!--==================================================-->
+	<div class="index-page" data-cues="zoomIn" id="Empirical Findings" style="flex-direction: column;">
+		<div class="index-content-container">
+			<div style="display: flex; justify-content: space-between;">
+				<div style="display: flex; flex-direction: column; align-items: flex-start; width: 40%;">
+					<h1 style="color: #ffffff;">Empirical Findings</h1>
+				</div>
+				<div style="width: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+					<div class="service-button" style="display: flex; align-items: center; justify-content: center; color: #ffffff; ">Click the dot if you want to fix the finding items page.    &nbsp&nbsp
+						<a href="calm_website/pages/findings.html">Click here to view more findings.<i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+
+			</div>
+			<div class="findings-slider-container" style="background-image: url(calm_website/figures/background-finding.png); background-size: cover; height: 80%;
+			width: 100%;border-radius: 10px;
+			overflow: hidden;">
+				<div class="findings-slider-frame" style="height: 100%;">
+					<div class="findings-item">
+						<div class="findings-item-box">
+							<div class="findings-item-title">Findings from the Model</div>
+							<div class="findings-item-content">
+								<li style="font-size: 20px; line-height: 1.6;"><b>Causal reasoning inability.</b> At present, language models struggle to perform tasks requiring sophisticated causal reasoning effectively. As the complexity of causal reasoning increases, the accuracy of each model progressively deteriorates, eventually falling almost to zero.</li>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Dual effects of Reinforcement Learning from Human Feedback (RLHF).</b>On the one hand, exploiting human feedback enables RLHF to align model outputs more closely with human reasoning, particularly in complicated scenarios that demand an understanding of causality. This alignment can modestly improve the model's causal reasoning capabilities. On the other hand, models fine-tuned with RLHF tend to change their responses when interacted with by humans. They frequently modify their initial answers, even when they are correct, based on user instructions, indicating a susceptibility to human input.</li>
+								<li style="font-size: 20px; line-height: 1.6;">...</li>
+
+							</div>	
+							<a href="calm_website/pages/findings.html#Findings from the Model" class="findings-item-view-more-link">View More</a>
+						</div>
+					</div>
+					<div class="findings-item">
+						<div class="findings-item-box">
+							<div class="findings-item-title">Findings from the Adaptation</div>
+							<div class="findings-item-content">
+								<br>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Optimal prompt varies across causal scenario.</b>No ''optimal prompt'' universally fits all causal scenarios. Based on our observations, for scenarios at the lower levels of the causal ladder (i.e., causal discovery and association), employing 1/3-shot IcL proves effective. For scenarios at the intervention level, 3-shot IcL is recommended, and adding more shots may be beneficial if possible. For the counterfactual level, which requires detailed reasoning to determine the correct response, we suggest using manual CoT.</li>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Challenges of using prompts in complex causal scenarios.</b>The effectiveness of prompts in improving model performance is not consistent across all scenarios. Complex causal scenarios pose a particular challenge for language models, often due to the absence of substantial information on these scenarios within the model's training corpus. Moreover, questions in these scenarios cannot be adequately resolved merely through common sense or semantic understanding. In CaLM, we observe that in such complex causal scenarios, prompts do not markedly improve model performance.</li>
+								<li style="font-size: 20px; line-height: 1.6;">...</li>
+
+							</div>	
+							<a href="calm_website/pages/findings.html#Findings from the Adaptation" class="findings-item-view-more-link">View More</a>
+						</div>
+					</div>
+					<div class="findings-item">
+						<div class="findings-item-box">
+							<div class="findings-item-title">Findings from the Causal Ladder</div>
+							<div class="findings-item-content">
+								<br>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Consistent model capabilities in causal reasoning across scenarios.</b> The causal reasoning capabilities of models show inherent consistency across the four levels of the causal ladder. Specifically, in 19 scenarios (excluding CEI and CB), there is a positive correlation in model performance. This observation suggests that a model’s causal reasoning ability is cohesive, not limited to specific scenarios. </li>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Correlations within the causal ladder.</b>Causal scenarios that fall within the same level of the causal ladder and share the same mode tend to exhibit higher correlations in performance. This trend underscores the validity of our hierarchical organization of causal scenarios.</li>
+								<li style="font-size: 20px; line-height: 1.6;">...</li>
+
+							</div>	
+							<a href="calm_website/pages/findings.html#Findings from the Causal Ladder" class="findings-item-view-more-link">View More</a>
+						</div>
+					</div>
+					<div class="findings-item">
+						<div class="findings-item-box">
+							<div class="findings-item-title">Findings from the Causal Scenario</div>
+							<div class="findings-item-content">
+								<br>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Pairwise causal discovery (PCD).</b> PCD seeks to establish if a causal relationship exists between two given events and to identify which of the two is the cause and which is the effect. The <i>understandability</i> of the scenario is easy. The leading three performers in this scenario are GPT-4 (79.1%), GPT-3.5-Turbo (75.2%), and text-davinci-003 (74.7%). The <i>top model-prompt pair</i> is GPT-4 with EF, achieving an accuracy of 83.0%. The <i>solvability</i> of the scenario is well-solved as the average accuracies of the top three models all exceed 70%. The most stable models, characterized by the lowest <i>model volatility</i>, are GPT-3.5-Turbo (1.3), Baichuan1 (7B) (2.1), and text-curie-001 (2.2). The models displaying the greatest sensitivity to different prompts, evidenced by their high <i>model volatility</i>, are Vicuna-v1.3 (33B) (15.8), Llama2 (70B) (15.6), and Llama2-chat (70B) (14.3). The most effective prompts are 3-shot IcL and 1-shot IcL, which improve average accuracy by 9.0% and 7.0% respectively.</li>
+								<li style="font-size: 20px; line-height: 1.6;">...</li>
+							</div>	
+							<a href="calm_website/pages/findings.html#Findings from the Causal Scenario" class="findings-item-view-more-link">View More</a>
+						</div>
+					</div>
+					<div class="findings-item">
+						<div class="findings-item-box">
+							<div class="findings-item-title">Findings from the Domain</div>
+							<div class="findings-item-content">
+								<br>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Comparing seen vs. unseen dataset.</b>The impact of using seen (open-source) and unseen (self-constructed) datasets on model performance is influenced by the complexity of the causal tasks. For more complex tasks at the intervention and counterfactual levels, models tend to perform better on open-source datasets than on self-constructed ones. Conversely, for simpler tasks related to causal discovery, models show slightly superior performance on self-constructed datasets than on those that are publicly available.</li>
+							</div>	
+							<a href="calm_website/pages/findings.html#Findings from the Domain" class="findings-item-view-more-link">View More</a>
+						</div>
+					</div>
+					<div class="findings-item">
+						<div class="findings-item-box">
+							<div class="findings-item-title">Findings from the Mode</div>
+							<div class="findings-item-content">
+								<br>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Correlations among text modes.</b> The three modes selected for our analysis - Natural, Symbolic, and Mathematical - are all rooted in textual data, with Natural mode serving as the primary basis. Our experimental results show a marked correlation between the Natural mode and the other two modes, highlighting interconnected capabilities across these modes.</li>
+							</div>	
+							<a href="calm_website/pages/findings.html#Findings from the Mode" class="findings-item-view-more-link">View More</a>
+						</div>
+					</div>
+					<div class="findings-item">
+						<div class="findings-item-box">
+							<div class="findings-item-title">Findings from the Language</div>
+							<div class="findings-item-content">
+								<br>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Performance differences between English and Chinese datasets.</b> In almost 90% of the causal scenarios, models demonstrate superior performance on English datasets. The trend is likely attributed to the dominance of English in the training data of language models. As these models are deployed globally, it is crucial to ensure training involves balanced and diverse language corpora to improve performance across various languages.</li>
+							</div>	
+							<a href="calm_website/pages/findings.html#Findings from the Language" class="findings-item-view-more-link">View More</a>
+						</div>
+					</div>
+					<div class="findings-item">
+						<div class="findings-item-box">
+							<div class="findings-item-title">Findings from the Metric</div>
+							<div class="findings-item-content">
+								<br>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Variability in model's robustness and accuracy across causal scenarios.</b>The relationship between a model’s robustness and accuracy significantly varies across causal scenarios. In more challenging causal scenarios, such as PN and PS, models may show very low accuracy but disproportionately high robustness. This is primarily because the models' responses remain consistently poor, unaffected by disturbances. In contrast, in simpler scenarios like PCD and AR, there tends to be a positive correlation between accuracy and robustness, suggesting that as models perform better, they also become more stable. However, in scenarios such as ECI, EAE, and AC, the interaction between these metrics does not follow a clear or consistent pattern.</li>
+								<li style="font-size: 20px; line-height: 1.6;">...</li>
+
+							</div>	
+							<a href="calm_website/pages/findings.html#Findings from the Metric" class="findings-item-view-more-link">View More</a>
+						</div>
+					</div>
+					<div class="findings-item">
+						<div class="findings-item-box">
+							<div class="findings-item-title">Findings from the Error</div>
+							<div class="findings-item-content">
+								<br>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Model capabilities and limitations in following instructions.</b> All models inherently possess ability to generate content and typically do not produce empty responses, even when faced with challenging questions. However, their capacity to accurately follow instructions remains limited. Often, these models struggle to provide the most straightforward response as specified by the instructions, indicating a significant room for improvement in following instructions.</li>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Reduction of repetitions through SFT.</b>SFT equips models with high-quality input-output pairs, eﬀectively mitigating unnecessary repetitions in responses to questions.</li>
+								<li style="font-size: 20px; line-height: 1.6;">...</li>
+
+							</div>	
+							<a href="calm_website/pages/findings.html#Findings from the Error" class="findings-item-view-more-link">View More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-nav" style="width: 100%;display: flex; align-items: center; justify-content: center;margin-top: 2%;">
+				<span class="dot" data-target="0"></span>
+				<span class="dot" data-target="1"></span>
+				<span class="dot" data-target="2"></span>
+				<span class="dot" data-target="3"></span>
+				<span class="dot" data-target="4"></span>
+				<span class="dot" data-target="5"></span>
+				<span class="dot" data-target="6"></span>
+				<span class="dot" data-target="7"></span>
+				<span class="dot" data-target="8"></span>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!-- End Findings Section  -->
+	<!--==================================================-->
+
+
+	<!--==================================================-->
+	<!-- Start Join Us Section  -->
+	<!--==================================================-->
+	<div class="index-page" style="background-color: rgba(255, 255, 255, 0.5);flex-direction: column;" data-cues="zoomIn" id="Find Data">
+		<div class="index-content-container">
+			<div style="display: flex; justify-content: space-between;">
+				<div style="display: flex; flex-direction: column; align-items: flex-start; width: 40%;">
+					<h1 style="color: #1e3c6e;">Join Us ;)</h1>
+				</div>
+			</div>
+			<a class="link special-link" href="https://github.com/OpenCausaLab/CaLM" style="--main-container-width: 100%; height: 80%; background-color: #d4cef3; margin-top: 20px; border: 6px solid #d4cef3; border-radius: 15px;">
+				<h3 style="margin-left: 5%;margin-right: 5%;width: 30%;height: 30%;align-items: center;display: flex;justify-content: center;">Click here to find data in Github. </h3>
+				<img src="calm_website/figures/github_data.png" alt="Description" style="width: 80vh; height: 80%; object-fit: contain;margin-right: 5%; ">
+			</a>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!-- End Join Us Section  -->
+	<!--==================================================-->	
+	
+	<!--==================================================-->
+	<!-- Start Footer Area -->
+	<!--==================================================-->
+	<div class="footer-area">
+		<div style="margin-left: 20px;">Copyright &copy 2024 Shanghai Artificial intelligence Laboratory. All rights reserved.</div>
+		<div style="margin-right: 20px;">Contact: causalai@pjlab.org.cn</div>
+	</div>
+	<!--==================================================-->
+	<!-- END Footer Area -->
+	<!--==================================================-->
+
+	<script>
+        scrollCue.init({
+        duration : 2500,
+        interval : -0.7,
+        percentage : 0.90,
+        smartSpeed: 5000 
+        
+        })
+	</script>
+	<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var currentIndex = 0;
+    var items = document.querySelectorAll('.findings-item');
+    var dots = document.querySelectorAll('.dot');
+    var interval = 3000;
+    var isPaused = false;
+
+    function updateSlider(position) {
+        document.querySelector('.findings-slider-frame').style.transform = 'translateX(' + (-position * 100+400) + '%)';
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[position].classList.add('active');
+    }
+
+    function autoSlide() {
+        if (!isPaused) {
+            currentIndex = (currentIndex + 1) % items.length;
+            updateSlider(currentIndex);
+        }
+    }
+
+    let slideInterval = setInterval(autoSlide, interval);
+
+	dots.forEach(function (dot, index) {
+    dot.addEventListener('click', function () {
+        if (currentIndex === index && isPaused) {
+            isPaused = false;
+            slideInterval = setInterval(autoSlide, interval);
+            dots[currentIndex].classList.remove('active-paused');
+        } else {
+            isPaused = true;
+            clearInterval(slideInterval);
+            updateSlider(index);
+            currentIndex = index;
+            dots.forEach(dot => dot.classList.remove('active-paused'));
+            dots[currentIndex].classList.add('active-paused');
+        }
+    });
+});
+});
+		</script>
+
+</body>
+
+</html>
