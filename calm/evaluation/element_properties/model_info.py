@@ -1,0 +1,1 @@
+limited_model_list = ["text-ada-001","text-babbage-001","ada (0.35B)","babbage (1.3B)", "curie (6.7B)","davinci (175B)","text-davinci-003","GPT-3.5-Turbo","text-curie-001","Claude2","text-davinci-002","text-davinci-001","GPT-4"] # TODO: if your tested model is limited, add to the limited model list

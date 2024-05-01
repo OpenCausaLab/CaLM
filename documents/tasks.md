@@ -1,0 +1,119 @@
+# Tasks
+Our supported tasks are:
+- association
+    - correlation
+        - CORR-B_correlation_CN ([Jin et al., 2023a](https://arxiv.org/abs/2312.04350))
+        - CORR-B_correlation_EN ([Jin et al., 2023a](https://arxiv.org/abs/2312.04350))
+    - explaining_away_effect
+        - EAE-B_exp-away_CN ([Jin et al., 2023a](https://arxiv.org/abs/2312.04350))
+        - EAE-B_exp-away_EN ([Jin et al., 2023a](https://arxiv.org/abs/2312.04350))
+- causal_discovery
+    - abstract_reasoning
+        - AR-B_CaLM-AR_CN 
+        - AR-B_CaLM-AR_EN 
+    - causal_attribution
+        - CA-B_FA_CN
+        - CA-B_FA_EN
+        - CA-B_FP_CN
+        - CA-B_FP_EN
+    - event_causality_identification
+        - ECI-B_CTB_CN ([Pustejovsky et al., 2006](https://catalog.ldc.upenn.edu/docs/LDC2006T08/timebank.html))
+        - ECI-B_CTB_EN ([Pustejovsky et al., 2006](https://catalog.ldc.upenn.edu/docs/LDC2006T08/timebank.html))
+        - ECI-B_ESC_CN ([Mirza et al., 2014](https://aclanthology.org/W14-0702/))
+        - ECI-B_ESC_EN ([Mirza et al., 2014](https://aclanthology.org/W14-0702/))
+        - ECI-B_MAVEN-ERE_CN ([Wang et al., 2022](https://aclanthology.org/2022.emnlp-main.60/))
+        - ECI-B_MAVEN-ERE_EN ([Wang et al., 2022](https://aclanthology.org/2022.emnlp-main.60/))
+    - pairwise_causal_discovery
+        - PCD-B_COPA_CN ([Roemmele et al., 2011](https://aaai.org/papers/02418-2418-choice-of-plausible-alternatives-an-evaluation-of-commonsense-causal-reasoning/))
+        - PCD-B_COPA_EN ([Roemmele et al., 2011](https://aaai.org/papers/02418-2418-choice-of-plausible-alternatives-an-evaluation-of-commonsense-causal-reasoning/))
+        - PCD-B_E-CARE_CN ([Du et al., 2022](https://aclanthology.org/2022.acl-long.33/))
+        - PCD-B_E-CARE_EN ([Du et al., 2022](https://aclanthology.org/2022.acl-long.33/))
+        - PCD-C_COPA_CN ([Roemmele et al., 2011](https://aaai.org/papers/02418-2418-choice-of-plausible-alternatives-an-evaluation-of-commonsense-causal-reasoning/))
+        - PCD-C_COPA_EN ([Roemmele et al., 2011](https://aaai.org/papers/02418-2418-choice-of-plausible-alternatives-an-evaluation-of-commonsense-causal-reasoning/))
+        - PCD-C_E-CARE_CN ([Du et al., 2022](https://aclanthology.org/2022.acl-long.33/))
+        - PCD-C_E-CARE_EN ([Du et al., 2022](https://aclanthology.org/2022.acl-long.33/))
+- counterfactual
+    - actual_causality
+        - AC-B_causal_judgement_CN ([Suzgun et al., 2022](https://aclanthology.org/2023.findings-acl.824.pdf))
+        - AC-B_causal_judgement_EN ([Suzgun et al., 2022](https://aclanthology.org/2023.findings-acl.824.pdf))
+    - causal_explanation_generation
+        - CEG-O_E-CARE_CN ([Du et al., 2022](https://aclanthology.org/2022.acl-long.33/))
+        - CEG-O_E-CARE_EN ([Du et al., 2022](https://aclanthology.org/2022.acl-long.33/))
+    - counterfactual_reasoning
+        - CR-B_det-counterfactual_CN ([Jin et al., 2023a](https://arxiv.org/abs/2312.04350))
+        - CR-B_det-counterfactual_EN ([Jin et al., 2023a](https://arxiv.org/abs/2312.04350))
+        - CR-C_CRASS_CN ([Frohberg & Binder, 2022](https://aclanthology.org/2022.lrec-1.229/))
+        - CR-C_CRASS_EN ([Frohberg & Binder, 2022](https://aclanthology.org/2022.lrec-1.229/))
+    - effect_of_the_treatment_on_the_treated
+        - ETT-B_ETT-natural_CN
+        - ETT-B_ETT-natural_EN
+        - ETT-P_ETT-basic_CN
+        - ETT-P_ETT-basic_EN
+        - ETT-P_ETT-hard_CN
+        - ETT-P_ETT-hard_EN
+    - natural_direct_effect
+        - NDE-B_NDE-natural_CN
+        - NDE-B_NDE-natural_EN
+        - NDE-P_NDE-basic_CN
+        - NDE-P_NDE-basic_EN
+        - NDE-P_NDE-hard_CN
+        - NDE-P_NDE-hard_EN
+    - natural_indirect_effect
+        - NIE-B_NIE-natural_CN
+        - NIE-B_NIE-natural_EN
+        - NIE-P_NIE-basic_CN
+        - NIE-P_NIE-basic_EN
+        - NIE-P_NIE-hard_CN
+        - NIE-P_NIE-hard_EN
+    - probability_of_necessity
+        - PN-P_PN-basic_CN
+        - PN-P_PN-basic_EN
+        - PN-P_PN-hard_CN
+        - PN-P_PN-hard_EN
+    - probability_of_sufficiency
+        - PS-P_PS-basic_CN
+        - PS-P_PS-basic_EN
+        - PS-P_PS-hard_CN
+        - PS-P_PS-hard_EN
+- intervention
+    - average_treatment_effect
+        - ATE-B_ATE-natural_CN
+        - ATE-B_ATE-natural_EN
+        - ATE-P_ATE-basic_CN
+        - ATE-P_ATE-basic_EN
+        - ATE-P_ATE-hard_CN
+        - ATE-P_ATE-hard_EN
+    - backdoor_adjustment_set
+        - BAS-B_backadj_CN ([Jin et al., 2023a](https://arxiv.org/abs/2312.04350))
+        - BAS-B_backadj_EN ([Jin et al., 2023a](https://arxiv.org/abs/2312.04350))
+        - BAS-C_max-BAS_CN
+        - BAS-C_max-BAS_EN
+        - BAS-C_min-BAS_CN
+        - BAS-C_min-BAS_EN
+        - BAS-C_mix-BAS_CN
+        - BAS-C_mix-BAS_EN
+    - causal_effect_identification
+        - CEI-B_0.2-UC_CN
+        - CEI-B_0.2-UC_EN
+        - CEI-B_0.4-UC_CN
+        - CEI-B_0.4-UC_EN
+        - CEI-B_0.6-UC_CN
+        - CEI-B_0.6-UC_EN
+        - CEI-B_0.8-UC_CN
+        - CEI-B_0.8-UC_EN
+    - collider_bias
+        - CB-B_collider-bias_CN ([Jin et al., 2023a](https://arxiv.org/abs/2312.04350))
+        - CB-B_collider-bias_EN ([Jin et al., 2023a](https://arxiv.org/abs/2312.04350))
+    - controlled_direct_effect
+        - CDE-B_CDE-natural_CN
+        - CDE-B_CDE-natural_EN
+        - CDE-P_CDE-basic_CN
+        - CDE-P_CDE-basic_EN
+        - CDE-P_CDE-hard_CN
+        - CDE-P_CDE-hard_EN
+    - frontdoor_adjustment_set
+        - FAS-C_FAS_CN
+        - FAS-C_FAS_EN
+    - instrumental_variable
+        - IV-C_CaLM-IV_CN
+        - IV-C_CaLM-IV_EN

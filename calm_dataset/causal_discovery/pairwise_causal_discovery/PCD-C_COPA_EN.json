@@ -1,0 +1,1000 @@
+{"index": 1, "premise": "My body cast a shadow over the grass.", "ask-for": "cause", "hypothesis1": "The sun was rising.", "hypothesis2": "The grass was cut."}
+{"index": 2, "premise": "The woman tolerated her friend's difficult behavior.", "ask-for": "cause", "hypothesis1": "The woman knew her friend was going through a hard time.", "hypothesis2": "The woman felt that her friend took advantage of her kindness."}
+{"index": 3, "premise": "The women met for coffee.", "ask-for": "cause", "hypothesis1": "The cafe reopened in a new location.", "hypothesis2": "They wanted to catch up with each other."}
+{"index": 4, "premise": "The runner wore shorts.", "ask-for": "cause", "hypothesis1": "The forecast predicted high temperatures.", "hypothesis2": "She planned to run along the beach."}
+{"index": 5, "premise": "The guests of the party hid behind the couch.", "ask-for": "cause", "hypothesis1": "It was a surprise party.", "hypothesis2": "It was a birthday party."}
+{"index": 6, "premise": "The politician lost the election.", "ask-for": "cause", "hypothesis1": "He ran negative campaign ads.", "hypothesis2": "No one voted for him."}
+{"index": 7, "premise": "The stain came out of the shirt.", "ask-for": "cause", "hypothesis1": "I patched the shirt.", "hypothesis2": "I bleached the shirt."}
+{"index": 8, "premise": "The man got a discount on his groceries.", "ask-for": "cause", "hypothesis1": "He greeted the cashier.", "hypothesis2": "He used a coupon."}
+{"index": 9, "premise": "The physician misdiagnosed the patient.", "ask-for": "effect", "hypothesis1": "The patient filed a malpractice lawsuit against the physician.", "hypothesis2": "The patient disclosed confidential information to the physician."}
+{"index": 10, "premise": "The customer filed a complaint with the store manager.", "ask-for": "cause", "hypothesis1": "The sales associate undercharged the customer.", "hypothesis2": "The sales associate acted rude to the customer."}
+{"index": 11, "premise": "The woman repaired her faucet.", "ask-for": "cause", "hypothesis1": "The faucet was leaky.", "hypothesis2": "The faucet was turned off."}
+{"index": 12, "premise": "The elderly woman suffered a stroke.", "ask-for": "effect", "hypothesis1": "The woman's daughter came over to clean her house.", "hypothesis2": "The woman's daughter moved in to take care of her."}
+{"index": 13, "premise": "The pond froze over for the winter.", "ask-for": "effect", "hypothesis1": "People skated on the pond.", "hypothesis2": "People brought boats to the pond."}
+{"index": 14, "premise": "The offender violated parole.", "ask-for": "effect", "hypothesis1": "She was sent back to jail.", "hypothesis2": "She stole money from a church."}
+{"index": 15, "premise": "I poured water on my sleeping friend.", "ask-for": "effect", "hypothesis1": "My friend awoke.", "hypothesis2": "My friend snored."}
+{"index": 16, "premise": "The girl gasped.", "ask-for": "cause", "hypothesis1": "Her friend stuck an ice cube down her back.", "hypothesis2": "Her friend gave her a pat on the back."}
+{"index": 17, "premise": "The shirt shrunk.", "ask-for": "cause", "hypothesis1": "I poured bleach on it.", "hypothesis2": "I put it in the dryer."}
+{"index": 18, "premise": "It got dark outside.", "ask-for": "effect", "hypothesis1": "Snowflakes began to fall from the sky.", "hypothesis2": "The moon became visible in the sky."}
+{"index": 19, "premise": "I hung up the phone.", "ask-for": "cause", "hypothesis1": "The caller said goodbye to me.", "hypothesis2": "The caller identified himself to me."}
+{"index": 20, "premise": "The woman's ring slipped off in the shower.", "ask-for": "effect", "hypothesis1": "The woman polished the ring.", "hypothesis2": "The ring went down the drain."}
+{"index": 21, "premise": "The girl received a trophy.", "ask-for": "cause", "hypothesis1": "She won a spelling bee.", "hypothesis2": "She made a new friend."}
+{"index": 22, "premise": "The woman's date wanted to look like a gentleman.", "ask-for": "effect", "hypothesis1": "He opened the door for her.", "hypothesis2": "He asked her if she liked sushi."}
+{"index": 23, "premise": "The farmland needed irrigation.", "ask-for": "effect", "hypothesis1": "A canal was constructed.", "hypothesis2": "A flood occurred."}
+{"index": 24, "premise": "The host cancelled the party.", "ask-for": "cause", "hypothesis1": "She was certain she had the flu.", "hypothesis2": "She worried she would catch the flu."}
+{"index": 25, "premise": "The woman gave the man her phone number.", "ask-for": "cause", "hypothesis1": "She was attracted to him.", "hypothesis2": "She was repulsed by him."}
+{"index": 26, "premise": "The skydiver glided safely to the ground.", "ask-for": "cause", "hypothesis1": "She opened her parachute.", "hypothesis2": "She jumped out of the plane."}
+{"index": 27, "premise": "The toddler became cranky.", "ask-for": "effect", "hypothesis1": "Her mother put her down for a nap.", "hypothesis2": "Her mother fixed her hair into pigtails."}
+{"index": 28, "premise": "The child became immune to the disease.", "ask-for": "cause", "hypothesis1": "He avoided exposure to the disease.", "hypothesis2": "He received the vaccine for the disease."}
+{"index": 29, "premise": "The grape juice fermented.", "ask-for": "effect", "hypothesis1": "The juice turned to wine.", "hypothesis2": "The juice evaporated."}
+{"index": 30, "premise": "The friends' debate dragged on interminably.", "ask-for": "cause", "hypothesis1": "The friends saw eye to eye.", "hypothesis2": "The friends were splitting hairs."}
+{"index": 31, "premise": "The woman hummed to herself.", "ask-for": "cause", "hypothesis1": "She was nervous.", "hypothesis2": "She was in a good mood."}
+{"index": 32, "premise": "The man hated his new haircut.", "ask-for": "effect", "hypothesis1": "He wore a hat.", "hypothesis2": "He grew a beard."}
+{"index": 33, "premise": "The police aimed their weapons at the fugitive.", "ask-for": "effect", "hypothesis1": "The fugitive fell to the ground.", "hypothesis2": "The fugitive dropped his gun."}
+{"index": 34, "premise": "The patient was dehydrated.", "ask-for": "effect", "hypothesis1": "The nurse tested his reflexes.", "hypothesis2": "The nurse gave him an IV."}
+{"index": 35, "premise": "The girl found the missing puzzle piece.", "ask-for": "effect", "hypothesis1": "She completed the puzzle.", "hypothesis2": "She took apart the puzzle."}
+{"index": 36, "premise": "The man urgently leaped out of bed.", "ask-for": "cause", "hypothesis1": "He wanted to shut off the alarm clock.", "hypothesis2": "He wanted to iron his pants before work."}
+{"index": 37, "premise": "The papers were disorganized.", "ask-for": "effect", "hypothesis1": "I made photocopies of them.", "hypothesis2": "I put them into alphabetical order."}
+{"index": 38, "premise": "The woman won the lottery.", "ask-for": "effect", "hypothesis1": "She bought a yacht.", "hypothesis2": "She joined a church."}
+{"index": 39, "premise": "The seamstress pushed the threaded needle into the fabric.", "ask-for": "effect", "hypothesis1": "The thread wrapped around the needle.", "hypothesis2": "The thread went through the fabric."}
+{"index": 40, "premise": "The woman hired a lawyer.", "ask-for": "cause", "hypothesis1": "She decided to sue her employer.", "hypothesis2": "She decided to run for office."}
+{"index": 41, "premise": "The tenant misplaced his keys to his apartment.", "ask-for": "effect", "hypothesis1": "His landlord unlocked the door.", "hypothesis2": "His landlord repaired the door."}
+{"index": 42, "premise": "My favorite song came on the radio.", "ask-for": "effect", "hypothesis1": "I covered my ears.", "hypothesis2": "I sang along to it."}
+{"index": 43, "premise": "The executive decided not to hire the applicant.", "ask-for": "cause", "hypothesis1": "The applicant failed a background check.", "hypothesis2": "The applicant had experience for the job."}
+{"index": 44, "premise": "The man's eye became infected.", "ask-for": "effect", "hypothesis1": "He went blind.", "hypothesis2": "He put on glasses."}
+{"index": 45, "premise": "The bird couldn't fly.", "ask-for": "cause", "hypothesis1": "It migrated for the winter.", "hypothesis2": "It injured its wing."}
+{"index": 46, "premise": "The girl made a wish.", "ask-for": "cause", "hypothesis1": "She saw a black cat.", "hypothesis2": "She saw a shooting star."}
+{"index": 47, "premise": "The woman shivered as she got out the pool.", "ask-for": "effect", "hypothesis1": "She wrapped herself in a towel.", "hypothesis2": "She poured herself some lemonade."}
+{"index": 48, "premise": "The nurse prepared the needle for the patient's injection.", "ask-for": "effect", "hypothesis1": "The patient bled.", "hypothesis2": "The patient tensed up."}
+{"index": 49, "premise": "The man threw out the bread.", "ask-for": "cause", "hypothesis1": "It was fresh.", "hypothesis2": "It was stale."}
+{"index": 50, "premise": "The children knocked over a lamp.", "ask-for": "cause", "hypothesis1": "They had a pillow fight.", "hypothesis2": "They jumped on the bed."}
+{"index": 51, "premise": "I drank from the water fountain.", "ask-for": "cause", "hypothesis1": "I was thirsty.", "hypothesis2": "I felt nauseous."}
+{"index": 52, "premise": "The homeowners disliked their nosy neighbors.", "ask-for": "effect", "hypothesis1": "They built a fence around their property.", "hypothesis2": "They hosted a barbeque in their backyard."}
+{"index": 53, "premise": "The bodybuilder lifted weights.", "ask-for": "effect", "hypothesis1": "The gym closed.", "hypothesis2": "Her muscles became fatigued."}
+{"index": 54, "premise": "The cook stirred the ingredients in the bowl.", "ask-for": "effect", "hypothesis1": "The ingredients melted.", "hypothesis2": "The ingredients blended together."}
+{"index": 55, "premise": "The man signed the document.", "ask-for": "effect", "hypothesis1": "The transaction was voided.", "hypothesis2": "The transaction became official."}
+{"index": 56, "premise": "The police officer dropped the gun.", "ask-for": "effect", "hypothesis1": "The gun recoiled.", "hypothesis2": "The gun went off."}
+{"index": 57, "premise": "The woman felt compelled to help someone in need.", "ask-for": "effect", "hypothesis1": "She donated blood.", "hypothesis2": "She wrote a poem."}
+{"index": 58, "premise": "The woman felt lonely.", "ask-for": "effect", "hypothesis1": "She renovated her kitchen.", "hypothesis2": "She adopted a cat."}
+{"index": 59, "premise": "I rubbed sandpaper on the wood.", "ask-for": "effect", "hypothesis1": "The wood became smooth.", "hypothesis2": "The wood became sticky."}
+{"index": 60, "premise": "The crowd gave the band a standing ovation.", "ask-for": "effect", "hypothesis1": "The band signed autographs.", "hypothesis2": "The band reappeared on the stage."}
+{"index": 61, "premise": "The man threw his empty can onto the street.", "ask-for": "effect", "hypothesis1": "He was jumped from behind.", "hypothesis2": "He was fined for littering."}
+{"index": 62, "premise": "My stomach growled.", "ask-for": "cause", "hypothesis1": "I forgot to eat breakfast.", "hypothesis2": "I was full from breakfast."}
+{"index": 63, "premise": "The boaters set off a flare.", "ask-for": "effect", "hypothesis1": "Their boat drifted to shore.", "hypothesis2": "Their boat was rescued."}
+{"index": 64, "premise": "The man removed his coat.", "ask-for": "cause", "hypothesis1": "He entered the house.", "hypothesis2": "He loosened his tie."}
+{"index": 65, "premise": "The family took their dog to the veterinarian.", "ask-for": "cause", "hypothesis1": "The dog chewed on a bone.", "hypothesis2": "The dog injured his paw."}
+{"index": 66, "premise": "The woman dangled the biscuit above the dog.", "ask-for": "effect", "hypothesis1": "The dog jumped up.", "hypothesis2": "The dog scratched its fur."}
+{"index": 67, "premise": "I learned how to play the board game.", "ask-for": "cause", "hypothesis1": "My friend explained the rules to me.", "hypothesis2": "My friend got the rules wrong."}
+{"index": 68, "premise": "The man went away for the weekend.", "ask-for": "cause", "hypothesis1": "He wanted to relax.", "hypothesis2": "He felt content."}
+{"index": 69, "premise": "The shop was closed.", "ask-for": "cause", "hypothesis1": "The owner was helping customers.", "hypothesis2": "The shop was undergoing renovation."}
+{"index": 70, "premise": "The boy tuned the radio.", "ask-for": "cause", "hypothesis1": "The station was playing rock music.", "hypothesis2": "The station was coming in with static."}
+{"index": 71, "premise": "The terrorist set off the bomb.", "ask-for": "effect", "hypothesis1": "The bomb exploded.", "hypothesis2": "The bomb was deactivated."}
+{"index": 72, "premise": "The police handcuffed the suspect.", "ask-for": "cause", "hypothesis1": "The police called for backup.", "hypothesis2": "The suspect resisted arrest."}
+{"index": 73, "premise": "The authorities vowed to protect the identity of the crime victim.", "ask-for": "effect", "hypothesis1": "The victim struggled to recall details about the crime.", "hypothesis2": "They withheld the victim's name from the public."}
+{"index": 74, "premise": "The man's clothes fit loosely.", "ask-for": "cause", "hypothesis1": "He bought them on sale.", "hypothesis2": "He lost weight."}
+{"index": 75, "premise": "The clock stopped ticking.", "ask-for": "effect", "hypothesis1": "I took extra time to get ready.", "hypothesis2": "The clock showed the wrong time."}
+{"index": 76, "premise": "The man closed the umbrella.", "ask-for": "cause", "hypothesis1": "He got out of the car.", "hypothesis2": "He approached the building."}
+{"index": 77, "premise": "The man craved a cigarette.", "ask-for": "cause", "hypothesis1": "His family urged him to quit smoking.", "hypothesis2": "He was addicted to nicotine."}
+{"index": 78, "premise": "The man dropped food on the floor.", "ask-for": "effect", "hypothesis1": "His dog jumped up on him.", "hypothesis2": "His dog ran over to eat the food."}
+{"index": 79, "premise": "The girl was angry with her friend.", "ask-for": "effect", "hypothesis1": "The girl spread a rumor about her friend.", "hypothesis2": "The girl told a secret to her friend."}
+{"index": 80, "premise": "The fugitive hid from the police.", "ask-for": "effect", "hypothesis1": "The police dropped the case.", "hypothesis2": "The fugitive remained at large."}
+{"index": 81, "premise": "I tipped the bottle.", "ask-for": "effect", "hypothesis1": "The liquid in the bottle froze.", "hypothesis2": "The liquid in the bottle poured out."}
+{"index": 82, "premise": "The woman spoke with a foreign accent.", "ask-for": "cause", "hypothesis1": "She came from a wealthy family.", "hypothesis2": "She migrated from another country."}
+{"index": 83, "premise": "The boy's mouth stung.", "ask-for": "cause", "hypothesis1": "He ate a pepper.", "hypothesis2": "He blew out the candle."}
+{"index": 84, "premise": "I finished a page of the book.", "ask-for": "effect", "hypothesis1": "I ripped out the next page.", "hypothesis2": "I turned to the next page."}
+{"index": 85, "premise": "The service at the restaurant was slow.", "ask-for": "cause", "hypothesis1": "There were many empty tables.", "hypothesis2": "The restaurant was crowded."}
+{"index": 86, "premise": "I saw a woman getting robbed on the street.", "ask-for": "effect", "hypothesis1": "I called 911.", "hypothesis2": "I hailed a cab."}
+{"index": 87, "premise": "My stomach hurt.", "ask-for": "cause", "hypothesis1": "I jogged on the treadmill.", "hypothesis2": "I ate birthday cake."}
+{"index": 88, "premise": "I put my plate in the sink.", "ask-for": "cause", "hypothesis1": "I finished eating.", "hypothesis2": "I skipped dinner."}
+{"index": 89, "premise": "The man closed the book.", "ask-for": "cause", "hypothesis1": "He finished reading it.", "hypothesis2": "It provoked him to think."}
+{"index": 90, "premise": "The boy read the novel aloud to his grandfather.", "ask-for": "cause", "hypothesis1": "His grandfather was deaf.", "hypothesis2": "His grandfather was blind."}
+{"index": 91, "premise": "My foot went numb.", "ask-for": "effect", "hypothesis1": "I put my shoes on.", "hypothesis2": "I shook my foot."}
+{"index": 92, "premise": "The photographer got the child to smile.", "ask-for": "effect", "hypothesis1": "The photographer quickly snapped the child's photo.", "hypothesis2": "The photographer quickly changed the child's pose."}
+{"index": 93, "premise": "The window was opaque.", "ask-for": "cause", "hypothesis1": "The glass was stained.", "hypothesis2": "The blinds were open."}
+{"index": 94, "premise": "I slipped on the floor.", "ask-for": "cause", "hypothesis1": "The tile was wet.", "hypothesis2": "The tile was cracked."}
+{"index": 95, "premise": "The man slid the razor across his chin.", "ask-for": "effect", "hypothesis1": "His stubble grew.", "hypothesis2": "His stubble disappeared."}
+{"index": 96, "premise": "The woman took her family on vacation.", "ask-for": "cause", "hypothesis1": "Her husband got laid off.", "hypothesis2": "She received a salary bonus."}
+{"index": 97, "premise": "The woman awakened.", "ask-for": "cause", "hypothesis1": "She took sleeping pills.", "hypothesis2": "Her husband was snoring."}
+{"index": 98, "premise": "The woman sensed a pleasant smell.", "ask-for": "effect", "hypothesis1": "She remembered to take her medication.", "hypothesis2": "She was reminded of her childhood."}
+{"index": 99, "premise": "The bar closed.", "ask-for": "cause", "hypothesis1": "It was crowded.", "hypothesis2": "It was 3 AM."}
+{"index": 100, "premise": "The driver got pulled over by the police.", "ask-for": "cause", "hypothesis1": "He was parking.", "hypothesis2": "He was speeding."}
+{"index": 101, "premise": "The teacher took roll.", "ask-for": "effect", "hypothesis1": "She identified the students that were absent.", "hypothesis2": "She gave her students a pop quiz."}
+{"index": 102, "premise": "I pushed the pendulum.", "ask-for": "effect", "hypothesis1": "It slowed to a stop.", "hypothesis2": "It swung back and forth."}
+{"index": 103, "premise": "The child kicked the stack of blocks.", "ask-for": "effect", "hypothesis1": "The stack towered over the boy's head.", "hypothesis2": "The blocks scattered all over the rug."}
+{"index": 104, "premise": "The teenager ran away from home.", "ask-for": "cause", "hypothesis1": "He relied on his parents.", "hypothesis2": "His parents abused him."}
+{"index": 105, "premise": "I botched the job interview.", "ask-for": "cause", "hypothesis1": "The interviewer asked difficult questions.", "hypothesis2": "I anticipated the interviewer's questions."}
+{"index": 106, "premise": "The pharmaceutical company recalled the drug.", "ask-for": "cause", "hypothesis1": "Users reported dangerous side effects.", "hypothesis2": "Users got refills on their prescriptions."}
+{"index": 107, "premise": "The man looked at his watch.", "ask-for": "effect", "hypothesis1": "He realized he forgot something.", "hypothesis2": "He realized he was early."}
+{"index": 108, "premise": "I dabbed the floor with a paper towel.", "ask-for": "cause", "hypothesis1": "I spilled juice on the floor.", "hypothesis2": "The floor was permanently stained."}
+{"index": 109, "premise": "The bartender refused to serve the patron.", "ask-for": "cause", "hypothesis1": "The patron was alone.", "hypothesis2": "The patron was drunk."}
+{"index": 110, "premise": "I was confused by the professor's lecture.", "ask-for": "effect", "hypothesis1": "I paid attention to the professor.", "hypothesis2": "I asked the professor questions."}
+{"index": 111, "premise": "The book was deemed inappropriate for children.", "ask-for": "effect", "hypothesis1": "Schools banned it from its libraries.", "hypothesis2": "Teachers required students to read it."}
+{"index": 112, "premise": "The man begged for forgiveness.", "ask-for": "effect", "hypothesis1": "The woman took pity on him.", "hypothesis2": "The woman joked around with him."}
+{"index": 113, "premise": "I received a package in the mail.", "ask-for": "effect", "hypothesis1": "The package triggered my curiosity.", "hypothesis2": "I took the package to the post office."}
+{"index": 114, "premise": "The surfer caught the wave.", "ask-for": "effect", "hypothesis1": "The wave carried her to the shore.", "hypothesis2": "She paddled her board into the ocean."}
+{"index": 115, "premise": "The speaker disarmed her debate opponent.", "ask-for": "effect", "hypothesis1": "The speaker congratulated her opponent.", "hypothesis2": "The speaker won the debate."}
+{"index": 116, "premise": "I moved to a new city.", "ask-for": "cause", "hypothesis1": "I found a better-paying job.", "hypothesis2": "My son was born."}
+{"index": 117, "premise": "I avoided giving a straight answer to the question.", "ask-for": "cause", "hypothesis1": "The question made me uncomfortable.", "hypothesis2": "I wanted to be honest."}
+{"index": 118, "premise": "The student received detention.", "ask-for": "cause", "hypothesis1": "He talked back to the teacher.", "hypothesis2": "The teacher graded his homework."}
+{"index": 119, "premise": "The boy's hands were shaking.", "ask-for": "cause", "hypothesis1": "He planned to ask the girl out.", "hypothesis2": "His palms were cold and sweaty."}
+{"index": 120, "premise": "The fans in the stadium cheered.", "ask-for": "cause", "hypothesis1": "The game ended in a tie.", "hypothesis2": "The player scored."}
+{"index": 121, "premise": "The girl went down the hill on her bike.", "ask-for": "effect", "hypothesis1": "Her bike swerved.", "hypothesis2": "Her bike sped up."}
+{"index": 122, "premise": "A man cut in front of me in the long line.", "ask-for": "effect", "hypothesis1": "I confronted him.", "hypothesis2": "I smiled at him."}
+{"index": 123, "premise": "The inside of the train went dark.", "ask-for": "cause", "hypothesis1": "The train travelled through a tunnel.", "hypothesis2": "The train ran off the tracks."}
+{"index": 124, "premise": "The man contemplated the painting.", "ask-for": "effect", "hypothesis1": "He felt in awe.", "hypothesis2": "He collapsed."}
+{"index": 125, "premise": "The turtle hid in its shell.", "ask-for": "cause", "hypothesis1": "It ate a fish.", "hypothesis2": "It detected a predator."}
+{"index": 126, "premise": "The girl handed down her clothes to her younger sister.", "ask-for": "cause", "hypothesis1": "The clothes were tattered.", "hypothesis2": "She outgrew the clothes."}
+{"index": 127, "premise": "Several witnesses of the crime testified against the suspect.", "ask-for": "effect", "hypothesis1": "The suspect was acquitted.", "hypothesis2": "The suspect was convicted."}
+{"index": 128, "premise": "The parents left their children with a babysitter.", "ask-for": "cause", "hypothesis1": "Their youngest child started attending preschool.", "hypothesis2": "They made plans to celebrate their anniversary."}
+{"index": 129, "premise": "The trip took a long time.", "ask-for": "cause", "hypothesis1": " The driver talked the whole way.", "hypothesis2": "The driver made a wrong turn."}
+{"index": 130, "premise": "The product was heavily advertised.", "ask-for": "effect", "hypothesis1": "Consumers recognized the product.", "hypothesis2": "The product became outdated."}
+{"index": 131, "premise": "I rubbed the soap between my hands.", "ask-for": "effect", "hypothesis1": "The soap foamed.", "hypothesis2": "My hands went numb."}
+{"index": 132, "premise": "The cowgirl threw her lasso towards the horse.", "ask-for": "effect", "hypothesis1": "The lasso grabbed onto the horse.", "hypothesis2": "The horse trotted into the barn."}
+{"index": 133, "premise": "The group overlooked the woman's faux pas.", "ask-for": "effect", "hypothesis1": "The woman was relieved.", "hypothesis2": "The woman apologized."}
+{"index": 134, "premise": "The girl came across an unfamiliar word in her textbook.", "ask-for": "effect", "hypothesis1": "She looked the term up in the dictionary.", "hypothesis2": "She chucked the textbook across the room."}
+{"index": 135, "premise": "The man became disabled.", "ask-for": "effect", "hypothesis1": "His family offered him financial support.", "hypothesis2": "His family cut off contact with him."}
+{"index": 136, "premise": "The flashlight was dead.", "ask-for": "effect", "hypothesis1": "I took it apart.", "hypothesis2": "I replaced the batteries."}
+{"index": 137, "premise": "The skunk sprayed the dog.", "ask-for": "effect", "hypothesis1": "The dog emitted a foul smell.", "hypothesis2": "The skunk roamed the woods."}
+{"index": 138, "premise": "I scratched my skin.", "ask-for": "effect", "hypothesis1": "My itch went away.", "hypothesis2": "My scar faded."}
+{"index": 139, "premise": "I wrote a thank-you note to my grandmother.", "ask-for": "cause", "hypothesis1": "She became forgetful.", "hypothesis2": "She sent me a gift."}
+{"index": 140, "premise": "A burglar broke into the house.", "ask-for": "effect", "hypothesis1": "The homeowners were asleep.", "hypothesis2": "The security alarm went off."}
+{"index": 141, "premise": "I held the door for the woman entering behind me.", "ask-for": "effect", "hypothesis1": "The door slammed shut.", "hypothesis2": "The woman thanked me."}
+{"index": 142, "premise": "The mirror in the bathroom fogged up.", "ask-for": "effect", "hypothesis1": "The girl turned on the fan.", "hypothesis2": "The girl applied her makeup."}
+{"index": 143, "premise": "The security guard tackled the man.", "ask-for": "cause", "hypothesis1": "The man reached into his pocket.", "hypothesis2": "The man displayed a weapon."}
+{"index": 144, "premise": "The driver rotated the steering wheel.", "ask-for": "effect", "hypothesis1": "The car halted.", "hypothesis2": "The car turned."}
+{"index": 145, "premise": "The army surrendered the battle.", "ask-for": "cause", "hypothesis1": "They were outnumbered.", "hypothesis2": "They stormed the city."}
+{"index": 146, "premise": "The navy bombed the ship.", "ask-for": "effect", "hypothesis1": "The ship crashed into the pier.", "hypothesis2": "The ship's debris sunk in the sea."}
+{"index": 147, "premise": "I ironed my shirt.", "ask-for": "cause", "hypothesis1": "It was clean.", "hypothesis2": "It was wrinkled."}
+{"index": 148, "premise": "The girl felt dizzy.", "ask-for": "effect", "hypothesis1": "She lost her balance.", "hypothesis2": "She did stretches."}
+{"index": 149, "premise": "The driver pulled over to the side of the road.", "ask-for": "cause", "hypothesis1": "He went through an intersection.", "hypothesis2": "He noticed a stranded vehicle."}
+{"index": 150, "premise": "The hospital sent the patient home.", "ask-for": "cause", "hypothesis1": "The patient's symptoms cleared up.", "hypothesis2": "The patient's family visited him."}
+{"index": 151, "premise": "The child caught a life-threatening illness.", "ask-for": "cause", "hypothesis1": "She didn't get vaccinated.", "hypothesis2": "She was adopted."}
+{"index": 152, "premise": "We found empty seats in the theatre.", "ask-for": "effect", "hypothesis1": "The film began.", "hypothesis2": "We sat down."}
+{"index": 153, "premise": "The parents recognized their daughter's creativity.", "ask-for": "effect", "hypothesis1": "They taught her how to ride a bike.", "hypothesis2": "They encouraged her to become an artist."}
+{"index": 154, "premise": "The boy turned the lid on the jar.", "ask-for": "effect", "hypothesis1": "The jar became warm.", "hypothesis2": "The lid came off."}
+{"index": 155, "premise": "The woman received a diploma.", "ask-for": "cause", "hypothesis1": "She enrolled in college.", "hypothesis2": "She graduated from college."}
+{"index": 156, "premise": "I chugged the pitcher of water.", "ask-for": "cause", "hypothesis1": "I walked upstairs.", "hypothesis2": "I ran five miles."}
+{"index": 157, "premise": "I came upon a puddle on the sidewalk.", "ask-for": "effect", "hypothesis1": "I leapt over the puddle.", "hypothesis2": "I played in the puddle."}
+{"index": 158, "premise": "The woman covered her ears.", "ask-for": "cause", "hypothesis1": "The fire alarm blared.", "hypothesis2": "The woman smelled smoke."}
+{"index": 159, "premise": "The archeologist dug up the site.", "ask-for": "effect", "hypothesis1": "She excavated ancient artifacts.", "hypothesis2": "She read about the site's history."}
+{"index": 160, "premise": "The audience booed the comedian off the stage.", "ask-for": "cause", "hypothesis1": "He told a racist joke.", "hypothesis2": "He entertained the audience."}
+{"index": 161, "premise": "The coach gave his player a high five.", "ask-for": "cause", "hypothesis1": "The player got a penalty.", "hypothesis2": "The player scored a point."}
+{"index": 162, "premise": "I tossed the ball upwards.", "ask-for": "effect", "hypothesis1": "The ball rolled across the ground.", "hypothesis2": "The ball hit the ceiling."}
+{"index": 163, "premise": "My breath smelled of garlic.", "ask-for": "effect", "hypothesis1": "I wiped my mouth.", "hypothesis2": "I brushed my teeth."}
+{"index": 164, "premise": "The man was lost.", "ask-for": "effect", "hypothesis1": "He asked for directions.", "hypothesis2": "He drew a map."}
+{"index": 165, "premise": "The baby pulled the mother's hair.", "ask-for": "effect", "hypothesis1": "The baby burped.", "hypothesis2": "The mother grimaced."}
+{"index": 166, "premise": "I stood on one foot.", "ask-for": "effect", "hypothesis1": "My balance wavered.", "hypothesis2": "I kneeled down."}
+{"index": 167, "premise": "I pushed the gas pedal.", "ask-for": "effect", "hypothesis1": "The car accelerated.", "hypothesis2": "The car door opened."}
+{"index": 168, "premise": "My car was towed.", "ask-for": "cause", "hypothesis1": "I parked illegally.", "hypothesis2": "I jumped the battery."}
+{"index": 169, "premise": "The woman got away with the crime.", "ask-for": "cause", "hypothesis1": "Her accomplice was apprehended.", "hypothesis2": "She destroyed the evidence."}
+{"index": 170, "premise": "The dust came off the desk.", "ask-for": "cause", "hypothesis1": "I wiped the desk with a cloth.", "hypothesis2": "I removed the books from the desk."}
+{"index": 171, "premise": "The motorcyclist twisted the throttle.", "ask-for": "effect", "hypothesis1": "The motorcycle coasted to a halt.", "hypothesis2": "The motorcycle shot forward."}
+{"index": 172, "premise": "The teacher caught the student chewing gum.", "ask-for": "effect", "hypothesis1": "The gum stuck to the student's shoe.", "hypothesis2": "The student spit out the gum."}
+{"index": 173, "premise": "The host served dinner to his guests.", "ask-for": "effect", "hypothesis1": "His guests were gracious.", "hypothesis2": "His guests went hungry."}
+{"index": 174, "premise": "The boy climbed the tree.", "ask-for": "cause", "hypothesis1": "A cat got stuck in the tree.", "hypothesis2": "A bird built a nest in the tree."}
+{"index": 175, "premise": "The chair squeaked.", "ask-for": "cause", "hypothesis1": "The man carried the chair to his office.", "hypothesis2": "The man scooted the chair closer to his desk."}
+{"index": 176, "premise": "The father shut off the children's television.", "ask-for": "cause", "hypothesis1": "It was bedtime for the children.", "hypothesis2": "The children were watching cartoons."}
+{"index": 177, "premise": "The man held his breath.", "ask-for": "cause", "hypothesis1": "He went underwater.", "hypothesis2": "He treaded water."}
+{"index": 178, "premise": "I clumsily bumped into the stranger.", "ask-for": "effect", "hypothesis1": "I ran away.", "hypothesis2": "I apologized to him."}
+{"index": 179, "premise": "The boat capsized.", "ask-for": "cause", "hypothesis1": "The captain raised the sail.", "hypothesis2": "It was caught in a hurricane."}
+{"index": 180, "premise": "The mother suspected that her son was lying.", "ask-for": "cause", "hypothesis1": "He refused to talk to her.", "hypothesis2": "He avoided making eye contact with her."}
+{"index": 181, "premise": "The young woman was denied entrance into the bar.", "ask-for": "cause", "hypothesis1": "Her friends stood her up.", "hypothesis2": "She forgot her ID."}
+{"index": 182, "premise": "A crater formed on the moon.", "ask-for": "cause", "hypothesis1": "A comet passed by the moon.", "hypothesis2": "A comet collided with the moon."}
+{"index": 183, "premise": "I planted the seeds in the soil.", "ask-for": "effect", "hypothesis1": "I watered the soil.", "hypothesis2": "The seeds sprouted."}
+{"index": 184, "premise": "The benefactor requested to stay anonymous.", "ask-for": "cause", "hypothesis1": "He wanted to maintain his privacy.", "hypothesis2": "He supported the cause behind his donation."}
+{"index": 185, "premise": "The woman felt ashamed of scar on her face.", "ask-for": "effect", "hypothesis1": "She explained the scar to strangers.", "hypothesis2": "She hid the scar with makeup."}
+{"index": 186, "premise": "The doctor x-rayed the patient's arm.", "ask-for": "effect", "hypothesis1": "He discovered that the patient's arm was broken.", "hypothesis2": "He put the patient's arm in a cast."}
+{"index": 187, "premise": "The boy filled the bucket with sand.", "ask-for": "cause", "hypothesis1": "He was collecting seashells in the sand.", "hypothesis2": "He was building a sand castle."}
+{"index": 188, "premise": "The woman upgraded her computer hardware.", "ask-for": "effect", "hypothesis1": "She deleted old files on the computer.", "hypothesis2": "She installed new software on the computer."}
+{"index": 189, "premise": "The girl performed in a dance recital.", "ask-for": "effect", "hypothesis1": "Her parents showed her how to dance.", "hypothesis2": "Her parents came to watch the recital."}
+{"index": 190, "premise": "The baby was wailing in his crib.", "ask-for": "effect", "hypothesis1": "The mother picked up the baby.", "hypothesis2": "The baby crawled to the mother."}
+{"index": 191, "premise": "The woman had a religious awakening.", "ask-for": "effect", "hypothesis1": "She began going to church.", "hypothesis2": "She began travelling abroad."}
+{"index": 192, "premise": "The bureau drawers were cluttered.", "ask-for": "effect", "hypothesis1": "I threw away unnecessary contents.", "hypothesis2": "I locked the drawers shut."}
+{"index": 193, "premise": "The student flaunted his test grade to his classmates.", "ask-for": "cause", "hypothesis1": "He received a perfect score.", "hypothesis2": "He feigned interest in the class."}
+{"index": 194, "premise": "The boy felt homesick.", "ask-for": "cause", "hypothesis1": "He went away to camp.", "hypothesis2": "He bickered with his sister."}
+{"index": 195, "premise": "The rocket flew up into the sky.", "ask-for": "cause", "hypothesis1": "The girl launched it.", "hypothesis2": "The girl designed it."}
+{"index": 196, "premise": "The boy murmured his reply to his mother.", "ask-for": "effect", "hypothesis1": "His mother told him to whisper.", "hypothesis2": "His mother told him to speak up."}
+{"index": 197, "premise": "My flight got delayed.", "ask-for": "cause", "hypothesis1": "Tornadoes were sighted in the area.", "hypothesis2": "I was held up at airport security."}
+{"index": 198, "premise": "The smoke alarm went off.", "ask-for": "cause", "hypothesis1": "I lit a candle.", "hypothesis2": "I burnt my dinner."}
+{"index": 199, "premise": "The vase broke.", "ask-for": "effect", "hypothesis1": "I stenciled it.", "hypothesis2": "I glued it back together."}
+{"index": 200, "premise": "The woman felt an electric shock.", "ask-for": "cause", "hypothesis1": "She grabbed the doorknob.", "hypothesis2": "She pounded on the door."}
+{"index": 201, "premise": "The man had lipstick on his cheek.", "ask-for": "cause", "hypothesis1": "The woman kissed him.", "hypothesis2": "The woman made him blush."}
+{"index": 202, "premise": "I jumped instinctively in fright.", "ask-for": "cause", "hypothesis1": "I sensed someone approaching me from behind.", "hypothesis2": "I heard people chuckling in the adjacent room."}
+{"index": 203, "premise": "The gardener wanted his plants to flourish.", "ask-for": "effect", "hypothesis1": "He planted a variety of seeds.", "hypothesis2": "He put fertilizer in the soil."}
+{"index": 204, "premise": "A water pipe in the house burst.", "ask-for": "cause", "hypothesis1": "The water was unsanitary.", "hypothesis2": "The pipe froze."}
+{"index": 205, "premise": "The waistband on my pants was loose.", "ask-for": "effect", "hypothesis1": "I put on a belt.", "hypothesis2": "I put on a hat."}
+{"index": 206, "premise": "The company lost money.", "ask-for": "cause", "hypothesis1": "Its products received positive consumer reviews.", "hypothesis2": "Some of its products were manufactured defectively."}
+{"index": 207, "premise": "The tenants were evicted from the apartment.", "ask-for": "cause", "hypothesis1": "They neglected to pay their rent.", "hypothesis2": "They got along with their landlord."}
+{"index": 208, "premise": "The man woke up with a toothache.", "ask-for": "effect", "hypothesis1": "He missed an appointment with the dentist.", "hypothesis2": "He made an appointment with the dentist."}
+{"index": 209, "premise": "The team lost the game.", "ask-for": "cause", "hypothesis1": "Their best player was injured.", "hypothesis2": "Their coach pumped them up."}
+{"index": 210, "premise": "The parents forbade their children from watching the movie. ", "ask-for": "cause", "hypothesis1": "The movie was rated R.", "hypothesis2": "The movie was animated."}
+{"index": 211, "premise": "The woman deleted the email.", "ask-for": "cause", "hypothesis1": "The sender tried to solicit money from her.", "hypothesis2": "The sender requested a response from her."}
+{"index": 212, "premise": "The police eliminated the woman from the list of suspects.", "ask-for": "cause", "hypothesis1": "The police interrogated her.", "hypothesis2": "Her alibi checked out."}
+{"index": 213, "premise": "The climbers reached the peak of the mountain.", "ask-for": "effect", "hypothesis1": "They encountered an avalanche.", "hypothesis2": "They congratulated each other."}
+{"index": 214, "premise": "The vandals threw a rock at the window.", "ask-for": "effect", "hypothesis1": "The window cracked.", "hypothesis2": "The window fogged up."}
+{"index": 215, "premise": "The fortune teller's revelations were convincing.", "ask-for": "effect", "hypothesis1": "She received many returning customers.", "hypothesis2": "Many customers asked for refunds."}
+{"index": 216, "premise": "The woman's makeup smeared.", "ask-for": "cause", "hypothesis1": "She brushed her hair.", "hypothesis2": "She wiped her eyes."}
+{"index": 217, "premise": "The company's profits started to level off.", "ask-for": "effect", "hypothesis1": "It increased its marketing efforts for new products.", "hypothesis2": "It moved its headquarters to a suburban location."}
+{"index": 218, "premise": "The student's answer on the exam was incorrect.", "ask-for": "effect", "hypothesis1": "The teacher added bonus points to the student's grade.", "hypothesis2": "The teacher subtracted points off the student's grade."}
+{"index": 219, "premise": "The girl wanted to demonstrate proper etiquette.", "ask-for": "effect", "hypothesis1": "She threw away her napkin after eating.", "hypothesis2": "She put her napkin on her lap before eating."}
+{"index": 220, "premise": "The detective flashed his badge to the police officer.", "ask-for": "effect", "hypothesis1": "The police officer confiscated the detective's badge.", "hypothesis2": "The police officer let the detective enter the crime scene."}
+{"index": 221, "premise": "The girl wanted to make her mother happy.", "ask-for": "effect", "hypothesis1": "The girl ate the cookies her mother baked.", "hypothesis2": "The girl picked a flower for her mother."}
+{"index": 222, "premise": "The toddler started crying.", "ask-for": "effect", "hypothesis1": "Her parents took away her toy.", "hypothesis2": "Her parents gave her a toy."}
+{"index": 223, "premise": "The stranger cried out to me in a foreign language.", "ask-for": "effect", "hypothesis1": "I stared blankly at him.", "hypothesis2": "I stopped to chat with him."}
+{"index": 224, "premise": "The man uncovered incriminating evidence against his enemy.", "ask-for": "effect", "hypothesis1": "The man avoided his enemy.", "hypothesis2": "The man blackmailed his enemy."}
+{"index": 225, "premise": "The girl pushed herself off the top of the slide.", "ask-for": "effect", "hypothesis1": "She glided down the slide.", "hypothesis2": "She crawled up the slide."}
+{"index": 226, "premise": "My jaw dropped open.", "ask-for": "cause", "hypothesis1": "I was unhappy.", "hypothesis2": "I was shocked."}
+{"index": 227, "premise": "The child disobeyed her parents.", "ask-for": "effect", "hypothesis1": "Her parents hugged her.", "hypothesis2": "Her parents punished her."}
+{"index": 228, "premise": "The car looked filthy.", "ask-for": "effect", "hypothesis1": "The owner took it to the car wash.", "hypothesis2": "He owner took it in for a paint job."}
+{"index": 229, "premise": "My friend paid for my ticket.", "ask-for": "effect", "hypothesis1": "I sought a refund.", "hypothesis2": "I paid her back."}
+{"index": 230, "premise": "The woman was wrongly convicted for the crime.", "ask-for": "cause", "hypothesis1": "The jury was fair.", "hypothesis2": "She was framed."}
+{"index": 231, "premise": "The girl applied the scissors to the paper.", "ask-for": "effect", "hypothesis1": "The paper sliced apart.", "hypothesis2": "The paper crinkled."}
+{"index": 232, "premise": "The woman visited her family.", "ask-for": "cause", "hypothesis1": "She distrusted them.", "hypothesis2": "She missed them."}
+{"index": 233, "premise": "I burst into a fit of laughter.", "ask-for": "effect", "hypothesis1": "My teeth began to chatter.", "hypothesis2": "My eyes welled up with tears."}
+{"index": 234, "premise": "The school principal implemented a dress code.", "ask-for": "effect", "hypothesis1": "Students protested the decision.", "hypothesis2": "Students were expelled from school."}
+{"index": 235, "premise": "The balloon expanded.", "ask-for": "cause", "hypothesis1": "I blew into it.", "hypothesis2": "I pricked it."}
+{"index": 236, "premise": "I wanted to lighten the mood of the conversation.", "ask-for": "effect", "hypothesis1": "I remained quiet.", "hypothesis2": "I told a joke."}
+{"index": 237, "premise": "The man broke his toe.", "ask-for": "cause", "hypothesis1": "He got a hole in his sock.", "hypothesis2": "He dropped a hammer on his foot."}
+{"index": 238, "premise": "The man had an attack of conscience.", "ask-for": "effect", "hypothesis1": "He manipulated his friend.", "hypothesis2": "He admitted his indiscretion."}
+{"index": 239, "premise": "A fistfight broke out in the hall of the school.", "ask-for": "effect", "hypothesis1": "The principal suspended the students involved.", "hypothesis2": "The principal called off classes for the day."}
+{"index": 240, "premise": "The photo albums collected dust in the attic.", "ask-for": "cause", "hypothesis1": "They remained untouched for years.", "hypothesis2": "The family reminisced over the photos."}
+{"index": 241, "premise": "I got distracted from my conversation with the woman.", "ask-for": "cause", "hypothesis1": "Everyone in the room was talking.", "hypothesis2": "The woman was telling a funny story."}
+{"index": 242, "premise": "I put coins in the washing machine at the laundromat.", "ask-for": "effect", "hypothesis1": "The machine powered on.", "hypothesis2": "I ran out of laundry detergent."}
+{"index": 243, "premise": "The family postponed the barbeque.", "ask-for": "cause", "hypothesis1": "The forecast called for storms.", "hypothesis2": "It was a holiday weekend."}
+{"index": 244, "premise": "Air leaked out of the beach ball.", "ask-for": "cause", "hypothesis1": "It was inflated.", "hypothesis2": "There was a hole in it."}
+{"index": 245, "premise": "Our group's conversation gradually lulled to silence.", "ask-for": "effect", "hypothesis1": "I felt awkward.", "hypothesis2": "I became enraged."}
+{"index": 246, "premise": "I clenched the candy wrapper in my fist.", "ask-for": "effect", "hypothesis1": "The wrapper crinkled.", "hypothesis2": "The wrapper ripped."}
+{"index": 247, "premise": "The woman pressed down on the piano key.", "ask-for": "effect", "hypothesis1": "A sound played.", "hypothesis2": "The key got stuck."}
+{"index": 248, "premise": "The girl met her favorite actor.", "ask-for": "effect", "hypothesis1": "She went to see his new film.", "hypothesis2": "She asked him for his autograph."}
+{"index": 249, "premise": "The vehicles travelled slowly.", "ask-for": "cause", "hypothesis1": "It was cloudy.", "hypothesis2": "It was foggy."}
+{"index": 250, "premise": "The chandelier shattered on the floor.", "ask-for": "cause", "hypothesis1": "The chandelier dropped from the ceiling.", "hypothesis2": "The chandelier's lights flickered on and off."}
+{"index": 251, "premise": "The cat purred.", "ask-for": "cause", "hypothesis1": "It scratched me.", "hypothesis2": "I petted it."}
+{"index": 252, "premise": "The boy pushed his sister.", "ask-for": "effect", "hypothesis1": "His sister tattled on him.", "hypothesis2": "They played hide and seek."}
+{"index": 253, "premise": "The man gained weight.", "ask-for": "effect", "hypothesis1": "He got his suit altered.", "hypothesis2": "He got his shoes shined."}
+{"index": 254, "premise": "The clouds looked dark.", "ask-for": "effect", "hypothesis1": "I brought my laptop to work.", "hypothesis2": "I brought my umbrella to work."}
+{"index": 255, "premise": "The engine of the airplane was faulty.", "ask-for": "effect", "hypothesis1": "The airplane crashed.", "hypothesis2": "The pilot made an error."}
+{"index": 256, "premise": "Cars moved to the shoulder of the road.", "ask-for": "cause", "hypothesis1": "The traffic light turned green.", "hypothesis2": "A screaming ambulance approached."}
+{"index": 257, "premise": "The boy lost hold of the bar of soap.", "ask-for": "cause", "hypothesis1": "The bar was slippery.", "hypothesis2": "The bar emitted a fragrance."}
+{"index": 258, "premise": "The button on my shirt fell off.", "ask-for": "effect", "hypothesis1": "I sewed the button back on.", "hypothesis2": "I glued the button back on."}
+{"index": 259, "premise": "The celebrity wore sunglasses.", "ask-for": "cause", "hypothesis1": "She wanted to thank her fans.", "hypothesis2": "She wanted to avoid recognition."}
+{"index": 260, "premise": "My grandmother passed away.", "ask-for": "effect", "hypothesis1": "My family held a funeral.", "hypothesis2": "My family held a reunion."}
+{"index": 261, "premise": "The police officer pulled over the celebrity.", "ask-for": "effect", "hypothesis1": "The celebrity offered the officer a bribe.", "hypothesis2": "The celebrity sued the police officer."}
+{"index": 262, "premise": "The man revealed personal information to the therapist.", "ask-for": "cause", "hypothesis1": "He trusted the therapist.", "hypothesis2": "He disagreed with the therapist."}
+{"index": 263, "premise": "The man fell unconscious.", "ask-for": "cause", "hypothesis1": "The assailant struck the man in the head.", "hypothesis2": "The assailant took the man's wallet."}
+{"index": 264, "premise": "I approached the man.", "ask-for": "cause", "hypothesis1": "He looked busy.", "hypothesis2": "He looked familiar."}
+{"index": 265, "premise": "The leader received praise.", "ask-for": "cause", "hypothesis1": "He fought poverty.", "hypothesis2": "He raised taxes."}
+{"index": 266, "premise": "The man read the cartoon in the newspaper.", "ask-for": "effect", "hypothesis1": "He sipped coffee.", "hypothesis2": "He chuckled."}
+{"index": 267, "premise": "My mailbox was overflowing with letters.", "ask-for": "cause", "hypothesis1": "The lid on the mailbox broke.", "hypothesis2": "I went on vacation for two weeks."}
+{"index": 268, "premise": "The bananas ripened.", "ask-for": "effect", "hypothesis1": "We squeezed them.", "hypothesis2": "We ate them."}
+{"index": 269, "premise": "The chef pressed down on the dough.", "ask-for": "effect", "hypothesis1": "The dough crumbled.", "hypothesis2": "The dough flattened."}
+{"index": 270, "premise": "The clay hardened.", "ask-for": "cause", "hypothesis1": "The potter rolled the clay into a ball.", "hypothesis2": "The potter put the clay in the oven."}
+{"index": 271, "premise": "My feet were blistered.", "ask-for": "cause", "hypothesis1": "I went hiking.", "hypothesis2": "I went swimming."}
+{"index": 272, "premise": "The woman betrayed her friend.", "ask-for": "effect", "hypothesis1": "Her friend sent her a greeting card.", "hypothesis2": "Her friend cut off contact with her."}
+{"index": 273, "premise": "The man took notice of the woman.", "ask-for": "cause", "hypothesis1": "He caught a whiff of her perfume.", "hypothesis2": "He had his back turned to her."}
+{"index": 274, "premise": "The woman and her boyfriend got into a fight.", "ask-for": "effect", "hypothesis1": "They stopped seeing each other.", "hypothesis2": "They planned a vacation together."}
+{"index": 275, "premise": "The bully stuck his foot out in front of his classmate.", "ask-for": "effect", "hypothesis1": "The bully picked up his classmate.", "hypothesis2": "The bully's classmate tripped."}
+{"index": 276, "premise": "The man wanted to get revenge on his enemy.", "ask-for": "effect", "hypothesis1": "The man framed his enemy for a crime.", "hypothesis2": "The man declared a truce with his enemy."}
+{"index": 277, "premise": "I drank a cup of coffee.", "ask-for": "effect", "hypothesis1": "My yawning ceased.", "hypothesis2": "I nodded off to sleep."}
+{"index": 278, "premise": "The woman was mistaken for her sister.", "ask-for": "cause", "hypothesis1": "The woman was close with her sister.", "hypothesis2": "The woman looked like her sister."}
+{"index": 279, "premise": "The man made an error in his calculations.", "ask-for": "cause", "hypothesis1": "He checked his work.", "hypothesis2": "His work was hasty."}
+{"index": 280, "premise": "The woman's eyeglasses fogged up.", "ask-for": "cause", "hypothesis1": "She reclined by the pool.", "hypothesis2": "She entered the sauna."}
+{"index": 281, "premise": "The shopper wondered about the cost of the item.", "ask-for": "effect", "hypothesis1": "He checked its price tag.", "hypothesis2": "He decided to buy it."}
+{"index": 282, "premise": "The host of the trivia show called on the contestant for an answer.", "ask-for": "cause", "hypothesis1": "The contestant was in the lead.", "hypothesis2": "The contestant rang the buzzer."}
+{"index": 283, "premise": "The boy was afraid to go to bed.", "ask-for": "cause", "hypothesis1": "He turned on his nightlight.", "hypothesis2": "He watched a horror movie."}
+{"index": 284, "premise": "The woman wanted to be a doctor.", "ask-for": "effect", "hypothesis1": "She visited the hospital.", "hypothesis2": "She went to medical school."}
+{"index": 285, "premise": "The boy found the television show boring.", "ask-for": "effect", "hypothesis1": "He recorded it.", "hypothesis2": "He shut it off."}
+{"index": 286, "premise": "My daughter suffered an allergy attack.", "ask-for": "effect", "hypothesis1": "I encouraged her to take deep breaths.", "hypothesis2": "I took her to the emergency room."}
+{"index": 287, "premise": "The boy had trouble buttoning his shirt.", "ask-for": "effect", "hypothesis1": "He refused to wear the shirt.", "hypothesis2": "He asked his mother for help."}
+{"index": 288, "premise": "I spit out my chewing gum.", "ask-for": "cause", "hypothesis1": "I blew a bubble with the gum.", "hypothesis2": "The gum lost its flavor."}
+{"index": 289, "premise": "The boy painted a picture for his mother.", "ask-for": "effect", "hypothesis1": "His mother hung the picture on the wall.", "hypothesis2": "His mother sold the picture to a gallery."}
+{"index": 290, "premise": "The competition ended.", "ask-for": "effect", "hypothesis1": "The teams got pumped up.", "hypothesis2": "The teams shook hands."}
+{"index": 291, "premise": "The girl politely declined the hamburger.", "ask-for": "cause", "hypothesis1": "She was a vegetarian.", "hypothesis2": "She liked fast food."}
+{"index": 292, "premise": "I scrubbed the stain on the floor.", "ask-for": "effect", "hypothesis1": "I got rid of the stain.", "hypothesis2": "I got dirt on the floor."}
+{"index": 293, "premise": "The documents contained important information.", "ask-for": "effect", "hypothesis1": "I paper clipped them together.", "hypothesis2": "I kept them in a secure place."}
+{"index": 294, "premise": "The egg splattered.", "ask-for": "cause", "hypothesis1": "I dropped it.", "hypothesis2": "I boiled it."}
+{"index": 295, "premise": "The girl pushed her friend.", "ask-for": "effect", "hypothesis1": "Her friend choked.", "hypothesis2": "Her friend fell over."}
+{"index": 296, "premise": "A group of teenagers crashed the party.", "ask-for": "effect", "hypothesis1": "The host of the party kicked them out.", "hypothesis2": "The host of the party invited them in."}
+{"index": 297, "premise": "The man took a shower.", "ask-for": "cause", "hypothesis1": "He was sweaty from working out.", "hypothesis2": "He opened a new bar of soap."}
+{"index": 298, "premise": "The screen on the laptop went black.", "ask-for": "cause", "hypothesis1": "The laptop's warranty expired.", "hypothesis2": "The laptop's battery died."}
+{"index": 299, "premise": "The book became a huge bestseller.", "ask-for": "effect", "hypothesis1": "It was adapted into a movie.", "hypothesis2": "The author faded into obscurity."}
+{"index": 300, "premise": "The man felt thankful to be alive.", "ask-for": "cause", "hypothesis1": "He was cured of cancer.", "hypothesis2": "His wife was diagnosed with cancer."}
+{"index": 301, "premise": "The woman wrote a check to the gas company.", "ask-for": "cause", "hypothesis1": "She preferred paying by cash.", "hypothesis2": "She received her monthly bill."}
+{"index": 302, "premise": "The woman felt reluctant to switch careers.", "ask-for": "cause", "hypothesis1": "She made a lot of money in her current occupation.", "hypothesis2": "She endured a lot of stress in her current occupation."}
+{"index": 303, "premise": "The woman filed a restraining order against the man.", "ask-for": "cause", "hypothesis1": "The man called her.", "hypothesis2": "The man stalked her."}
+{"index": 304, "premise": "The ocean tide was dangerous.", "ask-for": "effect", "hypothesis1": "The swimmers put on more sunscreen.", "hypothesis2": "The swimmers returned towards the shore."}
+{"index": 305, "premise": "The woman refused a second beer.", "ask-for": "cause", "hypothesis1": "She was the designated driver for the night.", "hypothesis2": "She was familiar with the bartender."}
+{"index": 306, "premise": "I ran out of breath.", "ask-for": "cause", "hypothesis1": "I climbed several flights of stairs.", "hypothesis2": "I read several chapters of the book."}
+{"index": 307, "premise": "The woman was deemed mentally ill.", "ask-for": "effect", "hypothesis1": "She was sent to a psychiatric institution.", "hypothesis2": "She sought a career as a psychiatrist."}
+{"index": 308, "premise": "The sun emerged from the clouds.", "ask-for": "effect", "hypothesis1": "The woman glanced at her watch.", "hypothesis2": "The woman took her sweater off."}
+{"index": 309, "premise": "The football coach lost his voice after the game.", "ask-for": "cause", "hypothesis1": "He yelled whenever a player fumbled the ball.", "hypothesis2": "He whistled whenever a player scored a touchdown."}
+{"index": 310, "premise": "The woman complimented the man.", "ask-for": "effect", "hypothesis1": "He sneezed.", "hypothesis2": "He blushed."}
+{"index": 311, "premise": "I applied pressure to the cut on my arm.", "ask-for": "effect", "hypothesis1": "It healed.", "hypothesis2": "It stopped bleeding."}
+{"index": 312, "premise": "The woman had an infection.", "ask-for": "effect", "hypothesis1": "She took antibiotics.", "hypothesis2": "She washed her hands."}
+{"index": 313, "premise": "The woman was summoned for jury duty.", "ask-for": "effect", "hypothesis1": "She contacted her lawyer.", "hypothesis2": "She cancelled her appointments."}
+{"index": 314, "premise": "The woman fanned herself with her hand.", "ask-for": "cause", "hypothesis1": "She installed the air conditioner in the room.", "hypothesis2": "The air conditioner in the room broke."}
+{"index": 315, "premise": "The doctors amputated the patient's leg.", "ask-for": "cause", "hypothesis1": "It was badly bruised.", "hypothesis2": "It was severely infected."}
+{"index": 316, "premise": "The girl stared at herself in the mirror.", "ask-for": "cause", "hypothesis1": "She felt self-conscious.", "hypothesis2": "The mirror was smudged."}
+{"index": 317, "premise": "The man was bitten by mosquitoes.", "ask-for": "cause", "hypothesis1": "He went camping in the woods.", "hypothesis2": "He fell asleep on his couch."}
+{"index": 318, "premise": "The woman presented her brother with a gift.", "ask-for": "effect", "hypothesis1": "Her brother refused to accept the gift.", "hypothesis2": "Her brother unwrapped the gift."}
+{"index": 319, "premise": "The administrator cleared her throat.", "ask-for": "effect", "hypothesis1": "The meeting was postponed.", "hypothesis2": "The meeting commenced."}
+{"index": 320, "premise": "The children ran through the sprinkler.", "ask-for": "cause", "hypothesis1": "They ate popsicles.", "hypothesis2": "They were hot."}
+{"index": 321, "premise": "The man needed coins to fill the parking meter.", "ask-for": "effect", "hypothesis1": "He searched under his car seats for loose change.", "hypothesis2": "He begged people on the street for loose change."}
+{"index": 322, "premise": "The customer thought the souvenir was overpriced.", "ask-for": "effect", "hypothesis1": "The vender sold it to him.", "hypothesis2": "He bargained with the vendor."}
+{"index": 323, "premise": "The scientist gained recognition.", "ask-for": "cause", "hypothesis1": "She discovered a new species.", "hypothesis2": "She received tenure at the university."}
+{"index": 324, "premise": "The car stopped at the crosswalk.", "ask-for": "effect", "hypothesis1": "The pedestrian crossed the road.", "hypothesis2": "The pedestrian waited on the sidewalk."}
+{"index": 325, "premise": "The boy giggled uncontrollably.", "ask-for": "cause", "hypothesis1": "His brother tickled him.", "hypothesis2": "His brother kicked him."}
+{"index": 326, "premise": "My knees buckled on the stairs.", "ask-for": "effect", "hypothesis1": "I caught myself on the railing.", "hypothesis2": "The railing came loose from the wall."}
+{"index": 327, "premise": "I went to bed.", "ask-for": "cause", "hypothesis1": "It was a clear night.", "hypothesis2": "It was late."}
+{"index": 328, "premise": "My friend was recovering from surgery.", "ask-for": "effect", "hypothesis1": "I dropped her off at the hospital.", "hypothesis2": "I brought her a card and flowers."}
+{"index": 329, "premise": "The DJ turned the music on.", "ask-for": "effect", "hypothesis1": "People left the party.", "hypothesis2": "People began to dance."}
+{"index": 330, "premise": "The security guard replayed the surveillance footage.", "ask-for": "cause", "hypothesis1": "The surveillance camera was out of focus.", "hypothesis2": "He noticed some suspicious activity."}
+{"index": 331, "premise": "I lingered in bed upon awakening.", "ask-for": "cause", "hypothesis1": "I was hungry.", "hypothesis2": "It was Saturday."}
+{"index": 332, "premise": "The man lifted the heavy box.", "ask-for": "effect", "hypothesis1": "He put out his back.", "hypothesis2": "He scratched his back."}
+{"index": 333, "premise": "The woman's purse was missing.", "ask-for": "cause", "hypothesis1": "It contained a lot of junk.", "hypothesis2": "She left it unsupervised."}
+{"index": 334, "premise": "The woman suffered amnesia.", "ask-for": "cause", "hypothesis1": "She had an allergic reaction.", "hypothesis2": "She got into a car accident."}
+{"index": 335, "premise": "I needed to get cash.", "ask-for": "effect", "hypothesis1": "I went to the bank.", "hypothesis2": "I bought a wallet."}
+{"index": 336, "premise": "The rider fell to the ground.", "ask-for": "cause", "hypothesis1": "The bull bucked the rider.", "hypothesis2": "The bull chased the rider."}
+{"index": 337, "premise": "The boy wanted to be muscular.", "ask-for": "effect", "hypothesis1": "He lifted weights.", "hypothesis2": "He played computer games."}
+{"index": 338, "premise": "The scientist conducted an experiment.", "ask-for": "effect", "hypothesis1": "She validated her theory.", "hypothesis2": "She fabricated her data."}
+{"index": 339, "premise": "The milk stayed cold.", "ask-for": "cause", "hypothesis1": "It was pasteurized.", "hypothesis2": "I stored it in the refrigerator."}
+{"index": 340, "premise": "The fussy baby calmed down.", "ask-for": "cause", "hypothesis1": "The parents shook a rattle in front of the baby.", "hypothesis2": "The parents picked out a name for the baby."}
+{"index": 341, "premise": "I put ice cubes in the hot soup.", "ask-for": "effect", "hypothesis1": "The soup cooled down.", "hypothesis2": "The soup became thick."}
+{"index": 342, "premise": "The girl shared her lunch with her friend.", "ask-for": "cause", "hypothesis1": "Her friend forgot to bring his lunch.", "hypothesis2": "Her friend sat next to her at lunch."}
+{"index": 343, "premise": "The police closed the investigation.", "ask-for": "cause", "hypothesis1": "They apprehended the suspect.", "hypothesis2": "The victim recovered."}
+{"index": 344, "premise": "The rain subsided.", "ask-for": "effect", "hypothesis1": "I went for a walk.", "hypothesis2": "I browsed the internet."}
+{"index": 345, "premise": "The cup of tea was scalding hot.", "ask-for": "effect", "hypothesis1": "I blew on it.", "hypothesis2": "I poured it out."}
+{"index": 346, "premise": "The photograph faded.", "ask-for": "cause", "hypothesis1": "It was fake.", "hypothesis2": "It was old."}
+{"index": 347, "premise": "The boy got a black eye.", "ask-for": "cause", "hypothesis1": "The bully mocked the boy.", "hypothesis2": "The bully punched the boy."}
+{"index": 348, "premise": "I misplaced my wallet.", "ask-for": "effect", "hypothesis1": "I retrieved my phone.", "hypothesis2": "I retraced my steps."}
+{"index": 349, "premise": "The hunter ran out of ammunition.", "ask-for": "effect", "hypothesis1": "He reloaded the gun.", "hypothesis2": "He aimed at the deer."}
+{"index": 350, "premise": "Marine life diminished.", "ask-for": "cause", "hypothesis1": "Boats sailed through the ocean.", "hypothesis2": "Oil spilled into the ocean."}
+{"index": 351, "premise": "I ran the ice cube under warm water.", "ask-for": "effect", "hypothesis1": "The ice cube stuck to my fingers.", "hypothesis2": "The ice cube vanished."}
+{"index": 352, "premise": "The customer came into the boutique.", "ask-for": "cause", "hypothesis1": "She left her wallet at home.", "hypothesis2": "The window display caught her eye."}
+{"index": 353, "premise": "The man drank water with his meal.", "ask-for": "cause", "hypothesis1": "His meal was cold.", "hypothesis2": "His meal was spicy."}
+{"index": 354, "premise": "The woman stayed away from public places.", "ask-for": "cause", "hypothesis1": "She was contagious.", "hypothesis2": "She was intoxicated."}
+{"index": 355, "premise": "The putrid odor filled the room.", "ask-for": "effect", "hypothesis1": "I clamped my hand over my nose.", "hypothesis2": "I put the rubber gloves on."}
+{"index": 356, "premise": "The employee missed work.", "ask-for": "cause", "hypothesis1": "Her family got in touch with her.", "hypothesis2": "There was a death in her family."}
+{"index": 357, "premise": "The magnet attracted the paperclip.", "ask-for": "effect", "hypothesis1": "The paperclip dropped from the magnet.", "hypothesis2": "The paperclip stuck to the magnet."}
+{"index": 358, "premise": "The gardener pulled the weeds.", "ask-for": "effect", "hypothesis1": "The weeds came out of the soil.", "hypothesis2": "The weeds produced seeds."}
+{"index": 359, "premise": "We ordered a pizza.", "ask-for": "effect", "hypothesis1": "The pizza was delivered.", "hypothesis2": "The pizza got cold."}
+{"index": 360, "premise": "The teenager grew taller than his father.", "ask-for": "cause", "hypothesis1": "He went through a growth spurt.", "hypothesis2": "He joined the basketball team."}
+{"index": 361, "premise": "The patient underwent the risky medical procedure.", "ask-for": "cause", "hypothesis1": "The procedure was costly.", "hypothesis2": "Specialists recommended the procedure."}
+{"index": 362, "premise": "The man caught his shirtsleeve on the rungs of the fence.", "ask-for": "effect", "hypothesis1": "He hopped the fence.", "hypothesis2": "The sleeve ripped."}
+{"index": 363, "premise": "The investigators deemed the man's death a suicide.", "ask-for": "cause", "hypothesis1": "He left a note.", "hypothesis2": "He had children."}
+{"index": 364, "premise": "The computer crashed.", "ask-for": "cause", "hypothesis1": "I backed up my files.", "hypothesis2": "I downloaded a virus."}
+{"index": 365, "premise": "The girl's mouth ached.", "ask-for": "cause", "hypothesis1": "She lost a tooth.", "hypothesis2": "She swallowed her gum."}
+{"index": 366, "premise": "The room was dim.", "ask-for": "effect", "hypothesis1": "I opened the blinds.", "hypothesis2": "I washed the windows."}
+{"index": 367, "premise": "The father put his daughter in her stroller.", "ask-for": "cause", "hypothesis1": "She learned to walk.", "hypothesis2": "He was tired of carrying her."}
+{"index": 368, "premise": "The spy discovered the enemy's location.", "ask-for": "cause", "hypothesis1": "The spy bugged the enemy's phone.", "hypothesis2": "The spy was hired by the government."}
+{"index": 369, "premise": "The glasses on the table spilled.", "ask-for": "cause", "hypothesis1": "The child drew on the table.", "hypothesis2": "The child yanked the tablecloth."}
+{"index": 370, "premise": "The water in the teapot started to boil.", "ask-for": "effect", "hypothesis1": "The teapot cooled.", "hypothesis2": "The teapot whistled."}
+{"index": 371, "premise": "The city re-elected the mayor.", "ask-for": "cause", "hypothesis1": "The city cut its budget.", "hypothesis2": "The mayor fulfilled his promises."}
+{"index": 372, "premise": "The woman exaggerated the details of the story.", "ask-for": "cause", "hypothesis1": "She wanted attention.", "hypothesis2": "She felt shy."}
+{"index": 373, "premise": "The woman hit a midlife crisis.", "ask-for": "effect", "hypothesis1": "She retired.", "hypothesis2": "She went sky diving."}
+{"index": 374, "premise": "The man went into denial about the tragedy.", "ask-for": "effect", "hypothesis1": "He got over it easily.", "hypothesis2": "He refused to talk about it."}
+{"index": 375, "premise": "The man grieved.", "ask-for": "cause", "hypothesis1": "His wife criticized him.", "hypothesis2": "His mother passed away."}
+{"index": 376, "premise": "The girl had a phobia of dogs.", "ask-for": "cause", "hypothesis1": "She rescued an abandoned dog.", "hypothesis2": "She was bitten by a dog."}
+{"index": 377, "premise": "I made a resolution to eat a healthy diet.", "ask-for": "effect", "hypothesis1": "I attended a yoga class.", "hypothesis2": "I bought fruits and vegetables."}
+{"index": 378, "premise": "The patient went into a coma.", "ask-for": "cause", "hypothesis1": "He suffered emotional trauma.", "hypothesis2": "He suffered brain damage."}
+{"index": 379, "premise": "The friends' dinnertime conversation turned to politics.", "ask-for": "effect", "hypothesis1": "The conversation quieted down.", "hypothesis2": "A debate erupted."}
+{"index": 380, "premise": "The woman spotted her friend from across the room.", "ask-for": "cause", "hypothesis1": "The woman waved.", "hypothesis2": "The woman escaped."}
+{"index": 381, "premise": "The mother needed help looking after her children.", "ask-for": "effect", "hypothesis1": "She sent the children to daycare.", "hypothesis2": "She gave up custody of the children."}
+{"index": 382, "premise": "The driver honked her horn.", "ask-for": "cause", "hypothesis1": "Another car swerved into her lane.", "hypothesis2": "She made a right turn at the light."}
+{"index": 383, "premise": "The man wanted to save money.", "ask-for": "effect", "hypothesis1": "He withdrew money from his savings account.", "hypothesis2": "He cut back on making frivolous purchases."}
+{"index": 384, "premise": "I put shoes on.", "ask-for": "cause", "hypothesis1": "The floor contained broken glass.", "hypothesis2": "The paint on the walls was wet."}
+{"index": 385, "premise": "The librarian located the book in the stacks.", "ask-for": "cause", "hypothesis1": "I requested the librarian's help.", "hypothesis2": "The book was checked out."}
+{"index": 386, "premise": "The mother became eye level with her son.", "ask-for": "cause", "hypothesis1": "She squatted down.", "hypothesis2": "She held his hand."}
+{"index": 387, "premise": "I packed up my belongings.", "ask-for": "cause", "hypothesis1": "I was hunting for a new apartment.", "hypothesis2": "I was moving out of my apartment."}
+{"index": 388, "premise": "The boy mimicked his older brother.", "ask-for": "cause", "hypothesis1": "The boy looked up to his older brother.", "hypothesis2": "The boy wrestled with his older brother."}
+{"index": 389, "premise": "The girl desired her parent's approval.", "ask-for": "effect", "hypothesis1": "She ran away from home.", "hypothesis2": "She obeyed her parent's rules."}
+{"index": 390, "premise": "The truck crashed into the motorcycle on the bridge.", "ask-for": "effect", "hypothesis1": "The motorcyclist died.", "hypothesis2": "The bridge collapsed."}
+{"index": 391, "premise": "The retail shop shut down.", "ask-for": "cause", "hypothesis1": "Its sales were lagging.", "hypothesis2": "It renewed its lease."}
+{"index": 392, "premise": "The swimmer won the race.", "ask-for": "effect", "hypothesis1": "She received a gold medal.", "hypothesis2": "Her team lost the meet."}
+{"index": 393, "premise": "Air pollution in the city worsened.", "ask-for": "cause", "hypothesis1": "Factories increased their production.", "hypothesis2": "Factories shut down."}
+{"index": 394, "premise": "The mother scolded her daughter.", "ask-for": "cause", "hypothesis1": "Her daughter burped at the kitchen table.", "hypothesis2": "Her daughter set the kitchen table."}
+{"index": 395, "premise": "I excused myself from the group.", "ask-for": "cause", "hypothesis1": "I turned off my phone.", "hypothesis2": "My phone rang."}
+{"index": 396, "premise": "The skier slipped on the slope.", "ask-for": "cause", "hypothesis1": "She dropped her ski poles.", "hypothesis2": "She hit a patch of ice."}
+{"index": 397, "premise": "The print on the brochure was tiny.", "ask-for": "effect", "hypothesis1": "The man put his glasses on.", "hypothesis2": "The man retrieved a pen from his pocket."}
+{"index": 398, "premise": "I flipped the light switch up and down.", "ask-for": "effect", "hypothesis1": "The light faded.", "hypothesis2": "The light flickered."}
+{"index": 399, "premise": "The man's watch was broken.", "ask-for": "effect", "hypothesis1": "He waited at the bus stop.", "hypothesis2": "He asked a stranger for the time."}
+{"index": 400, "premise": "The soldiers were concealed in the brush.", "ask-for": "cause", "hypothesis1": "They were armed with rifles.", "hypothesis2": "They wore camouflage uniforms."}
+{"index": 401, "premise": "The man turned on the faucet.", "ask-for": "effect", "hypothesis1": "The toilet filled with water.", "hypothesis2": "Water flowed from the spout."}
+{"index": 402, "premise": "The girl found a bug in her cereal.", "ask-for": "effect", "hypothesis1": "She poured milk in the bowl.", "hypothesis2": "She lost her appetite."}
+{"index": 403, "premise": "The woman retired.", "ask-for": "effect", "hypothesis1": "She received her pension.", "hypothesis2": "She paid off her mortgage."}
+{"index": 404, "premise": "I wanted to conserve energy.", "ask-for": "effect", "hypothesis1": "I swept the floor in the unoccupied room.", "hypothesis2": "I shut off the light in the unoccupied room."}
+{"index": 405, "premise": "The hamburger meat browned.", "ask-for": "cause", "hypothesis1": "The cook froze it.", "hypothesis2": "The cook grilled it."}
+{"index": 406, "premise": "I doubted the salesman's pitch.", "ask-for": "effect", "hypothesis1": "I turned his offer down.", "hypothesis2": "He persuaded me to buy the product."}
+{"index": 407, "premise": "I decided to stay home for the night.", "ask-for": "cause", "hypothesis1": "The forecast called for storms.", "hypothesis2": "My friends urged me to go out."}
+{"index": 408, "premise": "My eyes became red and puffy.", "ask-for": "cause", "hypothesis1": "I was sobbing.", "hypothesis2": "I was laughing."}
+{"index": 409, "premise": "The flame on the candle went out.", "ask-for": "cause", "hypothesis1": "I blew on the wick.", "hypothesis2": "I put a match to the wick."}
+{"index": 410, "premise": "The man drank heavily at the party.", "ask-for": "effect", "hypothesis1": "He had a headache the next day.", "hypothesis2": "He had a runny nose the next day."}
+{"index": 411, "premise": "The bowling ball knocked over the bowling pins.", "ask-for": "cause", "hypothesis1": "The man rolled the bowling ball down the alley.", "hypothesis2": "The man dropped the bowling ball on his foot."}
+{"index": 412, "premise": "The community learned of the man's death.", "ask-for": "cause", "hypothesis1": "His family buried him in the cemetery.", "hypothesis2": "His obituary appeared in the newspaper."}
+{"index": 413, "premise": "My computer crashed.", "ask-for": "effect", "hypothesis1": "I installed new speakers.", "hypothesis2": "I lost all my data."}
+{"index": 414, "premise": "The woman resigned from her job.", "ask-for": "cause", "hypothesis1": "She aspired to hold an executive position in the firm.", "hypothesis2": "She believed her superiors were acting unethically."}
+{"index": 415, "premise": "The player caught the ball.", "ask-for": "cause", "hypothesis1": "Her teammate threw it to her.", "hypothesis2": "Her opponent tried to intercept it."}
+{"index": 416, "premise": "The judge pounded the gavel.", "ask-for": "cause", "hypothesis1": "The courtroom broke into uproar.", "hypothesis2": "The jury announced its verdict."}
+{"index": 417, "premise": "The woman banished the children from her property.", "ask-for": "cause", "hypothesis1": "The children hit a ball into her yard.", "hypothesis2": "The children trampled through her garden."}
+{"index": 418, "premise": "The kidnappers released the hostage.", "ask-for": "cause", "hypothesis1": "They accepted ransom money.", "hypothesis2": "They escaped from jail."}
+{"index": 419, "premise": "The cook's eyes watered.", "ask-for": "cause", "hypothesis1": "He ran out of onions.", "hypothesis2": "He cut an onion."}
+{"index": 420, "premise": "The woman ran her finger under cold water.", "ask-for": "cause", "hypothesis1": "She burned her finger on the toaster.", "hypothesis2": "She put a diamond ring on her finger."}
+{"index": 421, "premise": "The student misspelled the word.", "ask-for": "effect", "hypothesis1": "The teacher corrected her.", "hypothesis2": "The teacher dismissed her."}
+{"index": 422, "premise": "I regained composure from my fit of anger.", "ask-for": "cause", "hypothesis1": "My heart pounded.", "hypothesis2": "I took deep breaths."}
+{"index": 423, "premise": "I put my hands under the running faucet.", "ask-for": "effect", "hypothesis1": "The soap rinsed off my hands.", "hypothesis2": "The water splashed in my face."}
+{"index": 424, "premise": "The man dressed in his best suit.", "ask-for": "cause", "hypothesis1": "He scheduled a meeting with an important client.", "hypothesis2": "His wife bought him a new tie."}
+{"index": 425, "premise": "The man confessed his love for the woman.", "ask-for": "effect", "hypothesis1": "The woman rejected him.", "hypothesis2": "The woman envied him."}
+{"index": 426, "premise": "The driver got a flat tire.", "ask-for": "cause", "hypothesis1": "He went over the speed limit.", "hypothesis2": "He ran over a nail."}
+{"index": 427, "premise": "My view of the movie screen was blocked.", "ask-for": "cause", "hypothesis1": "The couple behind me was whispering.", "hypothesis2": "A tall person was sitting in front of me."}
+{"index": 428, "premise": "The driver turned on the car's headlights.", "ask-for": "cause", "hypothesis1": "He heard thunder.", "hypothesis2": "The sun went down."}
+{"index": 429, "premise": "The girl refused to eat her vegetables.", "ask-for": "effect", "hypothesis1": "Her father told her to drink her milk.", "hypothesis2": "Her father took away her dessert."}
+{"index": 430, "premise": "The woman covered her mouth with her hand.", "ask-for": "cause", "hypothesis1": "She exhaled.", "hypothesis2": "She sneezed."}
+{"index": 431, "premise": "The secretary put the caller on hold.", "ask-for": "effect", "hypothesis1": "The caller's phone lost reception.", "hypothesis2": "The caller waited on the line."}
+{"index": 432, "premise": "The woman walked with crutches.", "ask-for": "cause", "hypothesis1": "She shaved her legs.", "hypothesis2": "She broke her leg."}
+{"index": 433, "premise": "I coughed.", "ask-for": "cause", "hypothesis1": "I inhaled smoke.", "hypothesis2": "I lowered my voice."}
+{"index": 434, "premise": "The clock chimed.", "ask-for": "cause", "hypothesis1": "It was the top of the hour.", "hypothesis2": "The hour seemed to drag on."}
+{"index": 435, "premise": "The chef hit the egg on the side of the bowl.", "ask-for": "effect", "hypothesis1": "The egg cracked.", "hypothesis2": "The egg rotted."}
+{"index": 436, "premise": "The police searched the offender's car.", "ask-for": "cause", "hypothesis1": "They were trying to elicit a confession.", "hypothesis2": "They were looking for illegal drugs."}
+{"index": 437, "premise": "The couple travelled south for the winter.", "ask-for": "cause", "hypothesis1": "They were retired.", "hypothesis2": "They were separated."}
+{"index": 438, "premise": "The man felt obligated to attend the event.", "ask-for": "cause", "hypothesis1": "He turned down his friend's invitation to go.", "hypothesis2": "He promised his friend that he would go."}
+{"index": 439, "premise": "The bride got cold feet before the wedding.", "ask-for": "effect", "hypothesis1": "The wedding guests brought gifts.", "hypothesis2": "She called the wedding off."}
+{"index": 440, "premise": "The man grew old.", "ask-for": "effect", "hypothesis1": "His hair turned gray.", "hypothesis2": "He sold his belongings."}
+{"index": 441, "premise": "The friends decided to share the hamburger.", "ask-for": "effect", "hypothesis1": "They cut the hamburger in half.", "hypothesis2": "They ordered fries with the hamburger."}
+{"index": 442, "premise": "I twisted the cap off the soda bottle.", "ask-for": "effect", "hypothesis1": "The soda fizzed.", "hypothesis2": "The soda leaked out."}
+{"index": 443, "premise": "The pair of students came under scrutiny by the teacher.", "ask-for": "cause", "hypothesis1": "The students both received excellent grades.", "hypothesis2": "Their responses on the assignment were identical."}
+{"index": 444, "premise": "The student was in a rush to get to school on time.", "ask-for": "effect", "hypothesis1": "He left his assignment at home.", "hypothesis2": "He brought his lunch to school."}
+{"index": 445, "premise": "The journalist wrote a biography about the humanitarian's life.", "ask-for": "cause", "hypothesis1": "The humanitarian was difficult for the journalist to interview.", "hypothesis2": "The journalist was intrigued by the humanitarian's work."}
+{"index": 446, "premise": "The man defied the authorities of the church.", "ask-for": "effect", "hypothesis1": "He donated money to the church.", "hypothesis2": "He was excommunicated from the church."}
+{"index": 447, "premise": "The woman's hair fell in her face.", "ask-for": "effect", "hypothesis1": "She pulled her hair back with a clip.", "hypothesis2": "She lathered shampoo into her hair."}
+{"index": 448, "premise": "The ring on my finger got stuck.", "ask-for": "cause", "hypothesis1": "My finger swelled.", "hypothesis2": "I chipped my fingernail."}
+{"index": 449, "premise": "I pulled the rubber band.", "ask-for": "effect", "hypothesis1": "It flung across the room.", "hypothesis2": "It stretched."}
+{"index": 450, "premise": "I pressed my hand into the wet cement.", "ask-for": "effect", "hypothesis1": "My handprint dried in the cement.", "hypothesis2": "Cracks emerged in the cement."}
+{"index": 451, "premise": "My skin broke out into a rash.", "ask-for": "cause", "hypothesis1": "I brushed against poison ivy in my yard.", "hypothesis2": "I eradicated the poison ivy from my yard."}
+{"index": 452, "premise": "My subscription to the magazine expired.", "ask-for": "effect", "hypothesis1": "I discarded the new issue.", "hypothesis2": "I stopped receiving new issues."}
+{"index": 453, "premise": "The detective revealed an anomaly in the case.", "ask-for": "effect", "hypothesis1": "He finalized his theory.", "hypothesis2": "He scrapped his theory."}
+{"index": 454, "premise": "The boy threw a temper tantrum.", "ask-for": "cause", "hypothesis1": "His brother took his toys from him.", "hypothesis2": "He shared his toys with his brother."}
+{"index": 455, "premise": "The child learned how to read.", "ask-for": "cause", "hypothesis1": "He began attending school.", "hypothesis2": "He skipped a grade in school."}
+{"index": 456, "premise": "The boy skipped dinner.", "ask-for": "cause", "hypothesis1": "His mother cooked his favorite meal.", "hypothesis2": "He ate a big lunch."}
+{"index": 457, "premise": "The woman lavished her friend with flattery.", "ask-for": "cause", "hypothesis1": "She wanted to ask her friend for a favor.", "hypothesis2": "She was irritated with her friend's whining."}
+{"index": 458, "premise": "The key was missing from my pants pocket.", "ask-for": "cause", "hypothesis1": "The pocket had a hole.", "hypothesis2": "The pants were new."}
+{"index": 459, "premise": "The man fainted.", "ask-for": "cause", "hypothesis1": "He took a nap.", "hypothesis2": "He ran a marathon."}
+{"index": 460, "premise": "The man lost the competition.", "ask-for": "cause", "hypothesis1": "The competition was sabotaged.", "hypothesis2": "He intimidated his competitors."}
+{"index": 461, "premise": "The mother called an ambulance.", "ask-for": "cause", "hypothesis1": "Her son lost his cat.", "hypothesis2": "Her son fell out of his bed."}
+{"index": 462, "premise": "The driver slammed on his brakes.", "ask-for": "cause", "hypothesis1": "A deer appeared on the road.", "hypothesis2": "The car radio shut off."}
+{"index": 463, "premise": "The lock opened.", "ask-for": "cause", "hypothesis1": "I turned the key in the lock.", "hypothesis2": "I made a duplicate of the key."}
+{"index": 464, "premise": "I put rubber gloves on.", "ask-for": "cause", "hypothesis1": "I was preparing to wash my hands.", "hypothesis2": "I was preparing to clean the bathroom."}
+{"index": 465, "premise": "The animal species became endangered.", "ask-for": "cause", "hypothesis1": "Their habitat was destroyed.", "hypothesis2": "Their predators went extinct."}
+{"index": 466, "premise": "The man perceived that the woman looked different.", "ask-for": "cause", "hypothesis1": "The woman got her hair cut.", "hypothesis2": "The woman wore a bracelet."}
+{"index": 467, "premise": "The student forgot to do her assignment.", "ask-for": "effect", "hypothesis1": "She made up an excuse to tell the teacher.", "hypothesis2": "The teacher promoted her to the next grade."}
+{"index": 468, "premise": "The dog barked.", "ask-for": "cause", "hypothesis1": "The cat lounged on the couch.", "hypothesis2": "A knock sounded at the door."}
+{"index": 469, "premise": "Plans were announced to replace a local park with a shopping mall.", "ask-for": "effect", "hypothesis1": "Environmentalists started a petition.", "hypothesis2": "Environmentalists produced a documentary."}
+{"index": 470, "premise": "The couple was happy to see each other.", "ask-for": "effect", "hypothesis1": "They kissed.", "hypothesis2": "They rested."}
+{"index": 471, "premise": "The woman asked the man to leave.", "ask-for": "cause", "hypothesis1": "He insulted her.", "hypothesis2": "He thanked her."}
+{"index": 472, "premise": "The tree branch landed in the river.", "ask-for": "effect", "hypothesis1": "The branch moved downstream.", "hypothesis2": "The river's current became stronger."}
+{"index": 473, "premise": "The teacher assigned homework to the students.", "ask-for": "effect", "hypothesis1": "The students passed notes.", "hypothesis2": "The students groaned."}
+{"index": 474, "premise": "The seasons changed from summer to autumn.", "ask-for": "effect", "hypothesis1": "People evacuated their homes.", "hypothesis2": "Leaves fell from the trees."}
+{"index": 475, "premise": "The politician was convicted of fraud.", "ask-for": "effect", "hypothesis1": "He campaigned for re-election.", "hypothesis2": "He was removed from office."}
+{"index": 476, "premise": "I pushed the wagon.", "ask-for": "effect", "hypothesis1": "The objects in the wagon fell out.", "hypothesis2": "The wagon wheels spun forward."}
+{"index": 477, "premise": "The lobbyist persuaded the legislature to support the bill.", "ask-for": "effect", "hypothesis1": "The president vetoed the bill.", "hypothesis2": "The legislature passed the bill."}
+{"index": 478, "premise": "My closet was messy.", "ask-for": "effect", "hypothesis1": "I organized it.", "hypothesis2": "I decorated it."}
+{"index": 479, "premise": "I stayed up late.", "ask-for": "effect", "hypothesis1": "I had vivid dreams that night.", "hypothesis2": "I was tired in the morning."}
+{"index": 480, "premise": "The man's pocket jingled as he walked.", "ask-for": "cause", "hypothesis1": "His pocket was filled with coins.", "hypothesis2": "He sewed the hole in his pocket."}
+{"index": 481, "premise": "Everyone in the class turned to stare at the student.", "ask-for": "cause", "hypothesis1": "The student's phone rang.", "hypothesis2": "The student took notes."}
+{"index": 482, "premise": "The horse bucked.", "ask-for": "cause", "hypothesis1": "A fly bit the horse.", "hypothesis2": "The rider stroked the horse."}
+{"index": 483, "premise": "The jewelry thieves were caught.", "ask-for": "effect", "hypothesis1": "The stolen jewelry was returned to its owners.", "hypothesis2": "The cost of the stolen jewelry was calculated."}
+{"index": 484, "premise": "Political violence broke out in the nation.", "ask-for": "effect", "hypothesis1": "Many citizens relocated to the capitol.", "hypothesis2": "Many citizens took refuge in other territories."}
+{"index": 485, "premise": "The woman was arrested.", "ask-for": "cause", "hypothesis1": "She checked into rehab.", "hypothesis2": "She committed assault."}
+{"index": 486, "premise": "The woman read the newspaper.", "ask-for": "effect", "hypothesis1": "She discovered the outcome of the election.", "hypothesis2": "She casted a vote in the election."}
+{"index": 487, "premise": "The sick child coughed on his friend.", "ask-for": "effect", "hypothesis1": "His friend got sick.", "hypothesis2": "His friend sneezed."}
+{"index": 488, "premise": "The couple got engaged.", "ask-for": "effect", "hypothesis1": "They planned a wedding.", "hypothesis2": "They took some time apart."}
+{"index": 489, "premise": "The woman contacted the real estate agent.", "ask-for": "cause", "hypothesis1": "The woman planned to buy a condo.", "hypothesis2": "The woman needed to clean her house."}
+{"index": 490, "premise": "The man won the lottery.", "ask-for": "effect", "hypothesis1": "He became rich.", "hypothesis2": "He owed money."}
+{"index": 491, "premise": "I lit the candle.", "ask-for": "effect", "hypothesis1": "Wax dripped off the candle.", "hypothesis2": "The wax on the candle hardened."}
+{"index": 492, "premise": "I spent the day at the pool.", "ask-for": "effect", "hypothesis1": "I sprained my ankle.", "hypothesis2": "My face got sunburned."}
+{"index": 493, "premise": "The man received a parking ticket.", "ask-for": "cause", "hypothesis1": "He parallel parked on the street.", "hypothesis2": "The parking meter expired."}
+{"index": 494, "premise": "The woman became famous.", "ask-for": "effect", "hypothesis1": "Photographers followed her.", "hypothesis2": "Her family avoided her."}
+{"index": 495, "premise": "The girl wanted to wear earrings.", "ask-for": "effect", "hypothesis1": "She got her ears pierced.", "hypothesis2": "She got a tattoo."}
+{"index": 496, "premise": "My ears were ringing.", "ask-for": "cause", "hypothesis1": "I went to a museum.", "hypothesis2": "I went to a concert."}
+{"index": 497, "premise": "I tidied up my house.", "ask-for": "cause", "hypothesis1": "I was swamped with work.", "hypothesis2": "I was expecting company."}
+{"index": 498, "premise": "The airline mishandled my luggage.", "ask-for": "effect", "hypothesis1": "They offered me compensation.", "hypothesis2": "They cancelled my flight."}
+{"index": 499, "premise": "The computer was expensive to fix.", "ask-for": "effect", "hypothesis1": "I got it repaired.", "hypothesis2": "I bought a new one."}
+{"index": 500, "premise": "The woman was in a bad mood.", "ask-for": "effect", "hypothesis1": "She engaged in small talk with her friend.", "hypothesis2": "She told her friend to leave her alone."}
+{"index": 501, "premise": "The item was packaged in bubble wrap.", "ask-for": "cause", "hypothesis1": "It was fragile.", "hypothesis2": "It was small."}
+{"index": 502, "premise": "I emptied my pockets.", "ask-for": "effect", "hypothesis1": "I retrieved a ticket stub.", "hypothesis2": "I found a weapon."}
+{"index": 503, "premise": "Termites invaded the house.", "ask-for": "effect", "hypothesis1": "The termites disappeared from the house.", "hypothesis2": "The termites ate through the wood in the house."}
+{"index": 504, "premise": "The travelers reached the border.", "ask-for": "effect", "hypothesis1": "The patrol agent checked their passports.", "hypothesis2": "The patrol agent accused them of smuggling."}
+{"index": 505, "premise": "The office was closed.", "ask-for": "cause", "hypothesis1": "It was a holiday.", "hypothesis2": "It was summer."}
+{"index": 506, "premise": "The girl ran out of energy.", "ask-for": "cause", "hypothesis1": "She played checkers.", "hypothesis2": "She jumped rope."}
+{"index": 507, "premise": "The woman lost her place in line.", "ask-for": "cause", "hypothesis1": "More people entered the line.", "hypothesis2": "She stepped out of the line."}
+{"index": 508, "premise": "The girl pinched her nose.", "ask-for": "cause", "hypothesis1": "The baby drooled on her bib.", "hypothesis2": "The baby soiled her diaper."}
+{"index": 509, "premise": "The band played their hit song.", "ask-for": "effect", "hypothesis1": "The audience clapped along to the music.", "hypothesis2": "The audience politely listened in silence."}
+{"index": 510, "premise": "The girl wanted to thank her math teacher.", "ask-for": "effect", "hypothesis1": "The girl stayed after school for detention.", "hypothesis2": "The girl brought the teacher an apple."}
+{"index": 511, "premise": "The young campers felt scared.", "ask-for": "cause", "hypothesis1": "Their camp counselor told them a ghost story.", "hypothesis2": "They toasted marshmallows on the campfire."}
+{"index": 512, "premise": "The man hit his head.", "ask-for": "effect", "hypothesis1": "He got lost in thought.", "hypothesis2": "He got a concussion."}
+{"index": 513, "premise": "The check I wrote bounced.", "ask-for": "cause", "hypothesis1": "My bank account was empty.", "hypothesis2": "I earned a pay raise."}
+{"index": 514, "premise": "The man's email inbox was full of spam.", "ask-for": "effect", "hypothesis1": "He deleted the spam.", "hypothesis2": "He sent out a mass email."}
+{"index": 515, "premise": "The sailor was quarantined.", "ask-for": "cause", "hypothesis1": "He was exposed to the disease.", "hypothesis2": "He recovered from the disease."}
+{"index": 516, "premise": "The girl memorized the code.", "ask-for": "cause", "hypothesis1": "She recited it to herself.", "hypothesis2": "She forgot to write it down."}
+{"index": 517, "premise": "I poured the water into the glass.", "ask-for": "effect", "hypothesis1": "The water quenched my thirst.", "hypothesis2": "The glass became full."}
+{"index": 518, "premise": "The man remained silent when his friend finishing speaking.", "ask-for": "cause", "hypothesis1": "He wanted to offer his friend support.", "hypothesis2": "He was thinking about his friend's words."}
+{"index": 519, "premise": "The accident was my fault.", "ask-for": "effect", "hypothesis1": "I felt guilty.", "hypothesis2": "I pressed charges."}
+{"index": 520, "premise": "The chain came apart.", "ask-for": "cause", "hypothesis1": "The chain was wrapped around a tire.", "hypothesis2": "There was a broken link in the chain."}
+{"index": 521, "premise": "The couple decided to compromise.", "ask-for": "cause", "hypothesis1": "They grew tired of arguing.", "hypothesis2": "They avoided discussing the problem."}
+{"index": 522, "premise": "The woman decided to run for public office.", "ask-for": "effect", "hypothesis1": "She hired a campaign manager.", "hypothesis2": "She testified in court."}
+{"index": 523, "premise": "The man anticipated cold weather on his trip.", "ask-for": "effect", "hypothesis1": "He packed warm clothing in his suitcase.", "hypothesis2": "He travelled with a big suitcase."}
+{"index": 524, "premise": "The student knew the answer to the question.", "ask-for": "effect", "hypothesis1": "He raised his hand.", "hypothesis2": "He goofed off."}
+{"index": 525, "premise": "The man's eyes watered.", "ask-for": "cause", "hypothesis1": "Dust got into his eyes.", "hypothesis2": "He put goggles over his eyes."}
+{"index": 526, "premise": "The player won five games in a row.", "ask-for": "effect", "hypothesis1": "Her opponent accused her of cheating.", "hypothesis2": "Her opponent felt sorry for her."}
+{"index": 527, "premise": "The teacher tore up the student's exam.", "ask-for": "cause", "hypothesis1": "He caught the student cheating.", "hypothesis2": "The student's answers were incorrect."}
+{"index": 528, "premise": "I paused to stop talking.", "ask-for": "cause", "hypothesis1": "I lost my voice.", "hypothesis2": "I ran out of breath."}
+{"index": 529, "premise": "The frozen food thawed.", "ask-for": "cause", "hypothesis1": "I put it in the microwave.", "hypothesis2": "I covered it with plastic wrap."}
+{"index": 530, "premise": "The employee faked sick.", "ask-for": "cause", "hypothesis1": "He had stomach cramps.", "hypothesis2": "He wanted a day off."}
+{"index": 531, "premise": "The girl landed in the pool.", "ask-for": "cause", "hypothesis1": "She ran on the pool deck.", "hypothesis2": "She jumped off the diving board."}
+{"index": 532, "premise": "The movie tickets sold out.", "ask-for": "cause", "hypothesis1": "It was opening day for the movie.", "hypothesis2": "The movie received poor reviews."}
+{"index": 533, "premise": "The man lost weight.", "ask-for": "effect", "hypothesis1": "People isolated him.", "hypothesis2": "People complimented him."}
+{"index": 534, "premise": "The girl's hands became blistered.", "ask-for": "cause", "hypothesis1": "She typed up a letter.", "hypothesis2": "She climbed up a rope."}
+{"index": 535, "premise": "The circus performer juggled while riding a unicycle.", "ask-for": "effect", "hypothesis1": "The audience cheered in astonishment.", "hypothesis2": "The acrobat swung from a trapeze."}
+{"index": 536, "premise": "I lost my patience.", "ask-for": "cause", "hypothesis1": "My friend kept me waiting.", "hypothesis2": "My friend arrived on time."}
+{"index": 537, "premise": "The warring countries wanted peace.", "ask-for": "effect", "hypothesis1": "They developed nuclear weapons.", "hypothesis2": "They negotiated a treaty."}
+{"index": 538, "premise": "The man took sleeping medication.", "ask-for": "effect", "hypothesis1": "He became drowsy.", "hypothesis2": "He ran a fever."}
+{"index": 539, "premise": "The woman bumped into the sofa.", "ask-for": "effect", "hypothesis1": "The leg of the sofa came loose.", "hypothesis2": "She bruised her knee."}
+{"index": 540, "premise": "The boy squeezed the balloon.", "ask-for": "effect", "hypothesis1": "The balloon popped.", "hypothesis2": "The balloon flew away."}
+{"index": 541, "premise": "They travelers checked into their hotel room.", "ask-for": "effect", "hypothesis1": "They unpacked their suitcases.", "hypothesis2": "They went to the airport."}
+{"index": 542, "premise": "I bit into the peach.", "ask-for": "effect", "hypothesis1": "The peach bruised.", "hypothesis2": "Juice spilled out."}
+{"index": 543, "premise": "My hands became sticky.", "ask-for": "cause", "hypothesis1": "I ate a doughnut.", "hypothesis2": "I had a sweet tooth."}
+{"index": 544, "premise": "I pushed the door.", "ask-for": "effect", "hypothesis1": "The door opened.", "hypothesis2": "The door locked."}
+{"index": 545, "premise": "Activists boycotted the products.", "ask-for": "cause", "hypothesis1": "The products were tested for quality assurance.", "hypothesis2": "The products were manufactured through child labor."}
+{"index": 546, "premise": "I drilled a hole in the wall.", "ask-for": "effect", "hypothesis1": "A mouse crawled out of the hole.", "hypothesis2": "Dust blew out of the hole."}
+{"index": 547, "premise": "The woman felt envious of her sister.", "ask-for": "cause", "hypothesis1": "Her sister was happy.", "hypothesis2": "Her sister got divorced."}
+{"index": 548, "premise": "I spilled wine on my shirt.", "ask-for": "effect", "hypothesis1": "I put on an apron.", "hypothesis2": "I changed my shirt."}
+{"index": 549, "premise": "The cashier opened the cash register.", "ask-for": "cause", "hypothesis1": "The customer searched his wallet.", "hypothesis2": "The customer handed her money."}
+{"index": 550, "premise": "The street musician attracted a crowd.", "ask-for": "effect", "hypothesis1": "People gave him change.", "hypothesis2": "He sent the crowd away."}
+{"index": 551, "premise": "The little boy cried to his babysitter.", "ask-for": "cause", "hypothesis1": "He missed his parents.", "hypothesis2": "It was snack time."}
+{"index": 552, "premise": "The pilot's radar detected a storm.", "ask-for": "effect", "hypothesis1": "The pilot navigated away from the storm.", "hypothesis2": "The pilot flew through the storm."}
+{"index": 553, "premise": "The tree shed its leaves.", "ask-for": "effect", "hypothesis1": "The leaves turned colors.", "hypothesis2": "The leaves accumulated on the ground."}
+{"index": 554, "premise": "The boy was in a mischievous mood.", "ask-for": "effect", "hypothesis1": "He decided to play a card game with his sister.", "hypothesis2": "He decided to play a practical joke on his sister."}
+{"index": 555, "premise": "The child complained that he had to go to the bathroom.", "ask-for": "effect", "hypothesis1": "His father gave him a soda to drink.", "hypothesis2": "His father stopped the car at a gas station."}
+{"index": 556, "premise": "The child sprinkled fish food into the tank.", "ask-for": "effect", "hypothesis1": "The fish leapt out of the tank.", "hypothesis2": "The fish swam towards the food."}
+{"index": 557, "premise": "The woman's political views changed.", "ask-for": "effect", "hypothesis1": "She switched her party affiliation.", "hypothesis2": "She engaged in a protest."}
+{"index": 558, "premise": "The bathroom sink was clogged.", "ask-for": "effect", "hypothesis1": "I turned on the faucet.", "hypothesis2": "I poured drain cleaner into it."}
+{"index": 559, "premise": "The passengers got off the train.", "ask-for": "cause", "hypothesis1": "The train arrived at the station.", "hypothesis2": "The train blared its whistle."}
+{"index": 560, "premise": "The man pressed down on the moist flap of the envelope.", "ask-for": "effect", "hypothesis1": "He put a stamp on the envelope.", "hypothesis2": "He sealed the envelope shut."}
+{"index": 561, "premise": "The friends lost touch.", "ask-for": "cause", "hypothesis1": "They enjoyed each other's company.", "hypothesis2": "They moved to different cities."}
+{"index": 562, "premise": "The accountant mismanaged the company's funds.", "ask-for": "effect", "hypothesis1": "She was fired from her position.", "hypothesis2": "She went on maternity leave."}
+{"index": 563, "premise": "I looked at the clock.", "ask-for": "cause", "hypothesis1": "I heard the clock tick.", "hypothesis2": "I wanted to check the time."}
+{"index": 564, "premise": "My hand cramped up.", "ask-for": "cause", "hypothesis1": "I wrote the essay by hand.", "hypothesis2": "My wife and I held hands."}
+{"index": 565, "premise": "The bolt tightened.", "ask-for": "cause", "hypothesis1": "I replaced the bolt.", "hypothesis2": "I twisted the wrench."}
+{"index": 566, "premise": "The couple signed a lease for an apartment.", "ask-for": "effect", "hypothesis1": "The couple moved into the apartment.", "hypothesis2": "The city condemned the apartment."}
+{"index": 567, "premise": "The woman sat outside on the porch.", "ask-for": "cause", "hypothesis1": "She wanted to watch the sunset.", "hypothesis2": "She thought she saw lightning."}
+{"index": 568, "premise": "The man wore a lifejacket in the water.", "ask-for": "cause", "hypothesis1": "He couldn't swim.", "hypothesis2": "The water was shallow."}
+{"index": 569, "premise": "The woman made a typo in the word processor.", "ask-for": "effect", "hypothesis1": "She deleted the document.", "hypothesis2": "She hit the backspace key."}
+{"index": 570, "premise": "The girl bragged to her friends.", "ask-for": "cause", "hypothesis1": "She got a bad grade.", "hypothesis2": "She won a contest."}
+{"index": 571, "premise": "The lawn was muddy.", "ask-for": "cause", "hypothesis1": "It poured overnight.", "hypothesis2": "It was full of weeds."}
+{"index": 572, "premise": "The woman overslept.", "ask-for": "cause", "hypothesis1": "She stayed the night in a hotel.", "hypothesis2": "She forgot to set her alarm clock."}
+{"index": 573, "premise": "The man put on sunscreen.", "ask-for": "cause", "hypothesis1": "He sat in the shade.", "hypothesis2": "He went to the beach."}
+{"index": 574, "premise": "The researchers proved the theory.", "ask-for": "effect", "hypothesis1": "The researchers retracted the theory.", "hypothesis2": "Individuals accepted the theory."}
+{"index": 575, "premise": "The fans at the game booed.", "ask-for": "cause", "hypothesis1": "The game went into overtime.", "hypothesis2": "The referee made a bad call."}
+{"index": 576, "premise": "I entered my combination on the lock.", "ask-for": "effect", "hypothesis1": "I shut the lock.", "hypothesis2": "The lock popped open."}
+{"index": 577, "premise": "The crowd intensified.", "ask-for": "effect", "hypothesis1": "The father handed his son some money.", "hypothesis2": "The father grabbed his son's hand."}
+{"index": 578, "premise": "The snow was blocking the driveway.", "ask-for": "effect", "hypothesis1": "I gathered the snow into a snowball.", "hypothesis2": "I shoveled the snow out of the way."}
+{"index": 579, "premise": "The kayakers paddled their oars.", "ask-for": "effect", "hypothesis1": "The kayak reached the shore.", "hypothesis2": "The kayak hit a wave."}
+{"index": 580, "premise": "The girl lost control of her bike.", "ask-for": "effect", "hypothesis1": "She let go of the handlebars.", "hypothesis2": "She crashed into a fence."}
+{"index": 581, "premise": "I turned on the fan.", "ask-for": "effect", "hypothesis1": "Water sprinkled onto my skin.", "hypothesis2": "I felt cool air pass over me."}
+{"index": 582, "premise": "The surfers returned to the beach.", "ask-for": "cause", "hypothesis1": "They were drenched.", "hypothesis2": "They saw a shark."}
+{"index": 583, "premise": "I pulled the drain plug in the bathtub.", "ask-for": "effect", "hypothesis1": "The water drained out of the tub.", "hypothesis2": "The water splashed onto the floor."}
+{"index": 584, "premise": "The husband felt guilty about cheating on his wife.", "ask-for": "effect", "hypothesis1": "He accused her of infidelity.", "hypothesis2": "He confessed his infidelity to her."}
+{"index": 585, "premise": "The ink on the poster smeared.", "ask-for": "cause", "hypothesis1": "I waited for the ink to dry.", "hypothesis2": "I spilled water on the poster."}
+{"index": 586, "premise": "The child woke up screaming.", "ask-for": "cause", "hypothesis1": "He had a nightmare.", "hypothesis2": "He wet the bed."}
+{"index": 587, "premise": "The boy put his feet up on the table.", "ask-for": "effect", "hypothesis1": "His father sat down at the table.", "hypothesis2": "His father lectured him."}
+{"index": 588, "premise": "My friend turned his head in my direction.", "ask-for": "cause", "hypothesis1": "I shouted his name.", "hypothesis2": "I waved my arms."}
+{"index": 589, "premise": "The government oppressed its citizens.", "ask-for": "effect", "hypothesis1": "The citizens staged a revolt.", "hypothesis2": "The citizens registered to vote."}
+{"index": 590, "premise": "The boy was lost in the woods.", "ask-for": "effect", "hypothesis1": "He pitched a tent.", "hypothesis2": "He screamed for help."}
+{"index": 591, "premise": "The woman travelled abroad.", "ask-for": "cause", "hypothesis1": "She wanted to learn how to draw.", "hypothesis2": "She wanted to learn about other cultures."}
+{"index": 592, "premise": "The man was jealous of his coworker.", "ask-for": "cause", "hypothesis1": "His coworker got a promotion.", "hypothesis2": "His coworker worked late."}
+{"index": 593, "premise": "The man witnessed aliens.", "ask-for": "cause", "hypothesis1": "He was hallucinating.", "hypothesis2": "He was meditating."}
+{"index": 594, "premise": "The man's hair turned blonde.", "ask-for": "cause", "hypothesis1": "He put bleach in it.", "hypothesis2": "He put shampoo in it."}
+{"index": 595, "premise": "The artist created new work.", "ask-for": "cause", "hypothesis1": "She critiqued her previous work.", "hypothesis2": "She felt a stroke of inspiration."}
+{"index": 596, "premise": "The son moved away from home.", "ask-for": "cause", "hypothesis1": "He was discharged from the military.", "hypothesis2": "He was going to college."}
+{"index": 597, "premise": "Books fell out of the bookcase.", "ask-for": "cause", "hypothesis1": "The shelves were covered with dust.", "hypothesis2": "An earthquake shook the bookcase."}
+{"index": 598, "premise": "The electricity in my house shut off.", "ask-for": "effect", "hypothesis1": "I turned on a light.", "hypothesis2": "I reset the circuit breaker."}
+{"index": 599, "premise": "We rode the roller coaster.", "ask-for": "cause", "hypothesis1": "It looked scary.", "hypothesis2": "It looked fun."}
+{"index": 600, "premise": "The bag of popcorn began to pop.", "ask-for": "cause", "hypothesis1": "I poured butter into the bag.", "hypothesis2": "I heated it in the microwave."}
+{"index": 601, "premise": "A tree fell on the power line.", "ask-for": "effect", "hypothesis1": "The electricity in the neighborhood went out.", "hypothesis2": "The forecast predicted heavy winds."}
+{"index": 602, "premise": "The speaker made politically incorrect comments.", "ask-for": "effect", "hypothesis1": "He bored the audience.", "hypothesis2": "He offended the audience."}
+{"index": 603, "premise": "I pricked myself with the pin.", "ask-for": "effect", "hypothesis1": "A bead of sweat dripped from my face.", "hypothesis2": "A drop of blood formed on my finger."}
+{"index": 604, "premise": "The fish floated on the surface of the tank.", "ask-for": "cause", "hypothesis1": "It was hungry.", "hypothesis2": "It was dead."}
+{"index": 605, "premise": "The man's voice sounded hoarse.", "ask-for": "cause", "hypothesis1": "He had a cold.", "hypothesis2": "He quit smoking."}
+{"index": 606, "premise": "The elevator doors opened.", "ask-for": "cause", "hypothesis1": "The elevator arrived at the designated floor.", "hypothesis2": "The elevator got stuck between floors."}
+{"index": 607, "premise": "The teenager snuck out of the house.", "ask-for": "cause", "hypothesis1": "He lied to his parents.", "hypothesis2": "His parents grounded him."}
+{"index": 608, "premise": "The bathroom flooded.", "ask-for": "cause", "hypothesis1": "The toilet overflowed.", "hypothesis2": "The water heater broke."}
+{"index": 609, "premise": "The puppy stayed near its owner.", "ask-for": "cause", "hypothesis1": "The owner put a collar on the puppy.", "hypothesis2": "The owner kept the puppy on a leash."}
+{"index": 610, "premise": "The man caught his reflection.", "ask-for": "cause", "hypothesis1": "He stood under the sprawling tree.", "hypothesis2": "He stood over the calm lake."}
+{"index": 611, "premise": "I missed my girlfriend's phone call.", "ask-for": "effect", "hypothesis1": "I called her back.", "hypothesis2": "I met her for dinner."}
+{"index": 612, "premise": "The family searched the neighborhood.", "ask-for": "cause", "hypothesis1": "Their dog ran away from home.", "hypothesis2": "Expensive jewelry was missing from their home."}
+{"index": 613, "premise": "I saw my breath when I exhaled.", "ask-for": "cause", "hypothesis1": "The weather was chilly.", "hypothesis2": "My chest felt tight."}
+{"index": 614, "premise": "The employees formed a union.", "ask-for": "cause", "hypothesis1": "They wanted better working conditions.", "hypothesis2": "Their employer raised their wages."}
+{"index": 615, "premise": "I baked an apple pie.", "ask-for": "effect", "hypothesis1": "A rotting smell filled the kitchen.", "hypothesis2": "A warm aroma filled the kitchen."}
+{"index": 616, "premise": "The woman struggled to walk.", "ask-for": "cause", "hypothesis1": "She wore high heels.", "hypothesis2": "She took off her shoes."}
+{"index": 617, "premise": "Steam rose off of the pot of water.", "ask-for": "cause", "hypothesis1": "The water boiled.", "hypothesis2": "I covered the pot."}
+{"index": 618, "premise": "All my socks were in the laundry.", "ask-for": "effect", "hypothesis1": "I wore sandals.", "hypothesis2": "I wore boots."}
+{"index": 619, "premise": "The politician's argument was considered absurd.", "ask-for": "effect", "hypothesis1": "He lost the support of voters.", "hypothesis2": "He was accused of corruption."}
+{"index": 620, "premise": "Everyone disapproved of the couple's engagement.", "ask-for": "effect", "hypothesis1": "The couple got pregnant.", "hypothesis2": "The couple eloped."}
+{"index": 621, "premise": "The building was dedicated to the millionaire.", "ask-for": "cause", "hypothesis1": "The millionaire wanted the building torn down.", "hypothesis2": "The millionaire contributed the funds to build it."}
+{"index": 622, "premise": "The sale associate accused the girl of stealing.", "ask-for": "cause", "hypothesis1": "The sales associate saw the girl put merchandise in her purse.", "hypothesis2": "The sales associate helped the girl find the purse she liked."}
+{"index": 623, "premise": "The country declared war on the neighboring territory.", "ask-for": "effect", "hypothesis1": "Soldiers were sent out to fight.", "hypothesis2": "Soldiers were reunited with their families."}
+{"index": 624, "premise": "The court upheld the controversial ruling.", "ask-for": "effect", "hypothesis1": "A riot broke loose in front of the courthouse.", "hypothesis2": "A couple exchanged vows in front of the courthouse."}
+{"index": 625, "premise": "The girl smelled something burning.", "ask-for": "cause", "hypothesis1": "She took the cookies out of the jar.", "hypothesis2": "She left the cookies in the oven."}
+{"index": 626, "premise": "The rain was pouring down.", "ask-for": "effect", "hypothesis1": "The storm worsened.", "hypothesis2": "I dashed to get inside."}
+{"index": 627, "premise": "The building was evacuated.", "ask-for": "cause", "hypothesis1": "The elevator stopped functioning.", "hypothesis2": "The fire alarm went off."}
+{"index": 628, "premise": "The father resented his son's alcoholism.", "ask-for": "effect", "hypothesis1": "The father bought his son a beer.", "hypothesis2": "The father kicked his son out of the house."}
+{"index": 629, "premise": "The lawyer took the stairs up to her office.", "ask-for": "cause", "hypothesis1": "The secretary went home for the day.", "hypothesis2": "The elevator was out of order."}
+{"index": 630, "premise": "The man became annoyed with his friend.", "ask-for": "cause", "hypothesis1": "His friend interrupted him.", "hypothesis2": "His friend bought him lunch."}
+{"index": 631, "premise": "The girl handed her money to the cashier.", "ask-for": "effect", "hypothesis1": "The cashier gave the girl her change.", "hypothesis2": "The cashier forgot to give the girl a receipt."}
+{"index": 632, "premise": "The woman was put in a wheelchair.", "ask-for": "cause", "hypothesis1": "She was paralyzed in an accident.", "hypothesis2": "She entered the hospital in a stretcher."}
+{"index": 633, "premise": "Citizens hung the national flag up outside their homes.", "ask-for": "cause", "hypothesis1": "The country was commemorating its independence.", "hypothesis2": "The country was facing economic hardship."}
+{"index": 634, "premise": "The team lost the tournament.", "ask-for": "effect", "hypothesis1": "They disappointed their fans.", "hypothesis2": "They inspired their fans."}
+{"index": 635, "premise": "My friend pointed out that I had food stuck in my teeth.", "ask-for": "effect", "hypothesis1": "I felt embarrassed.", "hypothesis2": "I felt proud."}
+{"index": 636, "premise": "The boy failed his history exam.", "ask-for": "cause", "hypothesis1": "He paid attention in class.", "hypothesis2": "He forgot to study."}
+{"index": 637, "premise": "The downtown building collapsed.", "ask-for": "cause", "hypothesis1": "An earthquake hit the city.", "hypothesis2": "Crime rates in the city increased."}
+{"index": 638, "premise": "The man's girlfriend broke up with him.", "ask-for": "effect", "hypothesis1": "He begged her to take him back.", "hypothesis2": "She introduced him to her parents."}
+{"index": 639, "premise": "The two children simultaneously reached down to retrieve the ball.", "ask-for": "effect", "hypothesis1": "The ball rolled away.", "hypothesis2": "Their heads collided."}
+{"index": 640, "premise": "The raccoon ransacked the garbage can.", "ask-for": "cause", "hypothesis1": "There was cardboard in the garbage can.", "hypothesis2": "The lid was off the garbage can."}
+{"index": 641, "premise": "The boy sharpened the pencil.", "ask-for": "cause", "hypothesis1": "It was cheap.", "hypothesis2": "It was dull."}
+{"index": 642, "premise": "The cashier denied the woman a refund for the dress.", "ask-for": "cause", "hypothesis1": "She lost her receipt.", "hypothesis2": "The dress didn't fit."}
+{"index": 643, "premise": "The scratch in my skin was deep.", "ask-for": "effect", "hypothesis1": "It healed quickly.", "hypothesis2": "It left a scar."}
+{"index": 644, "premise": "The man received strange looks from passengers on the train.", "ask-for": "cause", "hypothesis1": "He was staring at the ground.", "hypothesis2": "He was talking to himself."}
+{"index": 645, "premise": "The child left crumbs on the floor.", "ask-for": "effect", "hypothesis1": "Ants crawled to the crumbs.", "hypothesis2": "The child put the bread away."}
+{"index": 646, "premise": "The woman handed her sister a tissue.", "ask-for": "cause", "hypothesis1": "The woman's sister folded her hands.", "hypothesis2": "The woman's sister began to cry."}
+{"index": 647, "premise": "The man took a mint.", "ask-for": "cause", "hypothesis1": "His lips were chapped.", "hypothesis2": "He worried about bad breath."}
+{"index": 648, "premise": "The couple left early for the show.", "ask-for": "cause", "hypothesis1": "They anticipated traffic around the theatre.", "hypothesis2": "They got directions to the theatre."}
+{"index": 649, "premise": "The woman stayed home from work.", "ask-for": "effect", "hypothesis1": "Her boss praised her.", "hypothesis2": "Her coworker covered for her."}
+{"index": 650, "premise": "The man signed the activists' petition.", "ask-for": "cause", "hypothesis1": "He supported their cause.", "hypothesis2": "He denounced them as crazy."}
+{"index": 651, "premise": "The actor's heart was fluttering before his performance.", "ask-for": "cause", "hypothesis1": "He had stage fright.", "hypothesis2": "He memorized his lines."}
+{"index": 652, "premise": "I was lost.", "ask-for": "effect", "hypothesis1": "I counted my cash.", "hypothesis2": "I unfolded a map."}
+{"index": 653, "premise": "The ripe fruit lingered in the sun.", "ask-for": "effect", "hypothesis1": "It was eaten.", "hypothesis2": "It shriveled up."}
+{"index": 654, "premise": "The car broke down.", "ask-for": "cause", "hypothesis1": "I turned the ignition.", "hypothesis2": "The engine overheated."}
+{"index": 655, "premise": "The man hurt his back.", "ask-for": "effect", "hypothesis1": "He went to see a psychiatrist.", "hypothesis2": "He stayed in bed for several days."}
+{"index": 656, "premise": "I started a fire in the fireplace.", "ask-for": "cause", "hypothesis1": "I was out of firewood.", "hypothesis2": "It was cold in the house."}
+{"index": 657, "premise": "The woman stopped jogging.", "ask-for": "cause", "hypothesis1": "She got a cramp in her side.", "hypothesis2": "She got a second wind."}
+{"index": 658, "premise": "I knocked on my neighbor's door.", "ask-for": "effect", "hypothesis1": "My neighbor invited me in.", "hypothesis2": "My neighbor left her house."}
+{"index": 659, "premise": "The woman sighed with frustration.", "ask-for": "cause", "hypothesis1": "Her husband misunderstood her concerns.", "hypothesis2": "Her husband kissed her goodbye."}
+{"index": 660, "premise": "The teacher commended the student.", "ask-for": "cause", "hypothesis1": "The student answered the question correctly.", "hypothesis2": "The student hesitated to answer the question."}
+{"index": 661, "premise": "The woman ran out of eggs.", "ask-for": "effect", "hypothesis1": "She went to the farm.", "hypothesis2": "She went to the supermarket."}
+{"index": 662, "premise": "I encountered an old friend.", "ask-for": "effect", "hypothesis1": "I revealed a secret to him.", "hypothesis2": "I gave him a hug."}
+{"index": 663, "premise": "The woman avoided going in the lake.", "ask-for": "cause", "hypothesis1": "She caught a fish.", "hypothesis2": "It looked contaminated."}
+{"index": 664, "premise": "The student arrived to class soaking wet.", "ask-for": "cause", "hypothesis1": "His umbrella was broken.", "hypothesis2": "His bike was stolen."}
+{"index": 665, "premise": "The cursor on the computer screen moved.", "ask-for": "cause", "hypothesis1": "The user clicked the mouse.", "hypothesis2": "The user shifted the mouse."}
+{"index": 666, "premise": "The driver took a detour.", "ask-for": "cause", "hypothesis1": "An accident occurred on the main road.", "hypothesis2": "She followed the truck in front of her."}
+{"index": 667, "premise": "I hung the wet linen on the outdoor clothesline.", "ask-for": "effect", "hypothesis1": "The linen dried.", "hypothesis2": "The linen stained."}
+{"index": 668, "premise": "The woman put on her shades.", "ask-for": "cause", "hypothesis1": "The sunlight was bright.", "hypothesis2": "She hailed a cab."}
+{"index": 669, "premise": "The man gazed at the night sky.", "ask-for": "cause", "hypothesis1": "He wished it were summer.", "hypothesis2": "He thought it was beautiful."}
+{"index": 670, "premise": "I felt exhausted.", "ask-for": "effect", "hypothesis1": "I went to bed early.", "hypothesis2": "I stayed up all night."}
+{"index": 671, "premise": "The man went to the barber.", "ask-for": "cause", "hypothesis1": "He was growing out his hair.", "hypothesis2": "His hair was getting long."}
+{"index": 672, "premise": "The boy played mean tricks on his new classmate.", "ask-for": "cause", "hypothesis1": "The boy welcomed the new classmate.", "hypothesis2": "The boy disliked the new classmate."}
+{"index": 673, "premise": "I craved a glass of milk.", "ask-for": "cause", "hypothesis1": "I was eating cookies.", "hypothesis2": "I was baking bread."}
+{"index": 674, "premise": "It began to rain.", "ask-for": "effect", "hypothesis1": "The driver turned on the headlights.", "hypothesis2": "The driver shifted the car into reverse."}
+{"index": 675, "premise": "The parking lot of the building was empty.", "ask-for": "effect", "hypothesis1": "I parked across the street.", "hypothesis2": "I parked near the entrance."}
+{"index": 676, "premise": "The writer missed her deadline for the draft submission.", "ask-for": "cause", "hypothesis1": "She had writer's block.", "hypothesis2": "She edited the draft."}
+{"index": 677, "premise": "The associate hung up on me.", "ask-for": "cause", "hypothesis1": "I asked to speak to a supervisor.", "hypothesis2": "I provided my identification number."}
+{"index": 678, "premise": "The wind blew through the open window.", "ask-for": "effect", "hypothesis1": "The doorbell rang.", "hypothesis2": "The curtains shuddered."}
+{"index": 679, "premise": "The electricity in my house shut off.", "ask-for": "cause", "hypothesis1": "I unplugged the lamp.", "hypothesis2": "I blew a fuse."}
+{"index": 680, "premise": "The weightlifter grunted.", "ask-for": "cause", "hypothesis1": "He flexed his muscles in the mirror.", "hypothesis2": "He lifted the bar over his head."}
+{"index": 681, "premise": "The student tried to do the math in his head.", "ask-for": "effect", "hypothesis1": "He got out a calculator.", "hypothesis2": "He got confused."}
+{"index": 682, "premise": "The baby fell asleep.", "ask-for": "cause", "hypothesis1": "The father changed the baby's diaper.", "hypothesis2": "The father gently rocked the baby."}
+{"index": 683, "premise": "The girl threw the water balloon at the boy.", "ask-for": "effect", "hypothesis1": "The boy got a concussion.", "hypothesis2": "The boy got soaked."}
+{"index": 684, "premise": "The photographer forgot to use the flash on the camera.", "ask-for": "effect", "hypothesis1": "The photos turned out blurry.", "hypothesis2": "Everyone in the photos refused to smile."}
+{"index": 685, "premise": "I declined the invitation to the birthday party.", "ask-for": "cause", "hypothesis1": "I was lonely.", "hypothesis2": "I was out of town."}
+{"index": 686, "premise": "I exercised.", "ask-for": "cause", "hypothesis1": "I felt energetic.", "hypothesis2": "I was scared."}
+{"index": 687, "premise": "I squeezed the damp sponge.", "ask-for": "effect", "hypothesis1": "It soaked up water.", "hypothesis2": "Water seeped out of it."}
+{"index": 688, "premise": "The vacationers took a ferry to the resort.", "ask-for": "cause", "hypothesis1": "The resort was booked.", "hypothesis2": "The resort was on an island."}
+{"index": 689, "premise": "The teenager got a tattoo.", "ask-for": "cause", "hypothesis1": "She was afraid of needles.", "hypothesis2": "She wanted to rebel."}
+{"index": 690, "premise": "An unfamiliar car parked outside my house.", "ask-for": "effect", "hypothesis1": "I became suspicious.", "hypothesis2": "I called the police."}
+{"index": 691, "premise": "The criminal turned himself in.", "ask-for": "cause", "hypothesis1": "The evidence implicated him.", "hypothesis2": " There was no evidence against him."}
+{"index": 692, "premise": "The heavyset man decided to lose weight.", "ask-for": "effect", "hypothesis1": "He cut out sweets.", "hypothesis2": "He avoided caffeine."}
+{"index": 693, "premise": "The girl stepped on the ice.", "ask-for": "effect", "hypothesis1": "She slid.", "hypothesis2": "She shivered."}
+{"index": 694, "premise": "The woman had rings under her eyes.", "ask-for": "cause", "hypothesis1": "She stayed up all night.", "hypothesis2": "She put her son to bed."}
+{"index": 695, "premise": "Lava flowed from the volcano.", "ask-for": "cause", "hypothesis1": "The volcano erupted.", "hypothesis2": "The volcano was dormant."}
+{"index": 696, "premise": "The woman put her shoes on.", "ask-for": "cause", "hypothesis1": "She knew everyone at the party.", "hypothesis2": "She wanted to leave the party."}
+{"index": 697, "premise": "I paid the tollbooth attendant.", "ask-for": "effect", "hypothesis1": "She let me pass through the tollbooth.", "hypothesis2": "She detained me at the tollbooth."}
+{"index": 698, "premise": "The executive went bankrupt.", "ask-for": "cause", "hypothesis1": "He sold his company stock.", "hypothesis2": "He squandered his fortune."}
+{"index": 699, "premise": "The man went to the doctor.", "ask-for": "cause", "hypothesis1": "The doctor was on leave.", "hypothesis2": "The man felt ill."}
+{"index": 700, "premise": "I exited my bedroom through the window.", "ask-for": "cause", "hypothesis1": "The house was on fire.", "hypothesis2": "The house was empty."}
+{"index": 701, "premise": "The boy's fingers became pruny.", "ask-for": "cause", "hypothesis1": "He took a long shower.", "hypothesis2": "He lathered his hands with soap."}
+{"index": 702, "premise": "I spit out the milk.", "ask-for": "cause", "hypothesis1": "The milk tasted sour.", "hypothesis2": "My mouth was dry."}
+{"index": 703, "premise": "I missed the bus.", "ask-for": "effect", "hypothesis1": "I was early to work.", "hypothesis2": "I was late to work."}
+{"index": 704, "premise": "The truck collided with the car.", "ask-for": "effect", "hypothesis1": "The truck sped up.", "hypothesis2": "The car got smashed."}
+{"index": 705, "premise": "The team rigged the contest in their favor.", "ask-for": "effect", "hypothesis1": "They won.", "hypothesis2": " They dropped out."}
+{"index": 706, "premise": "The soda bottle hissed.", "ask-for": "cause", "hypothesis1": "I turned over the bottle.", "hypothesis2": "I twisted off the cap."}
+{"index": 707, "premise": "The boy was locked out of his house.", "ask-for": "effect", "hypothesis1": "He crawled in through an open window.", "hypothesis2": "He climbed up to the roof."}
+{"index": 708, "premise": "The doorbell rang.", "ask-for": "effect", "hypothesis1": "The visitor tapped the knocker on the door.", "hypothesis2": "The woman peered through the keyhole in the door."}
+{"index": 709, "premise": "The man stained his suit.", "ask-for": "effect", "hypothesis1": "He got it dry-cleaned.", "hypothesis2": "He hung it in his closet."}
+{"index": 710, "premise": "The girl squeezed the tube of toothpaste.", "ask-for": "effect", "hypothesis1": "The toothpaste squirted out of the tube.", "hypothesis2": "The girl spit out the toothpaste."}
+{"index": 711, "premise": "Civilian deaths from the war surged.", "ask-for": "effect", "hypothesis1": "Pacifists staged a protest.", "hypothesis2": "Pacifists held a parade."}
+{"index": 712, "premise": "The girl yanked the ribbon out of her hair.", "ask-for": "cause", "hypothesis1": "She tied the ribbon.", "hypothesis2": "The ribbon looked babyish."}
+{"index": 713, "premise": "The man got plastic surgery.", "ask-for": "effect", "hypothesis1": "He aged.", "hypothesis2": "He looked younger."}
+{"index": 714, "premise": "A baby chicken emerged from the egg.", "ask-for": "cause", "hypothesis1": "The egg hatched.", "hypothesis2": "I cracked the egg."}
+{"index": 715, "premise": "The prisoner starved.", "ask-for": "effect", "hypothesis1": "He died.", "hypothesis2": "He fled."}
+{"index": 716, "premise": "The man lost his balance on the ladder.", "ask-for": "effect", "hypothesis1": "He climbed up the ladder.", "hypothesis2": "He fell off the ladder."}
+{"index": 717, "premise": "The child burped.", "ask-for": "cause", "hypothesis1": "He took a swig of soda.", "hypothesis2": "He opened the soda can."}
+{"index": 718, "premise": "A cold draft came in through the window.", "ask-for": "effect", "hypothesis1": "I relaxed.", "hypothesis2": "I shivered."}
+{"index": 719, "premise": "The student received a scholarship to go to college.", "ask-for": "cause", "hypothesis1": "Her classmates respected her.", "hypothesis2": "She made good grades."}
+{"index": 720, "premise": "The girl poked fun at the boy.", "ask-for": "cause", "hypothesis1": "She lived next door to him.", "hypothesis2": "She had a crush on him."}
+{"index": 721, "premise": "The hungry vagrant stole food.", "ask-for": "cause", "hypothesis1": "He incited pity.", "hypothesis2": "He had no money."}
+{"index": 722, "premise": "I called my friend to chat.", "ask-for": "cause", "hypothesis1": "I wanted privacy.", "hypothesis2": "I felt lonely."}
+{"index": 723, "premise": "The man extended his hand to me.", "ask-for": "effect", "hypothesis1": "I shook his hand.", "hypothesis2": "I slapped him."}
+{"index": 724, "premise": "I ducked.", "ask-for": "cause", "hypothesis1": "The fireworks launched up in the air.", "hypothesis2": "The frisbee soared towards my head."}
+{"index": 725, "premise": "The girl bit her nails.", "ask-for": "cause", "hypothesis1": "She was worried.", "hypothesis2": "She was surprised."}
+{"index": 726, "premise": "I turned the page on the calendar.", "ask-for": "cause", "hypothesis1": "I marked an appointment on the calendar.", "hypothesis2": "It was the beginning of a new month."}
+{"index": 727, "premise": "The husband discovered that his wife was having an affair.", "ask-for": "effect", "hypothesis1": "He fired his lawyer.", "hypothesis2": "He filed for divorce."}
+{"index": 728, "premise": "The girl dropped the rubber ball.", "ask-for": "effect", "hypothesis1": "The ball bounced.", "hypothesis2": "The ball glowed."}
+{"index": 729, "premise": "The girl made a mistake on her exam.", "ask-for": "effect", "hypothesis1": "She guessed at the answer.", "hypothesis2": "She erased her answer."}
+{"index": 730, "premise": "The player tackled his opponent.", "ask-for": "effect", "hypothesis1": "His opponent caught the pass.", "hypothesis2": "His opponent hit the ground."}
+{"index": 731, "premise": "I picked the tomatoes from the vine.", "ask-for": "cause", "hypothesis1": "They were ripe.", "hypothesis2": "I watered them."}
+{"index": 732, "premise": "The man wanted to act romantic.", "ask-for": "effect", "hypothesis1": "He met his ex-girlfriend for lunch.", "hypothesis2": "He bought his girlfriend chocolates."}
+{"index": 733, "premise": "The mercury in the thermometer rose.", "ask-for": "cause", "hypothesis1": "I dropped the thermometer.", "hypothesis2": "The weather got warmer."}
+{"index": 734, "premise": "A tornado came through the town.", "ask-for": "effect", "hypothesis1": "The roof of the courthouse blew off.", "hypothesis2": "The highway became dangerously icy."}
+{"index": 735, "premise": "The student received tutoring.", "ask-for": "effect", "hypothesis1": "His grades improved.", "hypothesis2": "He cheated on the exam."}
+{"index": 736, "premise": "I felt comfortable.", "ask-for": "cause", "hypothesis1": "I kneeled down on the ground.", "hypothesis2": "I wrapped myself in a blanket."}
+{"index": 737, "premise": "I polished the stone.", "ask-for": "effect", "hypothesis1": "It became slippery.", "hypothesis2": "It became shiny."}
+{"index": 738, "premise": "I added sugar to the coffee.", "ask-for": "effect", "hypothesis1": "The coffee smelled strong.", "hypothesis2": "The coffee tasted sweet."}
+{"index": 739, "premise": "The man shuffled through the papers.", "ask-for": "effect", "hypothesis1": "He got a paper cut.", "hypothesis2": "He shredded the papers."}
+{"index": 740, "premise": "I pounded the nail with the hammer.", "ask-for": "effect", "hypothesis1": "The nail sunk into the wood.", "hypothesis2": "The nail became rusty."}
+{"index": 741, "premise": "The fish bit the line.", "ask-for": "effect", "hypothesis1": "The fisherman reeled in the fish.", "hypothesis2": "The fisherman recast the line."}
+{"index": 742, "premise": "The teenager was embarrassed to go to school.", "ask-for": "cause", "hypothesis1": "She got a pimple.", "hypothesis2": "She got her braces off."}
+{"index": 743, "premise": "My facial expression lit up.", "ask-for": "cause", "hypothesis1": "I received good news.", "hypothesis2": "I lost my patience."}
+{"index": 744, "premise": "I wiped my hands with a towel.", "ask-for": "cause", "hypothesis1": "The towel was wet.", "hypothesis2": "My hands were wet."}
+{"index": 745, "premise": "The man lost his balance on the stool.", "ask-for": "cause", "hypothesis1": "The stool wobbled underneath him.", "hypothesis2": "He spilled paint on the stool."}
+{"index": 746, "premise": "The teammates directed blame at each other.", "ask-for": "cause", "hypothesis1": "They lost their game.", "hypothesis2": "Their coach cancelled practice."}
+{"index": 747, "premise": "I asked for forgiveness.", "ask-for": "cause", "hypothesis1": "I regretted my mistake.", "hypothesis2": "I achieved my goal."}
+{"index": 748, "premise": "The woman became bored with her date.", "ask-for": "cause", "hypothesis1": "He asked her questions about herself.", "hypothesis2": "He talked incessantly about himself."}
+{"index": 749, "premise": "The girl flashed a smile.", "ask-for": "effect", "hypothesis1": "Her cheeks reddened.", "hypothesis2": "Her dimples showed."}
+{"index": 750, "premise": "The enemy ship blew up.", "ask-for": "cause", "hypothesis1": "It passed over the mine.", "hypothesis2": "It sailed into the harbor."}
+{"index": 751, "premise": "The man punctured his foot.", "ask-for": "cause", "hypothesis1": "He walked into a puddle.", "hypothesis2": "He stepped on broken glass."}
+{"index": 752, "premise": "The detectives dusted the crime scene for fingerprints.", "ask-for": "effect", "hypothesis1": "They discovered the identity of the murderer.", "hypothesis2": "They found the weapon at the crime scene."}
+{"index": 753, "premise": "There was a lot of traffic on the highway.", "ask-for": "effect", "hypothesis1": "I took a detour.", "hypothesis2": "I asked for a ride."}
+{"index": 754, "premise": "The nation's economy declined.", "ask-for": "effect", "hypothesis1": "Many people got sick.", "hypothesis2": "Many people faced unemployment."}
+{"index": 755, "premise": "The crossing guard blew her whistle at the children.", "ask-for": "cause", "hypothesis1": "They were about to walk into oncoming traffic.", "hypothesis2": "She recognized them from her neighborhood."}
+{"index": 756, "premise": "I rolled my eyes at my friend.", "ask-for": "cause", "hypothesis1": "He told me the truth.", "hypothesis2": "He made a sarcastic remark."}
+{"index": 757, "premise": "The car ran out of gas.", "ask-for": "effect", "hypothesis1": "The driver was stranded on the road.", "hypothesis2": "The driver picked up a hitchhiker."}
+{"index": 758, "premise": "The woman went into labor.", "ask-for": "effect", "hypothesis1": "The baby was delivered.", "hypothesis2": "The woman had morning sickness."}
+{"index": 759, "premise": "The man's hat blew away.", "ask-for": "cause", "hypothesis1": "He took off the hat.", "hypothesis2": "It was windy outside."}
+{"index": 760, "premise": "The girl attended her classmate's birthday party.", "ask-for": "cause", "hypothesis1": "She received an invitation.", "hypothesis2": "She bought a gift."}
+{"index": 761, "premise": "The boy's forehead felt hot.", "ask-for": "effect", "hypothesis1": "His mother took his temperature.", "hypothesis2": "His mother took him to the park."}
+{"index": 762, "premise": "The man sprayed himself with cologne.", "ask-for": "cause", "hypothesis1": "He wanted to impress his date.", "hypothesis2": "He put gel in his hair."}
+{"index": 763, "premise": "The electricity in the house shut off.", "ask-for": "effect", "hypothesis1": "I looked for a flashlight.", "hypothesis2": "I picked up a shovel."}
+{"index": 764, "premise": "The family moved into a bigger house.", "ask-for": "cause", "hypothesis1": "The son graduated from high school.", "hypothesis2": "The mother gave birth to twins."}
+{"index": 765, "premise": "The marathoner kept at a slow pace.", "ask-for": "cause", "hypothesis1": "She wanted to conserve her energy.", "hypothesis2": "She saw the finish line."}
+{"index": 766, "premise": "The boy kicked the vending machine.", "ask-for": "cause", "hypothesis1": "The machine spit out the change.", "hypothesis2": "The bag of chips was stuck."}
+{"index": 767, "premise": "My friend's dog died.", "ask-for": "effect", "hypothesis1": "I rolled my eyes at him.", "hypothesis2": "I gave him a hug."}
+{"index": 768, "premise": "The businessman's credit card got declined.", "ask-for": "effect", "hypothesis1": "He wrote an IOU.", "hypothesis2": "He paid with cash."}
+{"index": 769, "premise": "The man cursed.", "ask-for": "cause", "hypothesis1": "He clipped his nails.", "hypothesis2": "He stubbed his toe."}
+{"index": 770, "premise": "The man felt proud of his brother.", "ask-for": "cause", "hypothesis1": "His brother got in an argument with their parents.", "hypothesis2": "His brother got accepted into law school."}
+{"index": 771, "premise": "The girl wanted to learn about the solar system.", "ask-for": "effect", "hypothesis1": "She went to the library.", "hypothesis2": "She looked at the stars."}
+{"index": 772, "premise": "The poster stuck to the wall.", "ask-for": "cause", "hypothesis1": "I positioned the poster above the door.", "hypothesis2": "I put tape on the back of the poster."}
+{"index": 773, "premise": "The client approved the architect's plans for the building.", "ask-for": "effect", "hypothesis1": "The architect constructed the building.", "hypothesis2": "The architect adjusted the plans."}
+{"index": 774, "premise": "The man dropped his spoon.", "ask-for": "cause", "hypothesis1": "His hand was shaking.", "hypothesis2": "He licked the spoon."}
+{"index": 775, "premise": "The CEO of the company resigned.", "ask-for": "effect", "hypothesis1": "The board of directors dissolved the company.", "hypothesis2": "The board of directors found his replacement."}
+{"index": 776, "premise": "I arrived late to the lecture.", "ask-for": "effect", "hypothesis1": "I took a seat in the back row.", "hypothesis2": "I approached the podium."}
+{"index": 777, "premise": "The man was released from jail.", "ask-for": "cause", "hypothesis1": "His family paid his bail.", "hypothesis2": "He attacked a fellow inmate."}
+{"index": 778, "premise": "The family lost all their belongings.", "ask-for": "cause", "hypothesis1": "They sold their house.", "hypothesis2": "Their house caught fire."}
+{"index": 779, "premise": "I stomped on the aluminum can.", "ask-for": "effect", "hypothesis1": "The can was recycled.", "hypothesis2": "The can got crushed."}
+{"index": 780, "premise": "The girl joined the debate team.", "ask-for": "effect", "hypothesis1": "She learned to use a computer.", "hypothesis2": "She learned communication skills."}
+{"index": 781, "premise": "My mood improved.", "ask-for": "cause", "hypothesis1": "I listened to music.", "hypothesis2": "I did the dishes."}
+{"index": 782, "premise": "The charity made a goal to raise money.", "ask-for": "effect", "hypothesis1": "They fed the homeless.", "hypothesis2": "They held an auction."}
+{"index": 783, "premise": "The roller coaster plunged down the steep drop.", "ask-for": "effect", "hypothesis1": "The passengers giggled.", "hypothesis2": "The passengers screamed."}
+{"index": 784, "premise": "I was furious.", "ask-for": "effect", "hypothesis1": "I checked the mailbox upon leaving the house.", "hypothesis2": "I slammed the door upon leaving the house."}
+{"index": 785, "premise": "The man wanted to watch the sunrise.", "ask-for": "effect", "hypothesis1": "He travelled north.", "hypothesis2": "He got up early."}
+{"index": 786, "premise": "I folded the paper.", "ask-for": "effect", "hypothesis1": "I recycled the paper.", "hypothesis2": "The paper creased."}
+{"index": 787, "premise": "The nation endured a natural disaster.", "ask-for": "effect", "hypothesis1": "Leaders of other countries formed an alliance.", "hypothesis2": "Leaders of other countries sent emergency relief."}
+{"index": 788, "premise": "The boy's clothes got soaked.", "ask-for": "cause", "hypothesis1": "He climbed out of the pool.", "hypothesis2": "He fell into the pool."}
+{"index": 789, "premise": "The student rushed to finish the book.", "ask-for": "cause", "hypothesis1": "It was due to be returned to the library.", "hypothesis2": "He borrowed it from a friend."}
+{"index": 790, "premise": "The criminal was executed.", "ask-for": "cause", "hypothesis1": "He was thrown in jail.", "hypothesis2": "He was convicted of murder."}
+{"index": 791, "premise": "Sunlight entered the room.", "ask-for": "cause", "hypothesis1": "I opened the curtains.", "hypothesis2": "I unlocked the door."}
+{"index": 792, "premise": "I yanked the imposter's hair.", "ask-for": "effect", "hypothesis1": "Her wig came off.", "hypothesis2": "She went bald."}
+{"index": 793, "premise": "The editor reworded a sentence in the manuscript.", "ask-for": "cause", "hypothesis1": "He found the manuscript compelling.", "hypothesis2": "He deemed the sentence unclear."}
+{"index": 794, "premise": "The woman cancelled her credit card account.", "ask-for": "cause", "hypothesis1": "She realized the card was missing.", "hypothesis2": "She realized the card was expired."}
+{"index": 795, "premise": "The man and woman fell in love.", "ask-for": "effect", "hypothesis1": "They attended college.", "hypothesis2": "They got married."}
+{"index": 796, "premise": "The music was too faint to hear.", "ask-for": "effect", "hypothesis1": "I turned up the volume.", "hypothesis2": "I composed my own song."}
+{"index": 797, "premise": "The boy's hair was sticking up.", "ask-for": "cause", "hypothesis1": "The girl ruffled it.", "hypothesis2": "The girl pulled it."}
+{"index": 798, "premise": "The bug got squashed.", "ask-for": "cause", "hypothesis1": "I sprayed myself with bug repellent.", "hypothesis2": "I stepped on the bug."}
+{"index": 799, "premise": "I opened my eyes.", "ask-for": "cause", "hypothesis1": "I woke up.", "hypothesis2": "I relaxed."}
+{"index": 800, "premise": "My neighbor's music was blaring.", "ask-for": "effect", "hypothesis1": "I asked him to turn it down.", "hypothesis2": "I asked to borrow the CD from him."}
+{"index": 801, "premise": "The man's family lived in poverty.", "ask-for": "cause", "hypothesis1": "He was frugal with his earnings.", "hypothesis2": "He earned below minimum wage."}
+{"index": 802, "premise": "The student graduated from the university.", "ask-for": "effect", "hypothesis1": "He looked for a job.", "hypothesis2": "He took up a hobby."}
+{"index": 803, "premise": "The artist mixed yellow paint into blue paint.", "ask-for": "effect", "hypothesis1": "The paint splattered everywhere.", "hypothesis2": "The paint turned green."}
+{"index": 804, "premise": "I changed the topic of conversation.", "ask-for": "cause", "hypothesis1": "I ran out of things to talk about.", "hypothesis2": "The conversation became tense."}
+{"index": 805, "premise": "My brother was released from the hospital.", "ask-for": "effect", "hypothesis1": "I welcomed him back home.", "hypothesis2": "I gave him the cold shoulder."}
+{"index": 806, "premise": "The curtain on the stage went up.", "ask-for": "effect", "hypothesis1": "The opening scene of the play began.", "hypothesis2": "The actors in the play exited the stage."}
+{"index": 807, "premise": "The hostage submitted to the kidnapper's mandates.", "ask-for": "cause", "hypothesis1": "The kidnapper threatened to hurt the hostage.", "hypothesis2": "The kidnapper left the hostage by himself."}
+{"index": 808, "premise": "A boom reverberated across the stage.", "ask-for": "cause", "hypothesis1": "The musician tapped his foot.", "hypothesis2": "The musician pounded the drum."}
+{"index": 809, "premise": "The parents rushed to their child's bedroom.", "ask-for": "cause", "hypothesis1": "The child awoke screaming from a nightmare.", "hypothesis2": "The child was scared to look under her bed."}
+{"index": 810, "premise": "The woman communicated with sign language.", "ask-for": "cause", "hypothesis1": "She was born premature.", "hypothesis2": "She was born deaf."}
+{"index": 811, "premise": "A drought occurred in the region.", "ask-for": "effect", "hypothesis1": "The water became contaminated.", "hypothesis2": "The crops perished."}
+{"index": 812, "premise": "The cat chased the bird.", "ask-for": "effect", "hypothesis1": "The bird flew away.", "hypothesis2": "The bird caught a worm."}
+{"index": 813, "premise": "The girl switched schools.", "ask-for": "cause", "hypothesis1": "School let out for the summer.", "hypothesis2": "She moved to a new town."}
+{"index": 814, "premise": "The factory owner refused to raise employees' wages.", "ask-for": "effect", "hypothesis1": "The owner appointed a new manager.", "hypothesis2": "The employees went on strike."}
+{"index": 815, "premise": "The leader antagonized the extremists among his country.", "ask-for": "effect", "hypothesis1": "The extremists influenced him.", "hypothesis2": "The extremists assassinated him."}
+{"index": 816, "premise": "I walked barefoot on the beach.", "ask-for": "effect", "hypothesis1": "Sand stuck to my feet.", "hypothesis2": "Waves crashed along the shore."}
+{"index": 817, "premise": "I woke up in the middle of the night feeling cold.", "ask-for": "effect", "hypothesis1": "I put sweatpants on.", "hypothesis2": "I drank a glass of water."}
+{"index": 818, "premise": "The mother hushed her son.", "ask-for": "cause", "hypothesis1": "Her son smirked.", "hypothesis2": "Her son whined."}
+{"index": 819, "premise": "A hole ripped in my jeans.", "ask-for": "cause", "hypothesis1": "I zipped up the jeans.", "hypothesis2": "I tripped on the pavement."}
+{"index": 820, "premise": "The boy wore braces.", "ask-for": "effect", "hypothesis1": "He got a cavity.", "hypothesis2": "His teeth became straight."}
+{"index": 821, "premise": "I worked out at the gym yesterday.", "ask-for": "effect", "hypothesis1": "I woke up today with sore muscles.", "hypothesis2": "I woke up today with a sore throat."}
+{"index": 822, "premise": "The girl whispered back and forth to each other at the lunch table.", "ask-for": "effect", "hypothesis1": "Other students sat down at the lunch table.", "hypothesis2": "Other students at the lunch table felt left out."}
+{"index": 823, "premise": "The child landed on the trampoline.", "ask-for": "effect", "hypothesis1": "She sprung back up into the air.", "hypothesis2": "She decided to try to do a flip."}
+{"index": 824, "premise": "I deposited the letter in the mailbox.", "ask-for": "effect", "hypothesis1": "The post office delivered the letter.", "hypothesis2": "The post office expedited the letter."}
+{"index": 825, "premise": "The gambler was confident.", "ask-for": "effect", "hypothesis1": "He bet all of his money.", "hypothesis2": "He went home broke."}
+{"index": 826, "premise": "The forest fire spread.", "ask-for": "cause", "hypothesis1": "The winds became stronger.", "hypothesis2": "The arsonists were apprehended."}
+{"index": 827, "premise": "The child skinned his knee.", "ask-for": "effect", "hypothesis1": "His mother sent him to his room.", "hypothesis2": "His mother put a bandage on the wound."}
+{"index": 828, "premise": "The man survived the deadly illness.", "ask-for": "cause", "hypothesis1": "He signed his will.", "hypothesis2": "He received an organ transplant."}
+{"index": 829, "premise": "I took a sip of the scalding coffee.", "ask-for": "effect", "hypothesis1": "I bit my tongue.", "hypothesis2": "I burnt my tongue."}
+{"index": 830, "premise": "The editor fired the writer.", "ask-for": "cause", "hypothesis1": "The writer avoided bias in her stories.", "hypothesis2": "The writer missed an important deadline."}
+{"index": 831, "premise": "I felt exhausted.", "ask-for": "cause", "hypothesis1": "I slept all day.", "hypothesis2": "I studied all day."}
+{"index": 832, "premise": "The physician diagnosed the patient.", "ask-for": "cause", "hypothesis1": "She identified the patient's symptoms.", "hypothesis2": "She prescribed pills to the patient."}
+{"index": 833, "premise": "I scratched my skin.", "ask-for": "cause", "hypothesis1": "It was sweaty.", "hypothesis2": "It felt itchy."}
+{"index": 834, "premise": "The man underwent emergency surgery.", "ask-for": "cause", "hypothesis1": "He lost his temper.", "hypothesis2": "He suffered a heart attack."}
+{"index": 835, "premise": "The man's arm muscles bulged.", "ask-for": "cause", "hypothesis1": "He flexed his arms.", "hypothesis2": "He rubbed his arms."}
+{"index": 836, "premise": "The man raised his eyebrows.", "ask-for": "cause", "hypothesis1": "He was surprised.", "hypothesis2": "He felt discouraged."}
+{"index": 837, "premise": "I excused my colleague's blunder.", "ask-for": "cause", "hypothesis1": "I believed his intentions were good.", "hypothesis2": "I believed that he knew better."}
+{"index": 838, "premise": "The man quit smoking.", "ask-for": "effect", "hypothesis1": "He began exercising more.", "hypothesis2": "He started waking up earlier."}
+{"index": 839, "premise": "The woman punched her attacker in the nose.", "ask-for": "effect", "hypothesis1": "The attacker's body went lifeless.", "hypothesis2": "The attacker started to bleed."}
+{"index": 840, "premise": "The dart missed the bull's eye.", "ask-for": "cause", "hypothesis1": "The man's aim was off.", "hypothesis2": "The man was losing the game."}
+{"index": 841, "premise": "The homeowner requested that an exterminator come to his house.", "ask-for": "cause", "hypothesis1": "He discovered rats in the basement.", "hypothesis2": "He kept an ant farm in his room."}
+{"index": 842, "premise": "I suggested to my houseguest that we go out to dinner.", "ask-for": "cause", "hypothesis1": "I was too tired to prepare anything.", "hypothesis2": "My houseguest overstayed her welcome."}
+{"index": 843, "premise": "The girl caught her brother reading her diary.", "ask-for": "effect", "hypothesis1": "She started hiding the diary.", "hypothesis2": "She got a new diary."}
+{"index": 844, "premise": "The woman was short on money for rent.", "ask-for": "effect", "hypothesis1": "She worked overtime.", "hypothesis2": "She quit her job."}
+{"index": 845, "premise": "The child's hand quickly recoiled.", "ask-for": "cause", "hypothesis1": "He touched the hot stove.", "hypothesis2": "He patted the puppy's head."}
+{"index": 846, "premise": "The company wanted to gauge customer satisfaction.", "ask-for": "effect", "hypothesis1": "They offered a discount to new customers.", "hypothesis2": "They distributed a survey to customers."}
+{"index": 847, "premise": "The wood floor became scratched.", "ask-for": "cause", "hypothesis1": "The boy threw the cushions off the couch.", "hypothesis2": "The boy dragged a chair across the floor."}
+{"index": 848, "premise": "I shielded my face.", "ask-for": "cause", "hypothesis1": "My enemy taunted me.", "hypothesis2": "My enemy cocked a fist."}
+{"index": 849, "premise": "The famous statue burned down.", "ask-for": "cause", "hypothesis1": "It was struck by lightning.", "hypothesis2": "People came to venerate it."}
+{"index": 850, "premise": "I left the fruit out on the table.", "ask-for": "effect", "hypothesis1": "The fruit shed seeds.", "hypothesis2": "Flies swarmed the fruit."}
+{"index": 851, "premise": "The ballerina tore a ligament.", "ask-for": "cause", "hypothesis1": "She pointed her toes.", "hypothesis2": "She twisted her ankle."}
+{"index": 852, "premise": "The child's shoelaces came untied.", "ask-for": "cause", "hypothesis1": "He learned how to tie them.", "hypothesis2": "He ran around on the playground."}
+{"index": 853, "premise": "I became enthralled in the book.", "ask-for": "effect", "hypothesis1": "I returned the book.", "hypothesis2": "I lost track of time."}
+{"index": 854, "premise": "The man held similar beliefs to those of his parents.", "ask-for": "cause", "hypothesis1": "His parents influenced him.", "hypothesis2": "His parents disowned him."}
+{"index": 855, "premise": "The car gradually slowed to a stop.", "ask-for": "cause", "hypothesis1": "It ran out of gas.", "hypothesis2": "The driver fell asleep."}
+{"index": 856, "premise": "The man ate the ice cream in the sun.", "ask-for": "effect", "hypothesis1": "The ice cream lost its flavor.", "hypothesis2": "The ice cream dripped from the cone."}
+{"index": 857, "premise": "I hung artwork in the room.", "ask-for": "cause", "hypothesis1": "The carpet looked dirty.", "hypothesis2": "The walls looked bare."}
+{"index": 858, "premise": "I left work early.", "ask-for": "cause", "hypothesis1": "I had a headache.", "hypothesis2": "My boss held a meeting."}
+{"index": 859, "premise": "The puppy soiled the carpet.", "ask-for": "effect", "hypothesis1": "The owner scolded the puppy.", "hypothesis2": "The owner gave the puppy a treat."}
+{"index": 860, "premise": "I apologized to my friend.", "ask-for": "effect", "hypothesis1": "My friend forgave me.", "hypothesis2": "My friend became infuriated."}
+{"index": 861, "premise": "The man stood out in the crowd.", "ask-for": "cause", "hypothesis1": "He carried a backpack.", "hypothesis2": "He wore a neon vest."}
+{"index": 862, "premise": "The witness lied under oath.", "ask-for": "effect", "hypothesis1": "He completed his testimony.", "hypothesis2": "He was charged with perjury."}
+{"index": 863, "premise": "The woman dyed her hair.", "ask-for": "cause", "hypothesis1": "She wanted a new look.", "hypothesis2": "She wanted to blend in."}
+{"index": 864, "premise": "The immigrants were caught illegally residing in the country.", "ask-for": "effect", "hypothesis1": "They found employment.", "hypothesis2": "They were deported."}
+{"index": 865, "premise": "The public speaker cracked a joke.", "ask-for": "effect", "hypothesis1": "The audience laughed.", "hypothesis2": "The audience stood up."}
+{"index": 866, "premise": "I looked into the sun.", "ask-for": "effect", "hypothesis1": "The sun blinded me.", "hypothesis2": "The sun tanned my skin."}
+{"index": 867, "premise": "I felt bored.", "ask-for": "effect", "hypothesis1": "I snorted.", "hypothesis2": "I yawned."}
+{"index": 868, "premise": "The steak was difficult to cut.", "ask-for": "cause", "hypothesis1": "The knife was dull.", "hypothesis2": "The steak was raw."}
+{"index": 869, "premise": "The woman declared bankruptcy.", "ask-for": "cause", "hypothesis1": "She received alimony payment.", "hypothesis2": "She acquired massive debt."}
+{"index": 870, "premise": "The lights in my friend's apartment were on.", "ask-for": "effect", "hypothesis1": "I wondered if he was out.", "hypothesis2": "I decided to pay him a visit."}
+{"index": 871, "premise": "I put the flower under my nose.", "ask-for": "effect", "hypothesis1": "The petals came off the flower.", "hypothesis2": "I picked up the flower's scent."}
+{"index": 872, "premise": "The woman felt nostalgic.", "ask-for": "cause", "hypothesis1": "She ran into a childhood friend.", "hypothesis2": "She yelled at her children."}
+{"index": 873, "premise": "The student procrastinated on the paper.", "ask-for": "effect", "hypothesis1": "He submitted the paper early.", "hypothesis2": "He submitted the paper incomplete."}
+{"index": 874, "premise": "My car broke down.", "ask-for": "effect", "hypothesis1": "I went to the mall.", "hypothesis2": "I called a mechanic."}
+{"index": 875, "premise": "I discarded the note.", "ask-for": "cause", "hypothesis1": "It was anonymous.", "hypothesis2": "It was illegible."}
+{"index": 876, "premise": "The bird flapped its wings.", "ask-for": "effect", "hypothesis1": "It laid eggs.", "hypothesis2": "It ascended upwards."}
+{"index": 877, "premise": "I parked in the driveway.", "ask-for": "cause", "hypothesis1": "The garage was open.", "hypothesis2": "The garage was full."}
+{"index": 878, "premise": "The criminal aimed the gun at his victim.", "ask-for": "effect", "hypothesis1": "The criminal put down the gun.", "hypothesis2": "The victim put his hands up."}
+{"index": 879, "premise": "I looked forward to the weekend.", "ask-for": "cause", "hypothesis1": "I planned to attend my uncle's funeral.", "hypothesis2": "I planned to attend my friend's wedding."}
+{"index": 880, "premise": "I lost track of time.", "ask-for": "cause", "hypothesis1": "I was daydreaming.", "hypothesis2": "I was nauseous."}
+{"index": 881, "premise": "The document printed out illegibly.", "ask-for": "cause", "hypothesis1": "The printer was low on ink.", "hypothesis2": "The print was out of paper."}
+{"index": 882, "premise": "The stadium played the national anthem.", "ask-for": "effect", "hypothesis1": "The fans turned to the flag.", "hypothesis2": "The fans rushed the field."}
+{"index": 883, "premise": "The dip tasted bland.", "ask-for": "effect", "hypothesis1": "I served it.", "hypothesis2": "I put salt in it."}
+{"index": 884, "premise": "I set the paper towel on the spill.", "ask-for": "effect", "hypothesis1": "The towel absorbed the liquid.", "hypothesis2": "The spill left a sticky residue."}
+{"index": 885, "premise": "The woman was interrupted in the midst of reading her book.", "ask-for": "effect", "hypothesis1": "She bookmarked her page.", "hypothesis2": "She reread the book."}
+{"index": 886, "premise": "The plane hit some turbulence.", "ask-for": "effect", "hypothesis1": "The man tightened his seatbelt.", "hypothesis2": "The man looked out the window."}
+{"index": 887, "premise": "The boy flinched.", "ask-for": "cause", "hypothesis1": "The girl ignored him.", "hypothesis2": "The girl poked him."}
+{"index": 888, "premise": "The doctors gave the patient an artificial limb.", "ask-for": "cause", "hypothesis1": "They amputated her leg.", "hypothesis2": "They monitored her vitals."}
+{"index": 889, "premise": "The boy pinched the girl's elbow.", "ask-for": "effect", "hypothesis1": "She shrugged her shoulders at him.", "hypothesis2": "She jerked her arm away from him."}
+{"index": 890, "premise": "I asked my friend for advice.", "ask-for": "cause", "hypothesis1": "I valued his opinion.", "hypothesis2": "I knew I was right."}
+{"index": 891, "premise": "The boy stepped in mud.", "ask-for": "effect", "hypothesis1": "The mud stuck to his shoes.", "hypothesis2": "The mud hit him in the face."}
+{"index": 892, "premise": "The town received several inches of snow.", "ask-for": "effect", "hypothesis1": "Schools shut down.", "hypothesis2": "People hid underground."}
+{"index": 893, "premise": "The employee's shift ended.", "ask-for": "effect", "hypothesis1": "He went home for the day.", "hypothesis2": "He threatened to quit the job."}
+{"index": 894, "premise": "The tree damaged the house.", "ask-for": "cause", "hypothesis1": "The tree fell onto the roof.", "hypothesis2": "The tree shaded the backyard."}
+{"index": 895, "premise": "The wood split in half.", "ask-for": "cause", "hypothesis1": "I stacked the wood in the fireplace.", "hypothesis2": "I swung the axe down to the wood."}
+{"index": 896, "premise": "The family congratulated the couple.", "ask-for": "cause", "hypothesis1": "The couple announced that they were separating.", "hypothesis2": "The couple announced that they were having a baby."}
+{"index": 897, "premise": "The girl sent the boy a valentine.", "ask-for": "cause", "hypothesis1": "She liked him.", "hypothesis2": "She kissed him."}
+{"index": 898, "premise": "I nodded my head at my friend's statement.", "ask-for": "cause", "hypothesis1": "I was confused.", "hypothesis2": "I agreed with him."}
+{"index": 899, "premise": "The friends flipped a coin.", "ask-for": "cause", "hypothesis1": "They wanted to find a compromise.", "hypothesis2": "They wanted to make a fair decision."}
+{"index": 900, "premise": "The timer in the kitchen went off.", "ask-for": "effect", "hypothesis1": "The man unloaded the groceries into the refrigerator.", "hypothesis2": "The man took the pizza out of the oven."}
+{"index": 901, "premise": "The woman set an ambitious goal.", "ask-for": "effect", "hypothesis1": "She slacked off.", "hypothesis2": "She worked hard."}
+{"index": 902, "premise": "The wealthy man died of old age.", "ask-for": "effect", "hypothesis1": "His son got into legal trouble.", "hypothesis2": "His son inherited his fortune."}
+{"index": 903, "premise": "The woman stomped on the flames.", "ask-for": "effect", "hypothesis1": "The flames went out.", "hypothesis2": "Smoke arose from the flames."}
+{"index": 904, "premise": "The woman's car was in the shop.", "ask-for": "cause", "hypothesis1": "Her driver's license was revoked.", "hypothesis2": "She got in a car accident."}
+{"index": 905, "premise": "I slept through my alarm.", "ask-for": "effect", "hypothesis1": "I made breakfast.", "hypothesis2": "I missed breakfast."}
+{"index": 906, "premise": "The public figure got out of the limousine.", "ask-for": "effect", "hypothesis1": "Cameras flashed in his direction.", "hypothesis2": "His family attended the press conference."}
+{"index": 907, "premise": "The woman lingered in the bathtub.", "ask-for": "effect", "hypothesis1": "The bathwater became lukewarm.", "hypothesis2": "The bathwater drained out of the tub."}
+{"index": 908, "premise": "The college student wanted to meet other students on campus.", "ask-for": "effect", "hypothesis1": "He joined a fraternity.", "hypothesis2": "He majored in engineering."}
+{"index": 909, "premise": "I lifted up the couch cushions.", "ask-for": "cause", "hypothesis1": "I was looking for loose change.", "hypothesis2": "I was rearranging the living room."}
+{"index": 910, "premise": "The wasp flew towards the boy.", "ask-for": "effect", "hypothesis1": "The boy ran away.", "hypothesis2": "The boy picked a flower."}
+{"index": 911, "premise": "The woman was found guilty of a misdemeanor.", "ask-for": "effect", "hypothesis1": "She was sentenced to perform community service.", "hypothesis2": "She was put on death row."}
+{"index": 912, "premise": "I stirred the sugar into the hot tea.", "ask-for": "effect", "hypothesis1": "The tea steamed.", "hypothesis2": "The sugar dissolved."}
+{"index": 913, "premise": "The veteran walked with a limp.", "ask-for": "cause", "hypothesis1": "He was drafted for the war.", "hypothesis2": "He was injured in battle."}
+{"index": 914, "premise": "The criminal ran away from the police.", "ask-for": "effect", "hypothesis1": "The police attended to the victim.", "hypothesis2": "The police chased the criminal."}
+{"index": 915, "premise": "The laptop wouldn't turn on.", "ask-for": "cause", "hypothesis1": "I dropped it.", "hypothesis2": "I charged it."}
+{"index": 916, "premise": "The woman ran out of room in her closet.", "ask-for": "cause", "hypothesis1": "She acquired an extensive wardrobe.", "hypothesis2": "She folded her laundry."}
+{"index": 917, "premise": "The man was heartbroken.", "ask-for": "cause", "hypothesis1": "His wife gave birth.", "hypothesis2": "His wife left him."}
+{"index": 918, "premise": "The man obtained a degree.", "ask-for": "effect", "hypothesis1": "He became qualified for the job he wanted.", "hypothesis2": "His job offer was rescinded."}
+{"index": 919, "premise": "The man's voice projected clearly throughout the auditorium.", "ask-for": "cause", "hypothesis1": "He greeted the audience.", "hypothesis2": "He spoke into the microphone."}
+{"index": 920, "premise": "I tossed a coin into the fountain of water.", "ask-for": "effect", "hypothesis1": "The coin sunk to the bottom.", "hypothesis2": "The coin broke in half."}
+{"index": 921, "premise": "The player hit the ball toward the hole.", "ask-for": "effect", "hypothesis1": "The ball went in the hole.", "hypothesis2": "The ball retreated back to the player."}
+{"index": 922, "premise": "I breathed in the dust in the attic.", "ask-for": "effect", "hypothesis1": "I hiccupped.", "hypothesis2": "I sneezed."}
+{"index": 923, "premise": "The store cashier called security.", "ask-for": "cause", "hypothesis1": "The customer used counterfeit money.", "hypothesis2": "The customer left his headlights on."}
+{"index": 924, "premise": "I took the garbage out.", "ask-for": "cause", "hypothesis1": "The garbage made the kitchen smell bad.", "hypothesis2": "I accidentally threw away my shopping list."}
+{"index": 925, "premise": "The family went to the zoo.", "ask-for": "effect", "hypothesis1": "The children admired the animals.", "hypothesis2": "The children chased the animals."}
+{"index": 926, "premise": "The man's breathing was loud.", "ask-for": "cause", "hypothesis1": "His kidneys were failing.", "hypothesis2": "His lungs were congested."}
+{"index": 927, "premise": "I had an extra ticket for the concert.", "ask-for": "effect", "hypothesis1": "I asked my friend for directions to the venue.", "hypothesis2": "I asked my friend if he was interested in going."}
+{"index": 928, "premise": "The air conditioner in the house broke.", "ask-for": "effect", "hypothesis1": "I brought out blankets.", "hypothesis2": "I opened the windows."}
+{"index": 929, "premise": "The boy's back ached.", "ask-for": "cause", "hypothesis1": "His backpack was open.", "hypothesis2": "His backpack was heavy."}
+{"index": 930, "premise": "I bought my mother a present.", "ask-for": "cause", "hypothesis1": "I baked her a cake.", "hypothesis2": "It was her birthday."}
+{"index": 931, "premise": "The daffodils in the garden were destroyed.", "ask-for": "cause", "hypothesis1": "A bee stung the gardener.", "hypothesis2": "Squirrels dug up the bulbs."}
+{"index": 932, "premise": "I struck the match.", "ask-for": "effect", "hypothesis1": "The flame faded out.", "hypothesis2": "The match produced a flame."}
+{"index": 933, "premise": "The disputing parties reached a settlement.", "ask-for": "cause", "hypothesis1": "They didn't want to debate in court.", "hypothesis2": "They wanted to repair their personal relationship."}
+{"index": 934, "premise": "The children were sent to an orphanage.", "ask-for": "cause", "hypothesis1": "Their parents died.", "hypothesis2": "Their parents spoiled them."}
+{"index": 935, "premise": "A meteorite landed in the ocean.", "ask-for": "effect", "hypothesis1": "A tsunami occurred.", "hypothesis2": "It began to hail."}
+{"index": 936, "premise": "The hiker encountered a poisonous snake.", "ask-for": "effect", "hypothesis1": "She became dehydrated.", "hypothesis2": "She panicked."}
+{"index": 937, "premise": "The oven became hot.", "ask-for": "cause", "hypothesis1": "I turned the oven on.", "hypothesis2": "I put the dish in the oven."}
+{"index": 938, "premise": "I squeezed the lemon wedge.", "ask-for": "effect", "hypothesis1": "The lemon got moldy.", "hypothesis2": "The lemon squirted."}
+{"index": 939, "premise": "The country discovered new land.", "ask-for": "effect", "hypothesis1": "The country abandoned the land.", "hypothesis2": "The country colonized the land."}
+{"index": 940, "premise": "The glass toppled off the table.", "ask-for": "effect", "hypothesis1": "It shattered all over the floor.", "hypothesis2": "It landed in a pile of laundry."}
+{"index": 941, "premise": "The table wobbled.", "ask-for": "cause", "hypothesis1": "The floor was uneven.", "hypothesis2": "The floor was slippery."}
+{"index": 942, "premise": "The father caught his son lying.", "ask-for": "effect", "hypothesis1": "His son confessed the truth.", "hypothesis2": "The father trusted his son."}
+{"index": 943, "premise": "The man's head throbbed with pain.", "ask-for": "effect", "hypothesis1": "He took cough syrup.", "hypothesis2": "He took aspirin."}
+{"index": 944, "premise": "The train slowed down.", "ask-for": "cause", "hypothesis1": "It was approaching the station.", "hypothesis2": "It was running behind schedule."}
+{"index": 945, "premise": "The man went through therapy.", "ask-for": "cause", "hypothesis1": "Mental illness ran in his family.", "hypothesis2": "He was diagnosed with depression."}
+{"index": 946, "premise": "The woman clutched her throat.", "ask-for": "cause", "hypothesis1": "She swallowed her food.", "hypothesis2": "She choked on her food."}
+{"index": 947, "premise": "The woman had a sore throat.", "ask-for": "effect", "hypothesis1": "Her voice sounded raspy.", "hypothesis2": "She spoke with an accent."}
+{"index": 948, "premise": "The dog eyed the juicy steak on the table.", "ask-for": "effect", "hypothesis1": "It drooled.", "hypothesis2": "It laid down."}
+{"index": 949, "premise": "The woman's business succeeded.", "ask-for": "effect", "hypothesis1": "She fired her employees.", "hypothesis2": "She became wealthy."}
+{"index": 950, "premise": "The students exited the classroom.", "ask-for": "cause", "hypothesis1": "The bell rang.", "hypothesis2": "The teacher assigned homework."}
+{"index": 951, "premise": "The woman claimed she saw a ghost.", "ask-for": "effect", "hypothesis1": "Her acquaintances expressed skepticism.", "hypothesis2": "Her acquaintances related to her."}
+{"index": 952, "premise": "The man lost his hearing.", "ask-for": "cause", "hypothesis1": "He nearly drowned in the ocean.", "hypothesis2": "He was nearly killed in an explosion."}
+{"index": 953, "premise": "The child let go of the balloon string.", "ask-for": "effect", "hypothesis1": "The balloon deflated.", "hypothesis2": "The balloon rose into the air."}
+{"index": 954, "premise": "The man lost his ability to speak.", "ask-for": "cause", "hypothesis1": "He had a stroke.", "hypothesis2": "He took a deep breath."}
+{"index": 955, "premise": "The woman tripped on the sidewalk.", "ask-for": "cause", "hypothesis1": "There was a crack in the cement.", "hypothesis2": "She heard her name being called."}
+{"index": 956, "premise": "The man did a canon ball into the pool.", "ask-for": "effect", "hypothesis1": "The lifeguard jumped in after him.", "hypothesis2": "The man soaked the lifeguard."}
+{"index": 957, "premise": "I took antibiotics.", "ask-for": "effect", "hypothesis1": "My infection cleared up.", "hypothesis2": "My infection spread."}
+{"index": 958, "premise": "The traffic light turned yellow.", "ask-for": "effect", "hypothesis1": "The driver pushed the brake.", "hypothesis2": "The driver honked his horn."}
+{"index": 959, "premise": "The plastic container melted.", "ask-for": "cause", "hypothesis1": "I soaked the container in warm water.", "hypothesis2": "I placed the container on the hot stove."}
+{"index": 960, "premise": "The car got dented.", "ask-for": "cause", "hypothesis1": "The driver hit a telephone pole.", "hypothesis2": "The driver ran a red light."}
+{"index": 961, "premise": "The boy studied all night.", "ask-for": "effect", "hypothesis1": "He skipped the exam.", "hypothesis2": "He passed the exam."}
+{"index": 962, "premise": "The young boy clung to the ledge of the pool.", "ask-for": "cause", "hypothesis1": "He feared learning to swim.", "hypothesis2": "The lifeguard was on duty."}
+{"index": 963, "premise": "I put my hand to my chest.", "ask-for": "effect", "hypothesis1": "I felt my heartbeat.", "hypothesis2": "My heart rate sped up."}
+{"index": 964, "premise": "The building adjacent to my office was under construction.", "ask-for": "effect", "hypothesis1": "My office was crowded.", "hypothesis2": "My office was noisy."}
+{"index": 965, "premise": "The family wanted to get to know their new neighbors.", "ask-for": "effect", "hypothesis1": "The family invited the neighbors over for dinner.", "hypothesis2": "The family waved to the neighbors from their yard."}
+{"index": 966, "premise": "Water splashed up from the pool.", "ask-for": "cause", "hypothesis1": "The swimmer dove into the pool.", "hypothesis2": "The swimmer floated in the pool."}
+{"index": 967, "premise": "I bit into a slice of watermelon.", "ask-for": "effect", "hypothesis1": "I accidentally swallowed a seed.", "hypothesis2": "I accidentally chipped my tooth."}
+{"index": 968, "premise": "The boy tripped.", "ask-for": "cause", "hypothesis1": "His jacket was unzipped.", "hypothesis2": "His shoelaces were untied."}
+{"index": 969, "premise": "The woman put earplugs in.", "ask-for": "cause", "hypothesis1": "She was distracted by noise.", "hypothesis2": "She got her ears pierced."}
+{"index": 970, "premise": "I refilled my water bottle.", "ask-for": "cause", "hypothesis1": "I drank all the water in it.", "hypothesis2": "I kept it in the fridge."}
+{"index": 971, "premise": "The television show was censored.", "ask-for": "cause", "hypothesis1": "It contained vulgar language.", "hypothesis2": "It had a complicated plot."}
+{"index": 972, "premise": "The ship wrecked.", "ask-for": "effect", "hypothesis1": "The crew drowned.", "hypothesis2": "The crew encountered pirates."}
+{"index": 973, "premise": "The boy felt stumped by the riddle.", "ask-for": "effect", "hypothesis1": "He solved the riddle.", "hypothesis2": "He requested a hint."}
+{"index": 974, "premise": "The phone rang.", "ask-for": "effect", "hypothesis1": "The man hung up the phone.", "hypothesis2": "The man picked up the phone."}
+{"index": 975, "premise": "The woman was staring at me.", "ask-for": "effect", "hypothesis1": "I hugged her.", "hypothesis2": "I felt uncomfortable."}
+{"index": 976, "premise": "The group left the museum.", "ask-for": "cause", "hypothesis1": "They took pictures of the exhibits.", "hypothesis2": "They viewed all the exhibits."}
+{"index": 977, "premise": "The man started an argument with me.", "ask-for": "effect", "hypothesis1": "My friend introduced me to the man.", "hypothesis2": "My friend stood up for me."}
+{"index": 978, "premise": "The tire on my bike was flat.", "ask-for": "effect", "hypothesis1": "I pumped air into the tire.", "hypothesis2": "I switched gears on the bike."}
+{"index": 979, "premise": "The girl looked pale.", "ask-for": "effect", "hypothesis1": "Her father read her a story.", "hypothesis2": "Her father felt her forehead."}
+{"index": 980, "premise": "The pen ran out of ink.", "ask-for": "effect", "hypothesis1": "I used a pencil.", "hypothesis2": "I signed my name."}
+{"index": 981, "premise": "The man was denied for a loan.", "ask-for": "cause", "hypothesis1": "He was in debt.", "hypothesis2": "He started a business."}
+{"index": 982, "premise": "The girl stayed home from school.", "ask-for": "cause", "hypothesis1": "She had chicken pox.", "hypothesis2": "She enjoyed learning math."}
+{"index": 983, "premise": "The trash bag was full.", "ask-for": "effect", "hypothesis1": "I took it to the dumpster.", "hypothesis2": "I dumped it down the sink."}
+{"index": 984, "premise": "I vacuumed the carpet.", "ask-for": "cause", "hypothesis1": "My roommate spilled punch.", "hypothesis2": "My dog shed hair."}
+{"index": 985, "premise": "The man lost his temper.", "ask-for": "effect", "hypothesis1": "He turned off his computer.", "hypothesis2": "He threw a chair across the room."}
+{"index": 986, "premise": "The girl threw a twig into the campfire.", "ask-for": "effect", "hypothesis1": "The twig burned.", "hypothesis2": "The fire went out."}
+{"index": 987, "premise": "The man got out of the shower.", "ask-for": "cause", "hypothesis1": "The hot water was gone.", "hypothesis2": "He couldn't find a towel."}
+{"index": 988, "premise": "The parents wanted their children to go to college.", "ask-for": "effect", "hypothesis1": "They set aside a savings fund for tuition.", "hypothesis2": "They encouraged their children to play outside."}
+{"index": 989, "premise": "The man unlaced his shoes.", "ask-for": "effect", "hypothesis1": "The shoes loosened.", "hypothesis2": "The shoes became worn."}
+{"index": 990, "premise": "The man ate half of the entree.", "ask-for": "effect", "hypothesis1": "He refrigerated the leftovers.", "hypothesis2": "He saved the recipe."}
+{"index": 991, "premise": "My ankle was swollen.", "ask-for": "effect", "hypothesis1": "I put ice on it.", "hypothesis2": "I rubbed lotion on it."}
+{"index": 992, "premise": "My office door was open.", "ask-for": "effect", "hypothesis1": "I talked to my colleague at my desk.", "hypothesis2": "I overheard the conversation in the hall."}
+{"index": 993, "premise": "I had to wait in line.", "ask-for": "effect", "hypothesis1": "I took a seat.", "hypothesis2": "I skimmed a magazine."}
+{"index": 994, "premise": "The man swatted at the fly.", "ask-for": "effect", "hypothesis1": "The fly buzzed away.", "hypothesis2": "The fly stayed still."}
+{"index": 995, "premise": "The man wrote a will.", "ask-for": "cause", "hypothesis1": "He was dying.", "hypothesis2": "He was a widower."}
+{"index": 996, "premise": "The runner sensed his competitor gaining on him.", "ask-for": "effect", "hypothesis1": "He dropped out of the race.", "hypothesis2": "He sped up his pace."}
+{"index": 997, "premise": "I thought carefully about the problem.", "ask-for": "effect", "hypothesis1": "I asked for advice.", "hypothesis2": "I came up with a solution."}
+{"index": 998, "premise": "The traveler walked on the shaky suspension bridge.", "ask-for": "effect", "hypothesis1": "He felt terrified.", "hypothesis2": "He felt ecstatic."}
+{"index": 999, "premise": "The man anticipated the team's victory.", "ask-for": "effect", "hypothesis1": "He met his friends to watch the game.", "hypothesis2": "He made a bet with his friends."}
+{"index": 1000, "premise": "The boy couldn't fall asleep.", "ask-for": "effect", "hypothesis1": "He set his alarm clock.", "hypothesis2": "He counted sheep."}

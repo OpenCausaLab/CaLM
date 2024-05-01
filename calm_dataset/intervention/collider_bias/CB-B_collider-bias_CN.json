@@ -1,0 +1,163 @@
+{"index": 1, "given_info": "对于那些出名的人来说，有吸引力的外表和才华之间的相关系数为-0.08。", "question": "如果我们观察那些出名的人，这是否意味着有吸引力的外表不会影响才华?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：外貌直接影响名气。才能直接影响名气。"}
+{"index": 2, "given_info": "对于那些出名的人来说，有吸引力的外表和才华之间的相关系数为-0.16。", "question": "如果我们观察那些出名的人，这是否意味着有吸引力的外表不会影响才华?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：外貌直接影响名气。才能直接影响名气。"}
+{"index": 3, "given_info": "对于那些出名的人来说，有吸引力的外表和才华之间的相关系数为-0.23。", "question": "如果我们观察那些出名的人，这是否意味着有吸引力的外表会影响才华？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：外貌直接影响名气。才能直接影响名气。"}
+{"index": 4, "given_info": "对于那些出名的人来说，有吸引力的外表和才华之间的相关系数为-0.05。", "question": "如果我们观察那些出名的人，这是否意味着有吸引力的外表不会影响才华?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：外貌直接影响名气。才能直接影响名气。"}
+{"index": 5, "given_info": "对于被精英院校录取的学生来说，天赋与勤奋之间的相关系数为-0.03。", "question": "如果我们观察被精英院校录取的学生，这是否意味着天赋并不影响勤奋？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：天赋对精英机构的录取状态有直接影响。努力对精英机构的录取状态有直接影响。"}
+{"index": 6, "given_info": "对于住院患者，呼吸问题与骨折之间的相关系数为-0.01。", "question": "如果我们观察住院患者，这是否意味着呼吸问题不会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：呼吸问题直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 7, "given_info": "对于住院患者，呼吸问题与骨折之间的相关系数为-0.28。", "question": "如果我们观察住院患者，这是否意味着呼吸问题不会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：呼吸问题直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 8, "given_info": "对于住院患者，呼吸问题与骨折之间的相关系数为0.16", "question": "如果我们观察住院患者，这是否意味着呼吸问题会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：呼吸问题直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 9, "given_info": "对于住院患者，呼吸问题与骨折之间的相关系数为-0.16。", "question": "如果我们观察住院患者，这是否意味着呼吸问题会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：呼吸问题直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 10, "given_info": "对于处于恋爱关系中的人来说，善良和有吸引力的外表之间的相关系数为-0.05。", "question": "如果我们观察恋爱中的人，这是否意味着善良不会影响有吸引力的外表？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：个性直接影响感情状态。外貌直接影响感情状态。"}
+{"index": 11, "given_info": "对于处于恋爱关系中的人来说，善良和有吸引力的外表之间的相关系数为-0.03。", "question": "如果我们观察恋爱中的人，这是否意味着善良会影响有吸引力的外表？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：个性直接影响感情状态。外貌直接影响感情状态。"}
+{"index": 12, "given_info": "对于处于恋爱关系中的人来说，善良和有吸引力的外表之间的相关系数为0.09。", "question": "如果我们观察恋爱中的人，这是否意味着善良不会影响有吸引力的外表？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：个性直接影响感情状态。外貌直接影响感情状态。"}
+{"index": 13, "given_info": "对于那些出名的人来说，有吸引力的外表和才华之间的相关系数为-0.03", "question": "如果我们观察那些有名的人，这是否意味着有吸引力的外表会影响才华?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：外貌直接影响名气。才能直接影响名气。"}
+{"index": 14, "given_info": "对于名人来说，有吸引力的外表和才能之间的相关系数为-0.44。", "question": "如果我们观察那些有名的人，这是否意味着有吸引力的外表不会影响才华?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：外貌直接影响名气。才能直接影响名气。"}
+{"index": 15, "given_info": "对于被精英院校录取的学生来说，天赋与勤奋之间的相关系数为-0.04。", "question": "如果我们观察被精英院校录取的学生，这是否意味着天赋并不影响勤奋？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：天赋对精英机构的录取状态有直接影响。努力对精英机构的录取状态有直接影响。"}
+{"index": 16, "given_info": "对于被精英院校录取的学生来说，天赋与勤奋之间的相关系数为-0.01。", "question": "如果我们观察被精英院校录取的学生，这是否意味着天赋并不影响勤奋？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：天赋对精英机构的录取状态有直接影响。努力对精英机构的录取状态有直接影响。"}
+{"index": 17, "given_info": "对于住院患者，呼吸问题与骨折之间的相关系数为-0.11。", "question": "如果我们观察住院患者，这是否意味着呼吸问题不会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：呼吸问题直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 18, "given_info": "对于住院患者，呼吸问题与骨折之间的相关系数为-0.25。", "question": "如果我们观察住院患者，这是否意味着呼吸问题会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：呼吸问题直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 19, "given_info": "对于住院患者，呼吸问题与骨折之间的相关系数为-0.15。", "question": "如果我们观察住院患者，这是否意味着呼吸问题不会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：呼吸问题直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 20, "given_info": "对于住院患者，呼吸问题与骨折之间的相关系数为-0.11。", "question": "如果我们观察住院患者，这是否意味着呼吸问题会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：呼吸问题直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 21, "given_info": "对于住院患者，呼吸问题与骨折之间的相关系数为0.04。", "question": "如果我们观察住院患者，这是否意味着呼吸问题不会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：呼吸问题直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 22, "given_info": "对于处于恋爱关系中的人来说，善良和有吸引力的外表之间的相关系数为-0.21。", "question": "如果我们观察恋爱中的人，这是否意味着善良会影响有吸引力的外表？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：个性直接影响感情状态。外貌直接影响感情状态。"}
+{"index": 23, "given_info": "对于名人来说，有吸引力的外表和厚嘴唇之间的相关系数为-0.38。", "question": "如果我们观察那些名人，这意味着有吸引力的的外表不会影响嘴唇厚度？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：外貌直接影响名气。唇厚直接影响名气。"}
+{"index": 24, "given_info": "对于名人来说，有吸引力的外表和厚嘴唇之间的相关系数为-0.14。", "question": "如果我们观察那些名人，这意味着有吸引力的的外表会影响嘴唇厚度？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：外貌直接影响名气。唇厚直接影响名气。"}
+{"index": 25, "given_info": "对于名人来说，有吸引力的外表和厚嘴唇之间的相关系数为-0.08。", "question": "如果我们观察那些名人，这意味着有吸引力的的外表不会影响嘴唇厚度？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：外貌直接影响名气。唇厚直接影响名气。"}
+{"index": 26, "given_info": "对于被精英院校录取的学生来说，听爵士乐和勤奋之间的相关系数为-0.18。", "question": "如果我们观察那些被精英院校录取的学生，这是否意味着听爵士乐会影响他们的努力?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：听爵士乐直接影响精英机构的录取状态。努力直接影响精英机构的录取状态。"}
+{"index": 27, "given_info": "对于被精英院校录取的学生来说，听爵士乐和勤奋之间的相关性为-0.03。", "question": "如果我们观察那些被精英院校录取的学生，这是否意味着听爵士乐会影响他们的努力?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：听爵士乐直接影响精英机构的录取状态。努力直接影响精英机构的录取状态。"}
+{"index": 28, "given_info": "对于被精英院校录取的学生来说，听爵士乐和勤奋之间的相关性为-0.06。", "question": "如果我们观察那些被精英院校录取的学生，这是否意味着听爵士乐不会影响他们的努力?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：听爵士乐直接影响精英机构的录取状态。努力直接影响精英机构的录取状态。"}
+{"index": 29, "given_info": "对于被精英院校录取的学生来说，听爵士乐和勤奋之间的相关性为-0.02。", "question": "如果我们观察那些被精英院校录取的学生，这是否意味着听爵士乐不会影响他们的努力?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：听爵士乐直接影响精英机构的录取状态。努力直接影响精英机构的录取状态。"}
+{"index": 30, "given_info": "对于被精英院校录取的学生来说，听爵士乐和勤奋之间的相关性为-0.04。", "question": "如果我们观察那些被精英院校录取的学生，这是否意味着听爵士乐会影响他们的努力?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：听爵士乐直接影响精英机构的录取状态。努力直接影响精英机构的录取状态。"}
+{"index": 31, "given_info": "对于处于恋爱关系中的人来说，善良和雀斑之间的相关系数为-0.04。", "question": "如果我们观察处于恋爱关系中的人，这是否意味着善良不会影响雀斑？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：个性直接影响感情状态。雀斑直接影响感情状态。"}
+{"index": 32, "given_info": "对于处于恋爱关系中的人来说，善良和雀斑之间的相关系数为0.03。", "question": "如果我们观察处于恋爱关系中的人，这是否意味着善良不会影响雀斑？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：个性直接影响感情状态。雀斑直接影响感情状态。"}
+{"index": 33, "given_info": "对于处于恋爱关系中的人来说，善良和雀斑之间的相关系数为0.17。", "question": "如果我们观察处于恋爱关系中的人，这是否意味着善良不会影响雀斑呢？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：个性直接影响感情状态。雀斑直接影响感情状态。"}
+{"index": 34, "given_info": "对于名人来说，说英语和才能之间的相关系数为-0.09。", "question": "如果我们观察那些名人，这是否意味着说英语会影响他们的才能？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：说英语的能力直接影响名气。天赋直接影响名气。"}
+{"index": 35, "given_info": "对于名人来说，说英语和才能之间的相关系数为-0.02。", "question": "如果我们观察那些名人，这是否意味着说英语会影响他们的才能？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：说英语的能力直接影响名气。天赋直接影响名气。"}
+{"index": 36, "given_info": "对于名人来说，说英语和才能之间的相关系数为-0.10。", "question": "如果我们观察那些名人，这是否意味着说英语会影响他们的才能？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：说英语的能力直接影响名气。天赋直接影响名气。"}
+{"index": 37, "given_info": "对于被精英院校录取的学生来说，天赋和棕色眼睛之间的相关系数为-0.02。", "question": "如果我们观察被精英机构录取的学生，这是否意味着天赋不会影响棕色眼睛？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：才能直接影响精英机构的录取状态。棕色眼睛直接影响精英机构的录取状态。"}
+{"index": 38, "given_info": "对于被精英院校录取的学生来说，天赋和棕色眼睛之间的相关系数为-0.04。", "question": "如果我们观察被精英机构录取的学生，这是否意味着天赋会影响棕色眼睛？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：才能直接影响精英机构的录取状态。棕色眼睛直接影响精英机构的录取状态。"}
+{"index": 39, "given_info": "对于被精英院校录取的学生来说，天赋和棕色眼睛之间的相关系数为-0.03。", "question": "如果我们观察被精英机构录取的学生，这是否意味着天赋会影响棕色眼睛？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：才能直接影响精英机构的录取状态。棕色眼睛直接影响精英机构的录取状态。"}
+{"index": 40, "given_info": "对于住院患者来说，喝咖啡和骨折之间的相关系数为0.10。", "question": "如果我们观察住院的人，这是否意味着喝咖啡不会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：喝咖啡直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 41, "given_info": "对于住院患者来说，喝咖啡和骨折之间的相关系数为-0.16。", "question": "如果我们观察住院的人，这是否意味着喝咖啡会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：喝咖啡直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 42, "given_info": "对于住院患者来说，喝咖啡和骨折之间的相关系数为-0.13。", "question": "如果我们观察住院的人，这是否意味着喝咖啡会影响骨折？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：喝咖啡直接影响住院状态。骨折直接影响住院状态。"}
+{"index": 43, "given_info": "对于恋爱中的人来说，喜欢辣的食物和漂亮的外表之间的相关系数为-0.03。", "question": "如果我们观察恋爱中的人，这是否意味着喜欢辣的食物会影响漂亮的外表？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：喜欢辛辣食物直接影响感情状态。外貌直接影响感情状态。"}
+{"index": 44, "given_info": "对于恋爱中的人来说，喜欢辣的食物和漂亮的外表之间的相关系数为-0.11。", "question": "如果我们观察恋爱中的人，这是否意味着喜欢辣的食物会影响漂亮的外表？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：喜欢辛辣食物直接影响感情状态。外貌直接影响感情状态。"}
+{"index": 45, "given_info": "对于恋爱中的人来说，喜欢辣的食物和漂亮的外表之间的相关系数为-0.03。", "question": "如果我们观察恋爱中的人，这是否意味着喜欢辣的食物不会影响漂亮的外表？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：喜欢辣的食物直接影响感情状态。外貌直接影响感情状态。"}
+{"index": 46, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为0.01。", "question": "如果我们观察那些zuph的人，这是否意味着rixq会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 有直接影响。"}
+{"index": 47, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为-0.05。", "question": "如果我们观察那些zuph的人，这是否意味着rixq不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 有直接影响。"}
+{"index": 48, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为0.21。", "question": "如果我们观察那些zuph的人，这是否意味着rixq会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 也有直接影响。"}
+{"index": 49, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为0.21。", "question": "如果我们观察那些zuph的人，这是否意味着rixq不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 有直接影响。"}
+{"index": 50, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为0.25。", "question": "如果我们观察那些zuph的人，这是否意味着rixq不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 也有直接影响。"}
+{"index": 51, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为-0.19。", "question": "如果我们观察那些zuph的人，这是否意味着rixq会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 有直接影响。"}
+{"index": 52, "given_info": "对于那些swoq的人来说，kwox与kwoz之间的相关系数为-0.15。", "question": "如果我们观察那些swoq的人，这是否意味着kwox会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 53, "given_info": "对于那些swoq的人来说，kwox与kwoz之间的相关系数为0.12。", "question": "如果我们观察那些swoq的人，这是否意味着kwox会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 54, "given_info": "对于那些swoq的人来说，kwox与kwoz之间的相关系数为-0.60。", "question": "如果我们观察那些swoq的人，这是否意味着kwox会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 55, "given_info": "对于那些tijv的人来说，xevo与gyzp之间的相关系数为0.09。", "question": "如果我们观察那些tijv的人，这是否意味着xevo会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 56, "given_info": "对于那些tijv的人来说，xevo与gyzp之间的相关系数为0.09。", "question": "如果我们观察那些tijv的人，这是否意味着xevo不会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 57, "given_info": "对于那些tijv的人来说，xevo与gyzp之间的相关系数为0.28。", "question": "如果我们观察那些tijv的人，这是否意味着xevo会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 58, "given_info": "对于那些tijv的人来说，xevo与gyzp之间的相关系数为0.42。", "question": "如果我们观察那些tijv的人，这是否意味着xevo不会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 59, "given_info": "对于那些gwet的人来说，yomx与xevu之间的相关系数为-0.51。", "question": "如果我们观察那些gwet的人，这是否意味着yomx不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 60, "given_info": "对于那些gwet的人来说，yomx与xevu之间的相关系数为-0.02。", "question": "如果我们观察那些gwet的人，这是否意味着yomx会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 61, "given_info": "对于那些gwet的人来说，yomx与xevu之间的相关系数为-0.02。", "question": "如果我们观察那些gwet的人，这是否意味着yomx不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 62, "given_info": "对于那些gwet的人来说，yomx与xevu之间的相关系数为-0.11。", "question": "如果我们观察那些gwet的人，这是否意味着yomx会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 63, "given_info": "对于那些gwet的人来说，yomx与xevu之间的相关系数为-0.11。", "question": "如果我们观察那些gwet的人，这是否意味着yomx不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 64, "given_info": "对于那些gwet的人来说，yomx与xevu之间的相关系数为0.10。", "question": "如果我们观察那些gwet的人，这是否意味着yomx会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 65, "given_info": "对于那些gwet的人来说，yomx与xevu之间的相关系数为0.10。", "question": "如果我们观察那些gwet的人，这是否意味着yomx不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 66, "given_info": "对于那些hwax的人来说，jyka和lirg之间的相关系数为-0.12。", "question": "如果我们观察那些hwax的人，这是否意味着jyka会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 67, "given_info": "对于那些hwax的人来说，jyka和lirg之间的相关系数为0.08。", "question": "如果我们观察那些hwax的人，这是否意味着jyka会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 68, "given_info": "对于那些hwax的人来说，jyka和lirg之间的相关系数为-0.28。", "question": "如果我们观察那些hwax的人，这是否意味着jyka不会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 69, "given_info": "对于那些hwax的人来说，jyka和lirg之间的相关系数为0.16。", "question": "如果我们观察那些hwax的人，这是否意味着jyka会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 70, "given_info": "对于那些hwax的人来说，jyka和lirg之间的相关系数为0.16。", "question": "如果我们观察那些hwax的人，这是否意味着jyka不会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 71, "given_info": "对于那些hwax的人来说，jyka和lirg之间的相关系数为0.17。", "question": "如果我们观察那些hwax的人，这是否意味着jyka不会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 72, "given_info": "对于那些hwax的人来说，jyka和lirg之间的相关系数为0.21。", "question": "如果我们观察那些hwax的人，这是否意味着jyka会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 73, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为0.02。", "question": "如果我们观察那些yupt的人，这是否意味着jyka不会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 74, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为0.15。", "question": "如果我们观察那些yupt的人，这是否意味着jyka不会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 75, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为-0.10。", "question": "如果我们观察那些yupt的人，这是否意味着jyka会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 76, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为-0.10。", "question": "如果我们观察那些yupt的人，这是否意味着jyka不会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 77, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为-0.15。", "question": "如果我们观察那些yupt的人，这是否意味着jyka会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 78, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为-0.15。", "question": "如果我们观察那些yupt的人，这是否意味着jyka不会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 79, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为-0.15。", "question": "如果我们看那些zupj的人，这是否意味着yupt会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 有直接影响。"}
+{"index": 80, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为-0.15。", "question": "如果我们看那些zupj的人，这是否意味着yupt不会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 也有直接影响。"}
+{"index": 81, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为0.01。", "question": "如果我们看那些zupj的人，这是否意味着yupt会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 也有直接影响。"}
+{"index": 82, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为-0.03。", "question": "如果我们看那些zupj的人，这是否意味着yupt不会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 有直接影响。"}
+{"index": 83, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为0.07。", "question": "如果我们看那些zupj的人，这是否意味着yupt会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 有直接影响。"}
+{"index": 84, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为0.07。", "question": "如果我们看那些zupj的人，这是否意味着yupt不会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 有直接影响。"}
+{"index": 85, "given_info": "对于那些wibl的人来说，zuph和uvzi之间的相关系数为0.05。", "question": "如果我们观察那些wibl的人，这是否意味着zuph会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 86, "given_info": "对于那些wibl的人来说，zuph和uvzi之间的相关系数为0.11。", "question": "如果我们观察那些wibl的人，这是否意味着zuph不会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 87, "given_info": "对于那些wibl的人来说，zuph和uvzi之间的相关系数为0.25。", "question": "如果我们观察那些wibl的人，这是否意味着zuph不会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 88, "given_info": "对于那些wibl的人来说，zuph和uvzi之间的相关系数为-0.22。", "question": "如果我们观察那些wibl的人，这是否意味着zuph会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 89, "given_info": "对于那些wibl的人来说，zuph和uvzi之间的相关系数为0.08。", "question": "如果我们观察那些wibl的人，这是否意味着zuph会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 90, "given_info": "对于那些wibl的人来说，zuph和uvzi之间的相关系数为-0.41。", "question": "如果我们观察那些wibl的人，这是否意味着zuph不会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 91, "given_info": "对于那些hwax的人来说，pexu与rukz之间的相关系数为0.07。", "question": "如果我们观察那些hwax的人，这是否意味着pexu不会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 有直接影响。"}
+{"index": 92, "given_info": "对于那些hwax的人来说，pexu与rukz之间的相关系数为0.02。", "question": "如果我们观察那些hwax的人，这是否意味着pexu会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 有直接影响。"}
+{"index": 93, "given_info": "对于那些hwax的人来说，pexu与rukz之间的相关系数为0.02。", "question": "如果我们观察那些hwax的人，这是否意味着pexu不会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 有直接影响。"}
+{"index": 94, "given_info": "对于那些hwax的人来说，pexu与rukz之间的相关系数为0.10。", "question": "如果我们观察那些hwax的人，这是否意味着pexu不会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 也有直接影响。"}
+{"index": 95, "given_info": "对于那些hwax的人来说，pexu与rukz之间的相关系数为-0.14。", "question": "如果我们观察那些hwax的人，这是否意味着pexu会影响rukz?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 也有直接影响。"}
+{"index": 96, "given_info": "对于那些hwax的人来说，pexu与rukz之间的相关系数为-0.14。", "question": "如果我们观察那些hwax的人，这是否意味着pexu不会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 有直接影响。"}
+{"index": 97, "given_info": "对于那些hwax的人来说，pexu与rukz之间的相关系数为0.04。", "question": "如果我们观察那些hwax的人，这是否意味着pexu会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 有直接影响。"}
+{"index": 98, "given_info": "对于那些hwax的人来说，pexu与rukz之间的相关系数为0.01。", "question": "如果我们观察那些hwax的人，这是否意味着pexu会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 也有直接影响。"}
+{"index": 99, "given_info": "对于那些hwax的人来说，pexu与rukz之间的相关系数为-0.00。", "question": "如果我们观察那些hwax的人，这是否意味着pexu会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 有直接影响。"}
+{"index": 100, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数为0.04。", "question": "如果我们观察那些jyka的人，这是否意味着zuph不会影响glimx？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 也有直接影响。"}
+{"index": 101, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数为-0.65。", "question": "如果我们观察那些jyka的人，这是否意味着zuph会影响glimx?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 有直接影响。"}
+{"index": 102, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数为0.02。", "question": "如果我们观察那些jyka的人，这是否意味着zuph不会影响glimx？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 有直接影响。"}
+{"index": 103, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数为0.12。", "question": "如果我们观察那些jyka的人，这是否意味着zuph会影响glimx?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 也有直接影响。"}
+{"index": 104, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数为-0.23。", "question": "如果我们观察那些jyka的人，这是否意味着zuph不会影响glimx？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 有直接影响。"}
+{"index": 105, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数为-0.21。", "question": "如果我们观察那些jyka的人，这是否意味着zuph不会影响glimx？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 也有直接影响。"}
+{"index": 106, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为-0.01。", "question": "如果我们观察那些zuph的人，这是否意味着rixq会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 有直接影响。"}
+{"index": 107, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为-0.01。", "question": "如果我们观察那些zuph的人，这是否意味着rixq不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 也有直接影响。"}
+{"index": 108, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为-0.07。", "question": "如果我们观察那些zuph的人，这是否意味着rixq不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 有直接影响。"}
+{"index": 109, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为0.38。", "question": "如果我们观察那些zuph的人，这是否意味着rixq会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 有直接影响。"}
+{"index": 110, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为0.02。", "question": "如果我们观察那些zuph的人，这是否意味着rixq会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 有直接影响。"}
+{"index": 111, "given_info": "对于那些zuph的人来说，rixq和xevu之间的相关系数为0.02。", "question": "如果我们观察那些zuph的人，这是否意味着rixq不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Rixq 对 zuph 有直接影响。Xevu 对 zuph 也有直接影响。"}
+{"index": 112, "given_info": "对于那些swoq的人来说，kwox和kwoz之间的相关系数为0.35。", "question": "如果我们观察那些swoq的人，这是否意味着kwox会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 113, "given_info": "对于那些swoq的人来说，kwox和kwoz之间的相关系数为0.35。", "question": "如果我们观察那些swoq的人，这是否意味着kwox不会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 114, "given_info": "对于那些swoq的人来说，kwox和kwoz之间的相关系数为-0.25。", "question": "如果我们观察那些swoq的人，这是否意味着kwox会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 115, "given_info": "对于那些swoq的人来说，kwox和kwoz之间的相关系数为-0.25。", "question": "如果我们观察那些swoq的人，这是否意味着kwox不会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 116, "given_info": "对于那些swoq的人来说，kwox和kwoz之间的相关系数为0.02。", "question": "如果我们观察那些swoq的人，这是否意味着kwox会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 117, "given_info": "对于那些swoq的人来说，kwox和kwoz之间的相关系数为0.02。", "question": "如果我们观察那些swoq的人，这是否意味着kwox不会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 118, "given_info": "对于那些swoq的人来说，kwox和kwoz之间的相关系数为-0.38。", "question": "如果我们观察那些swoq的人，这是否意味着kwox不会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 119, "given_info": "对于那些swoq的人来说，kwox和kwoz之间的相关系数为-0.89。", "question": "如果我们观察那些swoq的人，这是否意味着kwox不会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 120, "given_info": "对于那些swoq的人来说，kwox和kwoz之间的相关系数为-0.12。", "question": "如果我们观察那些swoq的人，这是否意味着kwox不会影响kwoz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Kwox 对 swoq 有直接影响。Kwoz 对 swoq 也有直接影响。"}
+{"index": 121, "given_info": "对于那些tijv的人来说，xevo与gzyp之间的相关系数为0.12。", "question": "如果我们观察那些tijv的人，这是否意味着xevo会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 122, "given_info": "对于那些tijv的人来说，xevo与gzyp之间的相关系数为0.29。", "question": "如果我们观察那些tijv的人，这是否意味着xevo不会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 123, "given_info": "对于那些tijv的人来说，xevo与gzyp之间的相关系数为0.43。", "question": "如果我们观察那些tijv的人，这是否意味着xevo会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 124, "given_info": "对于那些tijv的人来说，xevo与gzyp之间的相关系数为0.43。", "question": "如果我们观察那些tijv的人，这是否意味着xevo不会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 125, "given_info": "对于那些tijv的人来说，xevo与gzyp之间的相关系数为0.14。", "question": "如果我们观察那些tijv的人，这是否意味着xevo会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 126, "given_info": "对于那些tijv的人来说，xevo与gzyp之间的相关系数为0.02。", "question": "如果我们观察那些tijv的人，这是否意味着xevo会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 127, "given_info": "对于那些tijv的人来说，xevo与gzyp之间的相关系数为0.02。", "question": "如果我们观察那些tijv的人，这是否意味着xevo不会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 128, "given_info": "对于那些tijv的人来说，xevo与gzyp之间的相关系数为0.04。", "question": "如果我们观察那些tijv的人，这是否意味着xevo不会影响gyzp？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Xevo 对 tijv 有直接影响。Gyzp 对 tijv 有直接影响。"}
+{"index": 129, "given_info": "对于那些gwet的人来说，yomx和xevu之间的相关系数为0.20。", "question": "如果我们观察那些gwet的人，这是否意味着yomx会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 130, "given_info": "对于那些gwet的人来说，yomx和xevu之间的相关系数为-0.15。", "question": "如果我们观察那些gwet的人，这是否意味着yomx不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 131, "given_info": "对于那些gwet的人来说，yomx和xevu之间的相关系数为-0.44。", "question": "如果我们观察那些gwet的人，这是否意味着yomx不会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 132, "given_info": "对于那些gwet的人来说，yomx和xevu之间的相关系数为0.00。", "question": "如果我们观察那些gwet的人，这是否意味着yomx会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 133, "given_info": "对于那些gwet的人来说，yomx和xevu之间的相关系数为-0.04。", "question": "如果我们观察那些gwet的人，这是否意味着yomx会影响xevu？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yomx 对 gwet 有直接影响。Xevu 对 gwet 有直接影响。"}
+{"index": 134, "given_info": "对于那些hwax的人来说，jyka与lirg之间的相关系数为-0.02。", "question": "如果我们观察那些hwax的人，这是否意味着jyka不会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 135, "given_info": "对于那些hwax的人来说，jyka与lirg之间的相关系数为0.04。", "question": "如果我们观察那些hwax的人，这是否意味着jyka不会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 136, "given_info": "对于那些hwax的人来说，jyka与lirg之间的相关系数为0.21。", "question": "如果我们观察那些hwax的人，这是否意味着jyka不会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 137, "given_info": "对于那些hwax的人来说，jyka与lirg之间的相关系数为-0.31。", "question": "如果我们观察那些hwax的人，这是否意味着jyka会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 138, "given_info": "对于那些hwax的人来说，jyka与lirg之间的相关系数为-0.06。", "question": "如果我们观察那些hwax的人，这是否意味着jyka会影响lirg？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 hwax 有直接影响。Lirg 对 hwax 有直接影响。"}
+{"index": 139, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为0.12。", "question": "如果我们观察那些yupt的人，这是否意味着jyka会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 140, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为0.12。", "question": "如果我们观察那些yupt的人，这是否意味着jyka不会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 141, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为-0.20。", "question": "如果我们观察那些yupt的人，这是否意味着jyka不会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 142, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为-0.13。", "question": "如果我们观察那些yupt的人，这是否意味着jyka会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 143, "given_info": "对于那些yupt的人来说，jyka和kwox之间的相关系数为-0.55。", "question": "如果我们观察那些yupt的人，这是否意味着jyka会影响kwox？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Jyka 对 yupt 有直接影响。Kwox 对 yupt 有直接影响。"}
+{"index": 144, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为-0.19。", "question": "如果我们观察那些zupj的人，这是否意味着yupt会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 有直接影响。"}
+{"index": 145, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为-0.12。", "question": "如果我们观察那些zupj的人，这是否意味着yupt会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 也有直接影响。"}
+{"index": 146, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为-0.12。", "question": "如果我们观察那些zupj的人，这是否意味着yupt不会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 也有直接影响。"}
+{"index": 147, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为-0.10。", "question": "如果我们观察那些zupj的人，这是否意味着yupt会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 有直接影响。"}
+{"index": 148, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为-0.14。", "question": "如果我们观察那些zupj的人，这是否意味着yupt不会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 也有直接影响。"}
+{"index": 149, "given_info": "对于那些zupj的人来说，yupt与muvq之间的相关系数为-0.10。", "question": "如果我们观察那些zupj的人，这是否意味着yupt不会影响muvq？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Yupt 对 zupj 有直接影响。Muvq 对 zupj 有直接影响。"}
+{"index": 150, "given_info": "对于那些wibl的人来说，zuph与uvzi之间的相关系数为0.54。", "question": "如果我们观察那些wibl的人，这是否意味着zuph会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 151, "given_info": "对于那些wibl的人来说，zuph与uvzi之间的相关系数为-0.50。", "question": "如果我们观察那些wibl的人，这是否意味着zuph不会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 152, "given_info": "对于那些wibl的人来说，zuph与uvzi之间的相关系数为-0.08。", "question": "如果我们观察那些wibl的人，这是否意味着zuph不会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 153, "given_info": "对于那些wibl的人来说，zuph与uvzi之间的相关系数为0.30。", "question": "如果我们观察那些wibl的人，这是否意味着zuph会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 也有直接影响。"}
+{"index": 154, "given_info": "对于那些wibl的人来说，zuph与uvzi之间的相关系数为-0.01。", "question": "如果我们观察那些wibl的人，这是否意味着zuph会影响uvzi？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 155, "given_info": "对于那些wibl的人来说，zuph与uvzi之间的相关系数为-0.01。", "question": "如果我们观察那些wibl的人，这是否意味着zuph不会影响uvzi?", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 wibl 有直接影响。Uvzi 对 wibl 有直接影响。"}
+{"index": 156, "given_info": "对于那些hwax的人来说，pexu和rukz之间的相关系数为0.05。", "question": "如果我们观察那些hwax的人，这是否意味着pexu不会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 有直接影响。"}
+{"index": 157, "given_info": "对于那些hwax的人来说，pexu和rukz之间的相关系数为-0.21。", "question": "如果我们观察那些hwax的人，这是否意味着pexu会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 有直接影响。"}
+{"index": 158, "given_info": "对于那些hwax的人来说，pexu和rukz之间的相关系数为-0.21。", "question": "如果我们观察那些hwax的人，这是否意味着pexu不会影响rukz？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Pexu 对 hwax 有直接影响。Rukz 对 hwax 有直接影响。"}
+{"index": 159, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数是0.02。", "question": "如果我们观察那些jyka的人，这是否意味着zuph会影响glimx？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 也有直接影响。"}
+{"index": 160, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数是-0.45。", "question": "如果我们观察那些jyka的人，这是否意味着zuph会影响glimx？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 也有直接影响。"}
+{"index": 161, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数是0.07。", "question": "如果我们观察那些jyka的人，这是否意味着zuph会影响glimx？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 也有直接影响。"}
+{"index": 162, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数是-0.04。", "question": "如果我们观察那些jyka的人，这是否意味着zuph不会影响glimx？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 有直接影响。"}
+{"index": 163, "given_info": "对于那些jyka的人来说，zuph和glimx之间的相关系数是-0.20。", "question": "如果我们观察那些jyka的人，这是否意味着zuph会影响glimx？", "background": "设想一个只有以下条件，而没有其他因素或因果关系的假设世界：Zuph 对 jyka 有直接影响。Glimx 对 jyka 也有直接影响。"}

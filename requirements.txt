@@ -1,0 +1,16 @@
+anthropic==0.25.3
+jieba==0.42.1
+modelscope==1.9.2
+nltk==3.7
+openai==1.20.0
+pandas==1.2.3
+Requests==2.31.0
+rouge==1.0.1
+rtpt==0.0.4
+torch==2.0.1
+transformers==4.33.1
+accelerate==0.20.3
+sentencepiece==0.1.99
+transformers-stream-generator==0.0.4
+tiktoken==0.5.1
+protobuf==3.20.0

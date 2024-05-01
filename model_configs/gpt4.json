@@ -1,0 +1,12 @@
+{
+    "startup":
+        {
+            "api_key": "TODO: put your api key here"
+        },
+    "query":
+    {
+        "default":{
+        }
+    }
+}
+  

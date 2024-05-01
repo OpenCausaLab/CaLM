@@ -1,0 +1,23 @@
+{
+    "startup":
+        {
+            "ROOT_PATH": "TODO: put your model path here"
+        },
+    "query":
+    {
+        "default":{
+            "max_new_tokens":200
+        },
+        "ATE-B_(ATE-natural)_CN":{
+            "basic":{
+                "max_new_tokens":200
+            }
+        },
+        "CORR-B_correlation_CN":{
+            "zero-shot-IcL":{
+                "max_new_tokens":200
+            }
+        }
+    }
+}
+  

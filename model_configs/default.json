@@ -1,0 +1,11 @@
+{
+    "startup":
+        {
+            "ROOT_PATH": "TODO: put your model path here"
+        },
+    "query":
+    {
+        "default":{
+        }
+    }
+}
