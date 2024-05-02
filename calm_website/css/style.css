@@ -235,7 +235,7 @@ li.sub-menu-style-two:hover ul.sub-menu-two {
 /*Key Freames border*/
 
 
-:root {  /* TODO: */
+:root {
     --nav-font: Arial, Helvetica, sans-serif;
     --nav-height: 6vh;
     --body-font: #212529;
