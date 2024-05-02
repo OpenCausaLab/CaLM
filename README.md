@@ -196,10 +196,12 @@ We welcome contributions of new metrics or error types through pull requests. Pl
 
 # 🖇️ Citation
 ```
-@misc{2024calm,
-    title={Causal Evaluation of Language Models},
-    author={Sirui Chen, Bo Peng, Meiqi Chen, Ruiqi Wang, Mengying Xu, Xingyu Zeng, Rui Zhao, Shengjie Zhao, Yu Qiao, Chaochao Lu},
-    howpublished = {\url{https://github.com/OpenCausaLab/CaLM}},
-    year={2024}
+@misc{chen2024causal,
+      title={Causal Evaluation of Language Models}, 
+      author={Sirui Chen and Bo Peng and Meiqi Chen and Ruiqi Wang and Mengying Xu and Xingyu Zeng and Rui Zhao and Shengjie Zhao and Yu Qiao and Chaochao Lu},
+      year={2024},
+      eprint={2405.00622},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
