@@ -4,7 +4,7 @@
   <br />
 
 [🌐 Website](https://opencausalab.github.io/CaLM) |
-[📃 Report](TODO:) | 📧 Welcome to join us by email at causalai@pjlab.org.cn
+[📃 Report](https://arxiv.org/abs/2405.00622)| 📧 Welcome to join us by email at causalai@pjlab.org.cn
 </div>
 
 # Causal Evaluation of Language Models (CaLM)
@@ -17,7 +17,7 @@ comprehensive benchmark for evaluating the causal reasoning capabilities of lang
 </div>
 
 ## 📣 News
-[2024.5.2] Causal Evaluation of Language Models (CaLM) is released, including technical report, evaluation dataset and codebase.
+[2024.5.1] Causal Evaluation of Language Models (CaLM) is released, including technical report, evaluation dataset and codebase.
 
 ## 🤩 Participate by Submitting Your Results!
 We invite you to contribute to our project by submitting your model-generated results. Please refer to our [submission guideline](https://opencausalab.github.io/CaLM/calm_website/pages/submit.html) to ensure your submissions are processed efficiently. Additionally, we welcome contributions such as new models, prompts, datasets, and metrics. Contact us at causalai@pjlab.org.cn for more information.
