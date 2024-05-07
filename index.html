@@ -281,7 +281,7 @@
 					<h1 style="color: #ffffff;">Empirical Findings</h1>
 				</div>
 				<div style="width: 75%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-					<div class="service-button" style="display: flex; align-items: center; justify-content: center; color: #ffffff; ">Click the dot if you want to fix the finding items page.    &nbsp&nbsp
+					<div class="service-button" style="display: flex; align-items: center; justify-content: center; color: #ffffff; ">Click the dot to fix pages.    &nbsp&nbsp
 						<a href="calm_website/pages/findings.html">Click here to view more findings.<i class="fas fa-arrow-right"></i></a>
 					</div>
 				</div>
@@ -295,8 +295,9 @@
 						<div class="findings-item-box">
 							<div class="findings-item-title">Findings from the Model</div>
 							<div class="findings-item-content">
+								<br>
 								<li style="font-size: 20px; line-height: 1.6;"><b>Causal reasoning inability.</b> At present, language models struggle to perform tasks requiring sophisticated causal reasoning effectively. As the complexity of causal reasoning increases, the accuracy of each model progressively deteriorates, eventually falling almost to zero.</li>
-								<li style="font-size: 20px; line-height: 1.6;"><b>Dual effects of Reinforcement Learning from Human Feedback (RLHF).</b>On the one hand, exploiting human feedback enables RLHF to align model outputs more closely with human reasoning, particularly in complicated scenarios that demand an understanding of causality. This alignment can modestly improve the model's causal reasoning capabilities. On the other hand, models fine-tuned with RLHF tend to change their responses when interacted with by humans. They frequently modify their initial answers, even when they are correct, based on user instructions, indicating a susceptibility to human input.</li>
+								<!-- <li style="font-size: 20px; line-height: 1.6;"><b>Dual effects of Reinforcement Learning from Human Feedback (RLHF).</b>On the one hand, exploiting human feedback enables RLHF to align model outputs more closely with human reasoning, particularly in complicated scenarios that demand an understanding of causality. This alignment can modestly improve the model's causal reasoning capabilities. On the other hand, models fine-tuned with RLHF tend to change their responses when interacted with by humans. They frequently modify their initial answers, even when they are correct, based on user instructions, indicating a susceptibility to human input.</li> -->
 								<li style="font-size: 20px; line-height: 1.6;">...</li>
 
 							</div>	
@@ -309,7 +310,7 @@
 							<div class="findings-item-content">
 								<br>
 								<li style="font-size: 20px; line-height: 1.6;"><b>Optimal prompt varies across causal scenario.</b>No ''optimal prompt'' universally fits all causal scenarios. Based on our observations, for scenarios at the lower levels of the causal ladder (i.e., causal discovery and association), employing 1/3-shot IcL proves effective. For scenarios at the intervention level, 3-shot IcL is recommended, and adding more shots may be beneficial if possible. For the counterfactual level, which requires detailed reasoning to determine the correct response, we suggest using manual CoT.</li>
-								<li style="font-size: 20px; line-height: 1.6;"><b>Challenges of using prompts in complex causal scenarios.</b>The effectiveness of prompts in improving model performance is not consistent across all scenarios. Complex causal scenarios pose a particular challenge for language models, often due to the absence of substantial information on these scenarios within the model's training corpus. Moreover, questions in these scenarios cannot be adequately resolved merely through common sense or semantic understanding. In CaLM, we observe that in such complex causal scenarios, prompts do not markedly improve model performance.</li>
+								<!-- <li style="font-size: 20px; line-height: 1.6;"><b>Challenges of using prompts in complex causal scenarios.</b>The effectiveness of prompts in improving model performance is not consistent across all scenarios. Complex causal scenarios pose a particular challenge for language models, often due to the absence of substantial information on these scenarios within the model's training corpus. Moreover, questions in these scenarios cannot be adequately resolved merely through common sense or semantic understanding. In CaLM, we observe that in such complex causal scenarios, prompts do not markedly improve model performance.</li> -->
 								<li style="font-size: 20px; line-height: 1.6;">...</li>
 
 							</div>	
@@ -322,7 +323,7 @@
 							<div class="findings-item-content">
 								<br>
 								<li style="font-size: 20px; line-height: 1.6;"><b>Consistent model capabilities in causal reasoning across scenarios.</b> The causal reasoning capabilities of models show inherent consistency across the four levels of the causal ladder. Specifically, in 19 scenarios (excluding CEI and CB), there is a positive correlation in model performance. This observation suggests that a model’s causal reasoning ability is cohesive, not limited to specific scenarios. </li>
-								<li style="font-size: 20px; line-height: 1.6;"><b>Correlations within the causal ladder.</b>Causal scenarios that fall within the same level of the causal ladder and share the same mode tend to exhibit higher correlations in performance. This trend underscores the validity of our hierarchical organization of causal scenarios.</li>
+								<!-- <li style="font-size: 20px; line-height: 1.6;"><b>Correlations within the causal ladder.</b>Causal scenarios that fall within the same level of the causal ladder and share the same mode tend to exhibit higher correlations in performance. This trend underscores the validity of our hierarchical organization of causal scenarios.</li> -->
 								<li style="font-size: 20px; line-height: 1.6;">...</li>
 
 							</div>	
@@ -334,8 +335,7 @@
 							<div class="findings-item-title">Findings from the Causal Scenario</div>
 							<div class="findings-item-content">
 								<br>
-								<li style="font-size: 20px; line-height: 1.6;"><b>Pairwise causal discovery (PCD).</b> PCD seeks to establish if a causal relationship exists between two given events and to identify which of the two is the cause and which is the effect. The <i>understandability</i> of the scenario is easy. The leading three performers in this scenario are GPT-4 (79.1%), GPT-3.5-Turbo (75.2%), and text-davinci-003 (74.7%). The <i>top model-prompt pair</i> is GPT-4 with EF, achieving an accuracy of 83.0%. The <i>solvability</i> of the scenario is well-solved as the average accuracies of the top three models all exceed 70%. The most stable models, characterized by the lowest <i>model volatility</i>, are GPT-3.5-Turbo (1.3), Baichuan1 (7B) (2.1), and text-curie-001 (2.2). The models displaying the greatest sensitivity to different prompts, evidenced by their high <i>model volatility</i>, are Vicuna-v1.3 (33B) (15.8), Llama2 (70B) (15.6), and Llama2-chat (70B) (14.3). The most effective prompts are 3-shot IcL and 1-shot IcL, which improve average accuracy by 9.0% and 7.0% respectively.</li>
-								<li style="font-size: 20px; line-height: 1.6;">...</li>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Pairwise causal discovery (PCD).</b> PCD seeks to establish if a causal relationship exists between two given events and to identify which of the two is the cause and which is the effect. The <i>understandability</i> of the scenario is easy. The leading three performers in this scenario are GPT-4 (79.1%), GPT-3.5-Turbo (75.2%), and text-davinci-003 (74.7%). The <i>top model-prompt pair</i> is GPT-4 with EF, achieving an accuracy of 83.0%. The <i>solvability</i> of the scenario is well-solved as the average accuracies of the top three models all exceed 70%. The most stable models, characterized by the lowest <i>model volatility</i>, are GPT-3.5-Turbo (1.3), Baichuan1 (7B) (2.1), and text-curie-001 (2.2)...</li>
 							</div>	
 							<a href="calm_website/pages/findings.html#Findings from the Causal Scenario" class="findings-item-view-more-link">View More</a>
 						</div>
@@ -375,8 +375,7 @@
 							<div class="findings-item-title">Findings from the Metric</div>
 							<div class="findings-item-content">
 								<br>
-								<li style="font-size: 20px; line-height: 1.6;"><b>Variability in model's robustness and accuracy across causal scenarios.</b>The relationship between a model’s robustness and accuracy significantly varies across causal scenarios. In more challenging causal scenarios, such as PN and PS, models may show very low accuracy but disproportionately high robustness. This is primarily because the models' responses remain consistently poor, unaffected by disturbances. In contrast, in simpler scenarios like PCD and AR, there tends to be a positive correlation between accuracy and robustness, suggesting that as models perform better, they also become more stable. However, in scenarios such as ECI, EAE, and AC, the interaction between these metrics does not follow a clear or consistent pattern.</li>
-								<li style="font-size: 20px; line-height: 1.6;">...</li>
+								<li style="font-size: 20px; line-height: 1.6;"><b>Variability in model's robustness and accuracy across causal scenarios.</b>The relationship between a model’s robustness and accuracy significantly varies across causal scenarios. In more challenging causal scenarios, such as PN and PS, models may show very low accuracy but disproportionately high robustness. This is primarily because the models' responses remain consistently poor, unaffected by disturbances. In contrast, in simpler scenarios like PCD and AR, there tends to be a positive correlation between accuracy and robustness, suggesting that as models perform better, they also become more stable...</li>
 
 							</div>	
 							<a href="calm_website/pages/findings.html#Findings from the Metric" class="findings-item-view-more-link">View More</a>
@@ -388,7 +387,7 @@
 							<div class="findings-item-content">
 								<br>
 								<li style="font-size: 20px; line-height: 1.6;"><b>Model capabilities and limitations in following instructions.</b> All models inherently possess ability to generate content and typically do not produce empty responses, even when faced with challenging questions. However, their capacity to accurately follow instructions remains limited. Often, these models struggle to provide the most straightforward response as specified by the instructions, indicating a significant room for improvement in following instructions.</li>
-								<li style="font-size: 20px; line-height: 1.6;"><b>Reduction of repetitions through SFT.</b>SFT equips models with high-quality input-output pairs, eﬀectively mitigating unnecessary repetitions in responses to questions.</li>
+								<!-- <li style="font-size: 20px; line-height: 1.6;"><b>Reduction of repetitions through SFT.</b>SFT equips models with high-quality input-output pairs, eﬀectively mitigating unnecessary repetitions in responses to questions.</li> -->
 								<li style="font-size: 20px; line-height: 1.6;">...</li>
 
 							</div>	
