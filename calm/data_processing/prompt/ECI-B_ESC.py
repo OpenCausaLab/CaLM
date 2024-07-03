@@ -147,7 +147,7 @@ Answer (Yes or No ?):""",
                }
 def get_prompt(task_name, prompt_style, item, prompt_style_str=""):
         base = base_prompt_dict[prompt_style]
-        if prompt_style in ["regular","adversarial-ignore","adversarial-doubt","zero-shot-CoT","manual-CoT","zero-shot-IcL","one-shot-IcL","three-shot-IcL","explicit-function"]:
+        if prompt_style in ["basic","adversarial-ignore","adversarial-doubt","zero-shot-CoT","manual-CoT","zero-shot-IcL","one-shot-IcL","three-shot-IcL","explicit-function"]:
             words=item["words"]
             sent = " ".join(words)
             events=item["events"]

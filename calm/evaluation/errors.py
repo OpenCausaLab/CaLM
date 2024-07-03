@@ -219,6 +219,7 @@ def get_item_error(model_response, task, error_module, prompt_style):
     Returns:
         dict: A dictionary containing error metrics for the model response. (Language inconsistency, nonstandardization, repetition, empty response.)
     """
+    model_response = model_response.strip().lower()
     if 'CN' in task:
         language_error = error_module.contains_english(model_response)
     elif 'CN' not in task:
