@@ -17,10 +17,12 @@ comprehensive benchmark for evaluating the causal reasoning capabilities of lang
 </div>
 
 ## 📣 News
+[2024.7.13] CaLM Lite is released, which is a lightweight version of CaLM. It leverages a dataset of 9200 items, which is about 1/10 the size of the original CaLM dataset. Users can evaluation their model performances on CaLM Lite on their own. For more information, see [CaLM Lite](documents/calm-lite.md). 
+
 [2024.5.1] Causal Evaluation of Language Models (CaLM) is released, including technical report, evaluation dataset and codebase.
 
 ## 🤩 Participate by Submitting Your Results!
-We invite you to contribute to our project by submitting your model-generated results. Please refer to our [submission guideline](https://opencausalab.github.io/CaLM/calm_website/pages/submit.html) to ensure your submissions are processed efficiently. Additionally, we welcome contributions such as new models, prompts, datasets, and metrics. Contact us at causalai@pjlab.org.cn for more information.
+We invite you to contribute to our project by submitting your model-generated results. For results on the whole CaLM dataset, please refer to our [submission guideline](https://opencausalab.github.io/CaLM/calm_website/pages/submit.html) to ensure your submissions are processed efficiently. Additionally, we welcome contributions such as new models, prompts, datasets, and metrics. Contact us at causalai@pjlab.org.cn for more information.
 
 ## ⌨️ Quick Start
 ### installation
@@ -34,7 +36,11 @@ pip install -r requirements.txt
 First, download the model you want to run if it is open-source, or obtain the API key if the model is limited. Then put the dir or the api key of your model to model_configs, you can choose to put the dir or api key to default.json or create a file named `{model}.json`. We specify the model details and where to download the open-source models in [model details](documents/model_details.md).
 
 ```
-python calm/run.py --models vicuna_33b -p zero-shot-IcL -t PCD-B_E-CARE_EN  -mcfg ./model_configs -d ./calm_dataset -o ./output
+python calm/run.py --models vicuna_33b -p zero-shot-IcL -t PCD-B_E-CARE_EN  -mcfg ./model_configs -o ./output
+```
+For CaLM Lite version, add argument `-l` or `--lite_version`:
+```
+python calm/run.py --models vicuna_33b -p zero-shot-IcL -t PCD-B_E-CARE_EN  -mcfg ./model_configs -o ./output -l
 ```
 #### Required Arguments
 - `-m`, `--models`
@@ -59,11 +65,14 @@ python calm/run.py --models vicuna_33b -p zero-shot-IcL -t PCD-B_E-CARE_EN  -mcf
 - `-r`, `--resume`:
   - **Description**: Enables resuming from the last uncompleted output file, if it exists.
   - **Action**: `store_true`
+- `-l`, `--lite_version`:
+  - **Description**: Use CaLM Lite instead of the whole benchmark.
 
 ### Evaluate Results
 ```
-python calm/evaluate.py --models vicuna_33b -p zero-shot-IcL -t PCD-B_E-CARE_EN -cm -ea -am -d ./calm_dataset -gt ./calm_dataset_gt_label -o ./output
+python calm/evaluate.py --models vicuna_33b -p zero-shot-IcL -t PCD-B_E-CARE_EN -cm -ea -am -o ./output
 ```
+Similarly, for CaLM Lite version, add argument `-l` or `--lite_version`.
 #### Required Arguments
 - `-m`(`--models`), `-p`(`--prompt-styles`), and `-t`(`--tasks`) are similar as those in `run.py`.
 #### Optional Arguments
@@ -88,8 +97,12 @@ python calm/evaluate.py --models vicuna_33b -p zero-shot-IcL -t PCD-B_E-CARE_EN 
 - `-o`, `--output-root`
   - **Description**: Directory where model response outputs to be evaluated were saved.
   - **Default**: ./output
+- `-l`, `--lite_version`:
+  - **Description**: Use CaLM Lite instead of the whole benchmark.
 
-For model developers, kindly reach out to us by email at causalai@pjlab.org.cn for your own models' evaluation requirements; we need the generated JSON files of model response (responses.json) for evaluation. We will communicate with you within three days and send the evaluation results later. For more details, refer to our [submission guideline](https://opencausalab.github.io/CaLM/calm_website/pages/submit.html).
+The CaLM Lite version supports metric computation for all tasks in the dataset.
+For model developers who would like to evaluate on the whole CaLM dataset, kindly reach out to us by email at causalai@pjlab.org.cn for your own models' evaluation requirements; we need the generated JSON files of model response (responses.json) for evaluation. We will communicate with you within three days and send the evaluation results later. For more details, refer to our [submission guideline](https://opencausalab.github.io/CaLM/calm_website/pages/submit.html).
+
 ## 🖌️ Available Models
 Currently, we support the following 18 models. You can use them by entering their corresponding API names after `-m`, `--models` in the command line. Note that models such as ada (0.35B), babbage (1.3B), curie (6.7B), and davinci (175B) are excluded as their api are no longer supported by OpenAI.
 - baichuan1_7b (Baichuan1 (7B))
@@ -133,7 +146,7 @@ Each dataset represents a specific causal target in either English or Chinese. F
 
 Note: The task dataset containing the word "natural" is identical to its corresponding task dataset containing the word "basic", e.g., "NDE-B_NDE-natural_CN" and "NDE-P_NDE-basic_CN" have the same content. We split them into two files for user convenience during running and evaluation.
 
-We support the ground truth (GT) labels for public datasets with references, but keep our own dataset's GT labels unreleased for further use. If you want to evaluate your model on the whole dataset, kindly reach out to us by email at causalai@pjlab.org.cn. We will reply in 3 days. The `responses.json` files generated by your model will be required. For details, see [submission guideline](https://opencausalab.github.io/CaLM/calm_website/pages/submit.html).
+For CaLM, We support the ground truth (GT) labels for public datasets with references, but keep our own dataset's GT labels unreleased for further use. If you want to evaluate your model on the whole dataset, kindly reach out to us by email at causalai@pjlab.org.cn. We will reply in 3 days. The `responses.json` files generated by your model will be required. For details, see [submission guideline](https://opencausalab.github.io/CaLM/calm_website/pages/submit.html). For CaLM Lite, we support the GT of all tasks in it.
 
 If you want to add your own dataset, please submit a pull request and email us at causalai@pjlab.org.cn.
 

@@ -1,0 +1,8 @@
+output/*
+loggers/*
+loggers
+output
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

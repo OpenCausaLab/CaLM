@@ -24,7 +24,11 @@ def parse_args():
                         type=str)
     parser.add_argument('-r','--resume', action='store_true',
                         help='Resume from the last uncompleted output model response file')
+    parser.add_argument('-l','--lite_version', action='store_true',
+                        help='Use lite version of the benchmark dataset.')
     args = parser.parse_args()
+    if args.lite_version:
+        args.dataset_root = "./calm_lite_dataset"
     return args
 
 def run_and_store(question_list, model_context, model_query_func, evaluate_json_path, prompt_style, model_query_args=None, resume=False, logger=None):

@@ -26,7 +26,12 @@ def parse_args():
     parser.add_argument('-d','--dataset-root', help='Dir containing the task dataset, if check-complete is True, the dataset should be given', default="./calm_dataset", type=str)
     parser.add_argument('-gt','--gt-label-root', help='Dir containing the ground truth labels, if core-metrics is True, the ground truth labels should be given', default="./calm_dataset_gt_label", type=str)
     parser.add_argument('-o','--output-root', help='Dir where outputs are saved to and model responses are from here', default="./output", type=str)
+    parser.add_argument('-l','--lite_version', action='store_true',
+                        help='Use lite version of the benchmark dataset.')
     args = parser.parse_args()
+    if args.lite_version:
+        args.dataset_root = "./calm_lite_dataset"
+        args.gt_label_root = "./calm_lite_dataset"
     return args
 
 def main():
