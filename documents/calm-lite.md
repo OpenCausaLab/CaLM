@@ -1,5 +1,5 @@
 # CaLM Lite
-**CaLM Lite** is a lightweight version of CaLM. 
+**CaLM Lite** is a lightweight version of CaLM. The [OpenCompass](https://github.com/open-compass/opencompass) version of CaLM Lite offers a convenient way to test basic prompts. For more prompt styles and comprehensive aggregated metrics, you can conduct tests in our repository.
 
 ## Quick Start
 First, get model responses, for example:
