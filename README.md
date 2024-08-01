@@ -17,7 +17,7 @@ comprehensive benchmark for evaluating the causal reasoning capabilities of lang
 </div>
 
 ## 📣 News
-[2024.7.28] CaLM Lite, a lightweight version of CaLM, is now available on [OpenCompass](https://github.com/open-compass/opencompass) and this repository. It utilizes a dataset of 9,200 items, approximately one-tenth the size of the original CaLM dataset. Users can now evaluate their model performance on CaLM Lite independently. For more detailed information, please refer to [CaLM Lite](documents/calm-lite.md). 
+[2024.7.28] CaLM Lite, a lightweight version of CaLM, is now available on [OpenCompass](https://github.com/open-compass/opencompass/tree/main/configs/datasets/calm) and this repository. It utilizes a dataset of 9,200 items, approximately one-tenth the size of the original CaLM dataset. Users can now evaluate their model performance on CaLM Lite independently. For more detailed information, please refer to [CaLM Lite](documents/calm-lite.md). 
 
 [2024.5.1] Causal Evaluation of Language Models (CaLM) is released, including technical report, evaluation dataset and codebase.
 
