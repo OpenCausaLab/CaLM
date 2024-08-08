@@ -22,7 +22,13 @@ comprehensive benchmark for evaluating the causal reasoning capabilities of lang
 **[2024.5.1]** Causal Evaluation of Language Models (CaLM) is released, including technical report, evaluation dataset and codebase.
 
 ## 🤩 Participate by Submitting Your Results!
-We invite you to contribute to our project by submitting your model-generated results. For results on the whole CaLM dataset, please refer to our [submission guideline](https://opencausalab.github.io/CaLM/calm_website/pages/submit.html) to ensure your submissions are processed efficiently. Additionally, we welcome contributions such as new models, prompts, datasets, and metrics. Contact us at causalai@pjlab.org.cn for more information.
+We invite you to contribute to our project by submitting your model-generated results. 
+
+- For results on the entire CaLM, please follow our [submission guideline](https://opencausalab.github.io/CaLM/calm_website/pages/submit.html) to ensure your submissions are processed efficiently. 
+
+- If you are working with the CaLM Lite, we have provided all ground truth, which you can access directly on [OpenCompass](https://github.com/open-compass/opencompass/tree/main/configs/datasets/calm) or from [CaLM Lite document](documents/calm-lite.md) to obtain model performances. 
+
+Additionally, we welcome contributions such as new models, prompts, datasets, and metrics. For more information, please contact us at causalai@pjlab.org.cn.
 
 ## ⌨️ Quick Start
 ### installation
